@@ -1,0 +1,31 @@
+{
+  "id": "catKebap",
+  "name": {
+    "tr": "Kebaplar"
+  },
+  "description": {
+    "tr": "Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Antep'in kebabları."
+  },
+  "path": "kebab",
+  "pathnext": "",
+  "icon": "restaurant",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxKat01",
+      "pxVit001"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kebaplar | Antepinici"
+  },
+  "date": "2026-10-25T04:04:14.783754Z",
+  "update": "2026-10-25T04:04:14.783754Z",
+  "index": 0,
+  "img": ""
+}

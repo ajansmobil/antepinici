@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-kuzusis.webp",
-      "url": "/img/ant-kuzusis.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 3,
-  "url": "/img/ant-kuzusis.webp",
+  "index": 6,
   "text": {
     "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
   },

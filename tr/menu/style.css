@@ -281,7 +281,7 @@
   .b0000-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -309,13 +309,13 @@
   .b0000-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0000-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -385,14 +385,14 @@
   .b0000-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0000-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -436,7 +436,7 @@
   .b0001-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -464,13 +464,13 @@
   .b0001-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0001-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -540,14 +540,14 @@
   .b0001-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0001-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -591,7 +591,7 @@
   .b0002-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -619,13 +619,13 @@
   .b0002-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0002-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -695,14 +695,14 @@
   .b0002-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0002-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -746,7 +746,7 @@
   .b0003-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -774,13 +774,13 @@
   .b0003-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0003-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -850,14 +850,14 @@
   .b0003-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0003-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -901,7 +901,7 @@
   .b0004-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -929,13 +929,13 @@
   .b0004-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0004-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -1005,14 +1005,14 @@
   .b0004-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0004-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -1056,7 +1056,7 @@
   .b0005-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -1084,13 +1084,13 @@
   .b0005-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0005-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -1160,14 +1160,14 @@
   .b0005-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0005-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -1211,7 +1211,7 @@
   .b0006-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -1239,13 +1239,13 @@
   .b0006-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0006-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -1315,14 +1315,14 @@
   .b0006-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0006-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -1366,7 +1366,7 @@
   .b0007-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -1394,13 +1394,13 @@
   .b0007-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0007-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -1470,14 +1470,14 @@
   .b0007-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0007-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -1521,7 +1521,7 @@
   .b0008-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -1549,13 +1549,13 @@
   .b0008-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0008-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -1625,14 +1625,14 @@
   .b0008-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0008-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }
@@ -1676,7 +1676,7 @@
   .b0009-hizgrid {
     width: 100%;
     padding: 72px 20px;
-    background: #14100c;
+    background: #f4ede1;
     box-sizing: border-box;
   }
 
@@ -1704,13 +1704,13 @@
   .b0009-hizgrid-title {
     font-size: 34px;
     font-weight: 800;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0 0 12px;
   }
 
   .b0009-hizgrid-desc {
     font-size: 16px;
-    color: #b9ad9a;
+    color: #57503f;
     max-width: 680px;
     margin: 0 auto;
     line-height: 1.7;
@@ -1780,14 +1780,14 @@
   .b0009-hizgrid-card-title {
     font-size: 17px;
     font-weight: 700;
-    color: #f4ede1;
+    color: #14100c;
     margin: 0;
   }
 
   .b0009-hizgrid-card-desc {
     font-size: 13px;
     line-height: 1.6;
-    color: #b9ad9a;
+    color: #57503f;
     margin: 0;
     flex: 1;
   }

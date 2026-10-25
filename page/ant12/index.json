@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-kilis.webp",
-      "url": "/img/ant-kilis.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 12,
-  "url": "/img/ant-kilis.webp",
+  "index": 5,
   "text": {
     "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
   },

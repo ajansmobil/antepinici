@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-kunefe.webp",
-      "url": "/img/ant-kunefe.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 21,
-  "url": "/img/ant-kunefe.webp",
+  "index": 10,
   "text": {
     "tr": "Antep'in meşhur katmeri; simit katmer 650₺."
   },
@@ -36,7 +29,7 @@
   "oldPrice": null,
   "stock": 50,
   "stock_status": "in_stock",
-  "image": "/img/ant-kunefe.webp",
+  "image": "/img/ant-katmer.webp",
   "badges": [],
   "specs": {
     "Kategori": "tatli",
@@ -46,5 +39,5 @@
   },
   "date": "2026-01-01",
   "update": "2026-10-25",
-  "img": "ant-kunefe.webp"
+  "img": "ant-katmer.webp"
 }

@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-cigkofte.webp",
-      "url": "/img/ant-cigkofte.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 15,
-  "url": "/img/ant-cigkofte.webp",
+  "index": 9,
   "text": {
     "tr": "Antep usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
   },

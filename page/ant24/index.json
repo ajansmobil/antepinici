@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-yayik-ayran.webp",
-      "url": "/img/ant-yayik-ayran.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 24,
-  "url": "/img/ant-yayik-ayran.webp",
+  "index": 21,
   "text": {
     "tr": "Yayık ayranı."
   },

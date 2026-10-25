@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-ezogelin.webp",
-      "url": "/img/ant-ezogelin.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 19,
-  "url": "/img/ant-ezogelin.webp",
+  "index": 18,
   "text": {
     "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
   },

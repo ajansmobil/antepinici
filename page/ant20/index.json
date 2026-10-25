@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-meze.webp",
-      "url": "/img/ant-meze.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 20,
-  "url": "/img/ant-meze.webp",
+  "index": 11,
   "text": {
     "tr": "Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği. Kişi başı; en az 2 kişilik; 220₺ servis; 2 çay dahil."
   },

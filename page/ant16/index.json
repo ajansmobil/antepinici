@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-iclikofte.webp",
-      "url": "/img/ant-iclikofte.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 16,
-  "url": "/img/ant-iclikofte.webp",
+  "index": 15,
   "text": {
     "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
   },

@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-antebinkebab.webp",
-      "url": "/img/ant-antebinkebab.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 4,
-  "url": "/img/ant-antebinkebab.webp",
+  "index": 0,
   "text": {
     "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
   },

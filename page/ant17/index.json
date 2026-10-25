@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-merzimekkofte.webp",
-      "url": "/img/ant-merzimekkofte.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 17,
-  "url": "/img/ant-merzimekkofte.webp",
+  "index": 16,
   "text": {
     "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
   },

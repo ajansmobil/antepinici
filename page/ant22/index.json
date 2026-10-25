@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-cigborek.webp",
-      "url": "/img/ant-cigborek.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 22,
-  "url": "/img/ant-cigborek.webp",
+  "index": 19,
   "text": {
     "tr": "Antep fıstıklı şekerli börek."
   },

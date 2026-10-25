@@ -1,487 +1,2297 @@
 {
-  "name": {
-    "tr": "Antepinici Katalogu"
+ "name": {
+  "tr": "Antepinici Katalogu"
+ },
+ "data": [
+  {
+   "name": {
+    "tr": "Yöresel Serpme Antep Kahvaltısı"
+   },
+   "id": "ant20",
+   "index": 0,
+   "path": "serpme-kahvalti",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "680₺ (KDV dahil) · Kişi başı · en az 2 kişilik · 220₺ servis · 2 çay dahil"
+   },
+   "img": "img/ant-meze.webp",
+   "price": 680
   },
-  "data": [
-    {
-      "name": {
-        "tr": "Antebin Kebabı (220gr)"
-      },
-      "id": "ant4",
-      "index": 0,
-      "path": "antebinkebab",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
-      },
-      "price": 960
-    },
-    {
-      "name": {
-        "tr": "Karışık Kebap – Et (360gr)"
-      },
-      "id": "ant5",
-      "index": 1,
-      "path": "kariskebap-et",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Sade kıyma, kuşbaşı, pirzola."
-      },
-      "price": 970
-    },
-    {
-      "name": {
-        "tr": "Küşleme (200gr)"
-      },
-      "id": "ant6",
-      "index": 2,
-      "path": "kusleme",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
-      },
-      "price": 950
-    },
-    {
-      "name": {
-        "tr": "Kısabel (220gr)"
-      },
-      "id": "ant7",
-      "index": 3,
-      "path": "kisabel",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Domates-pul biber sosunda kıyma kebabı."
-      },
-      "price": 850
-    },
-    {
-      "name": {
-        "tr": "Kuzu Madalyon (240gr)"
-      },
-      "id": "ant8",
-      "index": 4,
-      "path": "kuzumadalyon",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Kuzu omuzundan ince dilim, ızgara."
-      },
-      "price": 890
-    },
-    {
-      "name": {
-        "tr": "Kilis Tavası (2 kişilik)"
-      },
-      "id": "ant12",
-      "index": 5,
-      "path": "kilistavasi",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
-      },
-      "price": 990
-    },
-    {
-      "name": {
-        "tr": "Kuşbaşılı (220gr)"
-      },
-      "id": "ant3",
-      "index": 6,
-      "path": "kusbasili",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
-      },
-      "price": 790
-    },
-    {
-      "name": {
-        "tr": "Kilis Kebabı"
-      },
-      "id": "ant11",
-      "index": 7,
-      "path": "kiliskebab",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
-      },
-      "price": 670
-    },
-    {
-      "name": {
-        "tr": "Antep Lahmacun"
-      },
-      "id": "ant14",
-      "index": 8,
-      "path": "antep-lahmacun",
-      "category": "firin",
-      "status": "play",
-      "icon": "local_fire_department",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
-      },
-      "price": 160
-    },
-    {
-      "name": {
-        "tr": "Çiğ Köfte (10 adet)"
-      },
-      "id": "ant15",
-      "index": 9,
-      "path": "cigkofta",
-      "category": "kofte",
-      "status": "play",
-      "icon": "donut",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Antep usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
-      },
-      "price": 250
-    },
-    {
-      "name": {
-        "tr": "Katmer"
-      },
-      "id": "ant21",
-      "index": 10,
-      "path": "katmer",
-      "category": "tatli",
-      "status": "play",
-      "icon": "cake",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Antep'in meşhur katmeri; simit katmer 650₺."
-      },
-      "price": 650
-    },
-    {
-      "name": {
-        "tr": "Yöresel Serpme Antep Kahvaltısı"
-      },
-      "id": "ant20",
-      "index": 11,
-      "path": "serpme-kahvalti",
-      "category": "kahvalti",
-      "status": "play",
-      "icon": "breakfast",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği. Kişi başı; en az 2 kişilik; 220₺ servis; 2 çay dahil."
-      },
-      "price": 680
-    },
-    {
-      "name": {
-        "tr": "Alı Nazik (220gr)"
-      },
-      "id": "ant9",
-      "index": 12,
-      "path": "alinazik",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
-      },
-      "price": 720
-    },
-    {
-      "name": {
-        "tr": "Patlıcan Kebabı (240gr)"
-      },
-      "id": "ant10",
-      "index": 13,
-      "path": "patlicankebab",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
-      },
-      "price": 720
-    },
-    {
-      "name": {
-        "tr": "Sade Kıyma (220gr)"
-      },
-      "id": "ant13",
-      "index": 14,
-      "path": "sadekiyma",
-      "category": "kebab",
-      "status": "play",
-      "icon": "restaurant",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
-      },
-      "price": 625
-    },
-    {
-      "name": {
-        "tr": "İçli Köfte (kızarma)"
-      },
-      "id": "ant16",
-      "index": 15,
-      "path": "iclikofte",
-      "category": "kofte",
-      "status": "play",
-      "icon": "donut",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
-      },
-      "price": 110
-    },
-    {
-      "name": {
-        "tr": "Mercimekli Köfte"
-      },
-      "id": "ant17",
-      "index": 16,
-      "path": "mercimekkofte",
-      "category": "kofte",
-      "status": "play",
-      "icon": "donut",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
-      },
-      "price": 220
-    },
-    {
-      "name": {
-        "tr": "Yuvalama"
-      },
-      "id": "ant18",
-      "index": 17,
-      "path": "yuvalama",
-      "category": "corba",
-      "status": "play",
-      "icon": "soup",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
-      },
-      "price": 300
-    },
-    {
-      "name": {
-        "tr": "Ezogelin Çorbası"
-      },
-      "id": "ant19",
-      "index": 18,
-      "path": "ezogelin",
-      "category": "corba",
-      "status": "play",
-      "icon": "soup",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
-      },
-      "price": 150
-    },
-    {
-      "name": {
-        "tr": "Fıstıklı Şekerli Börek"
-      },
-      "id": "ant22",
-      "index": 19,
-      "path": "fistikli-sekerli-borek",
-      "category": "tatli",
-      "status": "play",
-      "icon": "cake",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Antep fıstıklı şekerli börek."
-      },
-      "price": 500
-    },
-    {
-      "name": {
-        "tr": "Cevizli Kadayıf"
-      },
-      "id": "ant23",
-      "index": 20,
-      "path": "cevizli-kadayif",
-      "category": "tatli",
-      "status": "play",
-      "icon": "cake",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Tel kadayıf, ceviz, şerbet."
-      },
-      "price": 200
-    },
-    {
-      "name": {
-        "tr": "Ayran"
-      },
-      "id": "ant24",
-      "index": 21,
-      "path": "ayran",
-      "category": "icecek",
-      "status": "play",
-      "icon": "sports_bar",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Yayık ayranı."
-      },
-      "price": 50
-    },
-    {
-      "name": {
-        "tr": "Şalgam (Gazlı)"
-      },
-      "id": "ant25",
-      "index": 22,
-      "path": "salgam",
-      "category": "icecek",
-      "status": "play",
-      "icon": "sports_bar",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Acılı-sade şalgam suyu."
-      },
-      "price": 60
-    },
-    {
-      "name": {
-        "tr": "Türk Kahvesi"
-      },
-      "id": "ant26",
-      "index": 23,
-      "path": "turk-kahvesi",
-      "category": "icecek",
-      "status": "play",
-      "icon": "sports_bar",
-      "desing": {
-        "header": [],
-        "body": [],
-        "footer": []
-      },
-      "description": {
-        "tr": "Türk usulü kahve."
-      },
-      "price": 140
-    }
-  ]
+  {
+   "name": {
+    "tr": "Katmer"
+   },
+   "id": "ant21",
+   "index": 1,
+   "path": "katmer",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "600₺ (KDV dahil)"
+   },
+   "img": "img/ant-katmer.webp",
+   "price": 650
+  },
+  {
+   "name": {
+    "tr": "Beyran"
+   },
+   "id": "ant20",
+   "index": 2,
+   "path": "beyran",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "370₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-beyran.webp"
+  },
+  {
+   "name": {
+    "tr": "Menemen"
+   },
+   "id": "ant20",
+   "index": 3,
+   "path": "menemen",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "205₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-menemen.webp"
+  },
+  {
+   "name": {
+    "tr": "Ciğer Kavurması"
+   },
+   "id": "ant20",
+   "index": 4,
+   "path": "ciger-kavurmasi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "180₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-ciger-kavurma.webp"
+  },
+  {
+   "name": {
+    "tr": "Simit Aşı"
+   },
+   "id": "ant20",
+   "index": 5,
+   "path": "simit-asi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-simit-asi.webp"
+  },
+  {
+   "name": {
+    "tr": "Sahanda Yumurta"
+   },
+   "id": "ant20",
+   "index": 6,
+   "path": "sahanda-yumurta",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "160₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-sahanda-yumurta.webp"
+  },
+  {
+   "name": {
+    "tr": "Özel Sucuklu Yumurta"
+   },
+   "id": "ant20",
+   "index": 7,
+   "path": "ozel-sucuklu-yumurta",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "270₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-sucuklu-yumurta.webp"
+  },
+  {
+   "name": {
+    "tr": "Kıymalı Yumurta"
+   },
+   "id": "ant20",
+   "index": 8,
+   "path": "kiymali-yumurta",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "245₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-kiymali-yumurta.webp"
+  },
+  {
+   "name": {
+    "tr": "Kavurmalı Yumurta"
+   },
+   "id": "ant20",
+   "index": 9,
+   "path": "kavurmali-yumurta",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "345₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-kavurmali-yumurta.webp"
+  },
+  {
+   "name": {
+    "tr": "Haşlanmış Yumurta (Adet)"
+   },
+   "id": "k11",
+   "index": 10,
+   "path": "haslanmis-yumurta-adet",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "65₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Omlet"
+   },
+   "id": "ant20",
+   "index": 11,
+   "path": "omlet",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "145₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-omlet.webp"
+  },
+  {
+   "name": {
+    "tr": "Kiremitte Özel Sucuk"
+   },
+   "id": "ant20",
+   "index": 12,
+   "path": "kiremitte-ozel-sucuk",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "340₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-kiremitte-sucuk.webp"
+  },
+  {
+   "name": {
+    "tr": "Kiremitte Özel Antep Peyniri"
+   },
+   "id": "ant20",
+   "index": 13,
+   "path": "kiremitte-ozel-antep-peyniri",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "260₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-antep-peyniri.webp"
+  },
+  {
+   "name": {
+    "tr": "Kıymalı Yeşil Zeytin Kavurması"
+   },
+   "id": "ant20",
+   "index": 14,
+   "path": "kiymali-yesil-zeytin-kavurmasi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "280₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-zeytin-kavurma.webp"
+  },
+  {
+   "name": {
+    "tr": "Nohut Piyazı"
+   },
+   "id": "ant20",
+   "index": 15,
+   "path": "nohut-piyazi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-nohut-piyazi.webp"
+  },
+  {
+   "name": {
+    "tr": "Patates Kızartması"
+   },
+   "id": "ant20",
+   "index": 16,
+   "path": "patates-kizartmasi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "140₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-patates-kizartmasi.webp"
+  },
+  {
+   "name": {
+    "tr": "Soslu Patlıcan Kızartması"
+   },
+   "id": "ant20",
+   "index": 17,
+   "path": "soslu-patlican-kizartmasi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "140₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-patlican-kizartmasi.webp"
+  },
+  {
+   "name": {
+    "tr": "Mini Sebzeli Lor Böreği"
+   },
+   "id": "ant20",
+   "index": 18,
+   "path": "mini-sebzeli-lor-boregi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "80₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-lor-boregi.webp"
+  },
+  {
+   "name": {
+    "tr": "Sigara Böreği (6 Adet)"
+   },
+   "id": "ant20",
+   "index": 19,
+   "path": "sigara-boregi-6-adet",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "140₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-sigara-boregi.webp"
+  },
+  {
+   "name": {
+    "tr": "Muhammara"
+   },
+   "id": "ant20",
+   "index": 20,
+   "path": "muhammara",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-muhammara.webp"
+  },
+  {
+   "name": {
+    "tr": "Antep Peyniri"
+   },
+   "id": "ant20",
+   "index": 21,
+   "path": "antep-peyniri",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "160₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-antep-peyniri.webp"
+  },
+  {
+   "name": {
+    "tr": "Ezine Peyniri"
+   },
+   "id": "ant20",
+   "index": 22,
+   "path": "ezine-peyniri",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-ezine-peyniri.webp"
+  },
+  {
+   "name": {
+    "tr": "Kaşar Peyniri"
+   },
+   "id": "ant20",
+   "index": 23,
+   "path": "kasar-peyniri",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-kasar-peyniri.webp"
+  },
+  {
+   "name": {
+    "tr": "Siyah Zeytin"
+   },
+   "id": "ant20",
+   "index": 24,
+   "path": "siyah-zeytin",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-siyah-zeytin.webp"
+  },
+  {
+   "name": {
+    "tr": "Kırla Yeşil Zeytin"
+   },
+   "id": "ant20",
+   "index": 25,
+   "path": "kirla-yesil-zeytin",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "130₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-kirma-yesil-zeytin.webp"
+  },
+  {
+   "name": {
+    "tr": "Biberli Yeşil Zeytin"
+   },
+   "id": "ant20",
+   "index": 26,
+   "path": "biberli-yesil-zeytin",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-biberli-yesil-zeytin.webp"
+  },
+  {
+   "name": {
+    "tr": "Soğuş Tabağı"
+   },
+   "id": "ant20",
+   "index": 27,
+   "path": "sogus-tabagi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "140₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-sogus-tabagi.webp"
+  },
+  {
+   "name": {
+    "tr": "Zahter - Zeytinyağı"
+   },
+   "id": "ant20",
+   "index": 28,
+   "path": "zahter-zeytinyagi",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-zahter-zeytinyagi.webp"
+  },
+  {
+   "name": {
+    "tr": "Tahin - Pekmez"
+   },
+   "id": "ant20",
+   "index": 29,
+   "path": "tahin-pekmez",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "140₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-tahin-pekmez.webp"
+  },
+  {
+   "name": {
+    "tr": "Mevsim Reçeli"
+   },
+   "id": "ant20",
+   "index": 30,
+   "path": "mevsim-receli",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-mevsim-receli.webp"
+  },
+  {
+   "name": {
+    "tr": "Bal"
+   },
+   "id": "ant20",
+   "index": 31,
+   "path": "bal",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-bal.webp"
+  },
+  {
+   "name": {
+    "tr": "Kaymak"
+   },
+   "id": "ant20",
+   "index": 32,
+   "path": "kaymak",
+   "category": "kahvalti",
+   "status": "play",
+   "icon": "breakfast",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil)"
+   },
+   "img": "img/kahvalti-kaymak.webp"
+  },
+  {
+   "name": {
+    "tr": "Ezogelin"
+   },
+   "id": "ant19",
+   "index": 33,
+   "path": "ezogelin",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "150₺ (KDV dahil)"
+   },
+   "img": "img/ant-ezogelin.webp",
+   "price": 150
+  },
+  {
+   "name": {
+    "tr": "Az Ezogelin"
+   },
+   "id": "k35",
+   "index": 34,
+   "path": "az-ezogelin",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "125₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Şehriyeli Tavuk"
+   },
+   "id": "k36",
+   "index": 35,
+   "path": "sehriyeli-tavuk",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "170₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Az Şehriyeli Tavuk"
+   },
+   "id": "k37",
+   "index": 36,
+   "path": "az-sehriyeli-tavuk",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "145₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Yayla"
+   },
+   "id": "k38",
+   "index": 37,
+   "path": "yayla",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "150₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Az Yayla"
+   },
+   "id": "k39",
+   "index": 38,
+   "path": "az-yayla",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "125₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Et Paça"
+   },
+   "id": "k40",
+   "index": 39,
+   "path": "et-paca",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "420₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Az Et Paça"
+   },
+   "id": "k41",
+   "index": 40,
+   "path": "az-et-paca",
+   "category": "corba",
+   "status": "play",
+   "icon": "soup_kitchen",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "350₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Yuvalama"
+   },
+   "id": "ant18",
+   "index": 41,
+   "path": "yuvalama",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "300₺ (KDV dahil)"
+   },
+   "img": "img/ant-yuvalama.webp",
+   "price": 300
+  },
+  {
+   "name": {
+    "tr": "Çiğ Köfte (10 adet)"
+   },
+   "id": "ant15",
+   "index": 42,
+   "path": "cigkofta",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "250₺ (KDV dahil)"
+   },
+   "img": "img/ant-cigkofte.webp",
+   "price": 250
+  },
+  {
+   "name": {
+    "tr": "Analı Kızlı"
+   },
+   "id": "k44",
+   "index": 43,
+   "path": "anali-kizli",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "320₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Ekşili Ufak Köfte"
+   },
+   "id": "k45",
+   "index": 44,
+   "path": "eksili-ufak-kofte",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "300₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kuru Fasulye"
+   },
+   "id": "k46",
+   "index": 45,
+   "path": "kuru-fasulye",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "225₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Pilav"
+   },
+   "id": "k47",
+   "index": 46,
+   "path": "pilav",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "100₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Antep Dolma"
+   },
+   "id": "k48",
+   "index": 47,
+   "path": "antep-dolma",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "240₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Mercimekli Köfte"
+   },
+   "id": "ant17",
+   "index": 48,
+   "path": "mercimekkofte",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "220₺ (KDV dahil)"
+   },
+   "img": "img/ant-merzimekkofte.webp",
+   "price": 220
+  },
+  {
+   "name": {
+    "tr": "İçli Köfte (kızarma)"
+   },
+   "id": "ant16",
+   "index": 49,
+   "path": "iclikofte",
+   "category": "kofte",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "110₺ (KDV dahil) · kızarma"
+   },
+   "img": "img/ant-iclikofte.webp",
+   "price": 110
+  },
+  {
+   "name": {
+    "tr": "Kuşbaşılı"
+   },
+   "id": "ant3",
+   "index": 50,
+   "path": "kusbasili",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "790₺ (KDV dahil)"
+   },
+   "img": "img/ant-kuzusis.webp",
+   "price": 790
+  },
+  {
+   "name": {
+    "tr": "Antebin Kebabı"
+   },
+   "id": "ant4",
+   "index": 51,
+   "path": "antebinkebab",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "960₺ (KDV dahil) · sezon ürünü"
+   },
+   "img": "img/ant-antebinkebab.webp",
+   "price": 960
+  },
+  {
+   "name": {
+    "tr": "Antebin İçi"
+   },
+   "id": "k53",
+   "index": 52,
+   "path": "antebin-ici",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "960₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Karışık (Et)"
+   },
+   "id": "ant5",
+   "index": 53,
+   "path": "kariskebap-et",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "970₺ (KDV dahil)"
+   },
+   "img": "img/ant-kariskebap.webp",
+   "price": 970
+  },
+  {
+   "name": {
+    "tr": "Karışık (Tavuk)"
+   },
+   "id": "ant5",
+   "index": 54,
+   "path": "kariskebap-et-kebab",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "870₺ (KDV dahil)"
+   },
+   "img": "img/ant-kariskebap.webp"
+  },
+  {
+   "name": {
+    "tr": "Küşleme"
+   },
+   "id": "ant6",
+   "index": 55,
+   "path": "kusleme",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "950₺ (KDV dahil)"
+   },
+   "img": "img/ant-kusleme.webp",
+   "price": 950
+  },
+  {
+   "name": {
+    "tr": "Kısabel"
+   },
+   "id": "ant7",
+   "index": 56,
+   "path": "kisabel",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "850₺ (KDV dahil)"
+   },
+   "img": "img/ant-kisabel.webp",
+   "price": 850
+  },
+  {
+   "name": {
+    "tr": "Kuzu Pirzola"
+   },
+   "id": "k58",
+   "index": 57,
+   "path": "kuzu-pirzola",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "890₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kuzu Madalyon"
+   },
+   "id": "ant8",
+   "index": 58,
+   "path": "kuzumadalyon",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "890₺ (KDV dahil)"
+   },
+   "img": "img/ant-kulbasti.webp",
+   "price": 890
+  },
+  {
+   "name": {
+    "tr": "Kiloş Kebabı"
+   },
+   "id": "k60",
+   "index": 59,
+   "path": "kilos-kebabi",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "670₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Alı Nazik"
+   },
+   "id": "ant9",
+   "index": 60,
+   "path": "alinazik",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "720₺ (KDV dahil) · 870₺ seçenekli"
+   },
+   "img": "img/ant-alinazik.webp",
+   "price": 720
+  },
+  {
+   "name": {
+    "tr": "Patlıcan Kebabı"
+   },
+   "id": "ant10",
+   "index": 61,
+   "path": "patlicankebab",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "720₺ (KDV dahil)"
+   },
+   "img": "img/ant-patlican.webp",
+   "price": 720
+  },
+  {
+   "name": {
+    "tr": "Frenkli Kebab"
+   },
+   "id": "k63",
+   "index": 62,
+   "path": "frenkli-kebab",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "650₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Sade Kıyma"
+   },
+   "id": "ant13",
+   "index": 63,
+   "path": "sadekiyma",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "625₺ (KDV dahil)"
+   },
+   "img": "img/ant-sadekiyma.webp",
+   "price": 625
+  },
+  {
+   "name": {
+    "tr": "Acılı Kıyma"
+   },
+   "id": "k65",
+   "index": 64,
+   "path": "acili-kiyma",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "625₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Sebze Kıyma"
+   },
+   "id": "k66",
+   "index": 65,
+   "path": "sebze-kiyma",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "625₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Simit Kebabı"
+   },
+   "id": "k67",
+   "index": 66,
+   "path": "simit-kebabi",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "625₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Abu Gannuş (Kıymalı)"
+   },
+   "id": "k68",
+   "index": 67,
+   "path": "abu-gannus-kiymali",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "720₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Tavuk Sarma"
+   },
+   "id": "k69",
+   "index": 68,
+   "path": "tavuk-sarma",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "550₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Tavuk Kanat"
+   },
+   "id": "k70",
+   "index": 69,
+   "path": "tavuk-kanat",
+   "category": "kebab",
+   "status": "play",
+   "icon": "local_fire_department",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "590₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Yenidünya"
+   },
+   "id": "k71",
+   "index": 70,
+   "path": "yenidunya",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "720₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Sarımsak"
+   },
+   "id": "k72",
+   "index": 71,
+   "path": "sarimsak",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "720₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Soğan"
+   },
+   "id": "k73",
+   "index": 72,
+   "path": "sogan",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "720₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Keme Kebabı"
+   },
+   "id": "k74",
+   "index": 73,
+   "path": "keme-kebabi",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "990₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Bahar"
+   },
+   "id": "k75",
+   "index": 74,
+   "path": "bahar",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "625₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Ayvalı Ekşili Taraklık"
+   },
+   "id": "k76",
+   "index": 75,
+   "path": "ayvali-eksili-taraklik",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "960₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Erik Tavacı"
+   },
+   "id": "k77",
+   "index": 76,
+   "path": "erik-tavaci",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "900₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Çağla Aşı"
+   },
+   "id": "k78",
+   "index": 77,
+   "path": "cagla-asi",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "490₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Şiveydiz"
+   },
+   "id": "k79",
+   "index": 78,
+   "path": "siveydiz",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "390₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kiloş Tavacı (2 kişi)"
+   },
+   "id": "k80",
+   "index": 79,
+   "path": "kilos-tavaci-2-kisi",
+   "category": "mevsim",
+   "status": "play",
+   "icon": "eco",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "990₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Şefin Özel Tavası (2 kişi)"
+   },
+   "id": "k81",
+   "index": 80,
+   "path": "sefin-ozel-tavasi-2-kisi",
+   "category": "firin",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "1450₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Antep Al Biber Tavacı (2 kişi)"
+   },
+   "id": "k82",
+   "index": 81,
+   "path": "antep-al-biber-tavaci-2-kisi",
+   "category": "firin",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "1450₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Arap Tavacı (2 kişi)"
+   },
+   "id": "k83",
+   "index": 82,
+   "path": "arap-tavaci-2-kisi",
+   "category": "firin",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "1450₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Antep Lahmacun"
+   },
+   "id": "ant14",
+   "index": 83,
+   "path": "antep-lahmacun",
+   "category": "firin",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "160₺ (KDV dahil)"
+   },
+   "img": "img/ant-lahmacun.webp",
+   "price": 160
+  },
+  {
+   "name": {
+    "tr": "Tabakaltı"
+   },
+   "id": "k85",
+   "index": 84,
+   "path": "tabakalti",
+   "category": "firin",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "130₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Ayvalı Cevizli Soğanlı"
+   },
+   "id": "k86",
+   "index": 85,
+   "path": "ayvali-cevizli-soganli",
+   "category": "firin",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "240₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kuşbaşılı"
+   },
+   "id": "k87",
+   "index": 86,
+   "path": "kusbasili-pide",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "475₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kuşbaşılı Kaşarlı"
+   },
+   "id": "k88",
+   "index": 87,
+   "path": "kusbasili-kasarli",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "500₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kıymalı"
+   },
+   "id": "k89",
+   "index": 88,
+   "path": "kiymali",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "400₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kıymalı Kaşarlı"
+   },
+   "id": "k90",
+   "index": 89,
+   "path": "kiymali-kasarli",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "425₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Sucuklu Kaşarlı"
+   },
+   "id": "k91",
+   "index": 90,
+   "path": "sucuklu-kasarli",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "420₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kaşarlı"
+   },
+   "id": "k92",
+   "index": 91,
+   "path": "kasarli",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "360₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Karışık"
+   },
+   "id": "k93",
+   "index": 92,
+   "path": "karisik",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "545₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kavurmalı"
+   },
+   "id": "k94",
+   "index": 93,
+   "path": "kavurmali",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "575₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Pastırmalı"
+   },
+   "id": "k95",
+   "index": 94,
+   "path": "pastirmali",
+   "category": "pide",
+   "status": "play",
+   "icon": "local_pizza",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "575₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Ayva"
+   },
+   "id": "k96",
+   "index": 95,
+   "path": "ayva",
+   "category": "tatli",
+   "status": "play",
+   "icon": "cake",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "200₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kabak"
+   },
+   "id": "k97",
+   "index": 96,
+   "path": "kabak",
+   "category": "tatli",
+   "status": "play",
+   "icon": "cake",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "200₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Astarlı Zerda"
+   },
+   "id": "k98",
+   "index": 97,
+   "path": "astarli-zerda",
+   "category": "tatli",
+   "status": "play",
+   "icon": "cake",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "200₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Cevizli Kadayıf"
+   },
+   "id": "ant23",
+   "index": 98,
+   "path": "cevizli-kadayif",
+   "category": "tatli",
+   "status": "play",
+   "icon": "cake",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "200₺ (KDV dahil)"
+   },
+   "img": "img/ant-kunefe.webp",
+   "price": 200
+  },
+  {
+   "name": {
+    "tr": "Katmer"
+   },
+   "id": "ant21",
+   "index": 99,
+   "path": "katmer-tatli",
+   "category": "tatli",
+   "status": "play",
+   "icon": "cake",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "600₺ (KDV dahil) · simit katmer 600₺"
+   },
+   "img": "img/ant-katmer.webp"
+  },
+  {
+   "name": {
+    "tr": "Fıstıklı Şekerli Börek"
+   },
+   "id": "ant22",
+   "index": 100,
+   "path": "fistikli-sekerli-borek",
+   "category": "tatli",
+   "status": "play",
+   "icon": "cake",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "500₺ (KDV dahil)"
+   },
+   "img": "img/ant-cigborek.webp",
+   "price": 500
+  },
+  {
+   "name": {
+    "tr": "Ayran"
+   },
+   "id": "ant24",
+   "index": 101,
+   "path": "ayran",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "50₺ (KDV dahil)"
+   },
+   "img": "img/ant-yayik-ayran.webp",
+   "price": 50
+  },
+  {
+   "name": {
+    "tr": "Şalgam"
+   },
+   "id": "ant25",
+   "index": 102,
+   "path": "salgam",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "60₺ (KDV dahil)"
+   },
+   "img": "img/ant-salgam.webp",
+   "price": 60
+  },
+  {
+   "name": {
+    "tr": "Kutu İçecek"
+   },
+   "id": "k104",
+   "index": 103,
+   "path": "kutu-icecek",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "100₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Soda"
+   },
+   "id": "k105",
+   "index": 104,
+   "path": "soda",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "50₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Çay"
+   },
+   "id": "k106",
+   "index": 105,
+   "path": "cay",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "45₺ (KDV dahil)"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Türk Kahvesi"
+   },
+   "id": "ant26",
+   "index": 106,
+   "path": "turk-kahvesi",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "140₺ (KDV dahil)"
+   },
+   "img": "img/ant-turkkahvesi.webp",
+   "price": 140
+  },
+  {
+   "name": {
+    "tr": "Su"
+   },
+   "id": "k108",
+   "index": 107,
+   "path": "su",
+   "category": "icecek",
+   "status": "play",
+   "icon": "sports_bar",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "25₺ (KDV dahil) · 60₺ seçenekli"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kiloş Kebab Menu — 2 Kişilik"
+   },
+   "id": "k109",
+   "index": 108,
+   "path": "kilos-kebab-menu-2-kisilik",
+   "category": "menu",
+   "status": "play",
+   "icon": "menu_book",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "1790₺ (KDV dahil) · tereyağ-lor peyniri, balon ekmek, mercimek çorba, mercimekli köfte, salata, yeşillik ikramı"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kiloş Kebab Menu — 3 Kişilik"
+   },
+   "id": "k110",
+   "index": 109,
+   "path": "kilos-kebab-menu-3-kisilik",
+   "category": "menu",
+   "status": "play",
+   "icon": "menu_book",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "2490₺ (KDV dahil) · ayni kontenj, 3 kisilik"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kiloş Kebab Menu — 4 Kişilik"
+   },
+   "id": "k111",
+   "index": 110,
+   "path": "kilos-kebab-menu-4-kisilik",
+   "category": "menu",
+   "status": "play",
+   "icon": "menu_book",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "2900₺ (KDV dahil) · ayni kontenj, 4 kisilik"
+   },
+   "img": ""
+  },
+  {
+   "name": {
+    "tr": "Kilis Tavası (2 kişilik)"
+   },
+   "id": "ant12",
+   "index": 111,
+   "path": "kilistavasi",
+   "category": "kebab",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
+   },
+   "price": 990,
+   "img": "img/ant-kilis.webp"
+  },
+  {
+   "name": {
+    "tr": "Kilis Kebabı"
+   },
+   "id": "ant11",
+   "index": 112,
+   "path": "kiliskebab",
+   "category": "kebab",
+   "status": "play",
+   "icon": "restaurant",
+   "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+   },
+   "description": {
+    "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
+   },
+   "price": 670,
+   "img": "img/ant-iskender.webp"
+  }
+ ],
+ "modulestatus": {
+  "img": true,
+  "bgimg": false,
+  "detail": true,
+  "body": true
+ }
 }

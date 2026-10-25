@@ -43,7 +43,6 @@
       "desing": {
         "header": [],
         "body": [
-          "pxKat01",
           "pxVit001"
         ],
         "footer": []
@@ -111,7 +110,7 @@
   },
   "modulestatus": {
     "page": true,
-    "bgimg": true,
+    "bgimg": false,
     "detail": true,
     "body": true
   }

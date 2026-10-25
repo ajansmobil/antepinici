@@ -28,4 +28,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap
-Sitemap: https://mx-antepinici.yunusevgane.workers.dev/sitemap.xml
+Sitemap: https://www.antebinici.com.tr/sitemap.xml

@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-humus.webp",
-      "url": "/img/ant-humus.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 18,
-  "url": "/img/ant-humus.webp",
+  "index": 17,
   "text": {
     "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
   },
@@ -36,7 +29,7 @@
   "oldPrice": null,
   "stock": 50,
   "stock_status": "in_stock",
-  "image": "/img/ant-humus.webp",
+  "image": "/img/ant-yuvalama.webp",
   "badges": [],
   "specs": {
     "Kategori": "corba",
@@ -46,5 +39,5 @@
   },
   "date": "2026-01-01",
   "update": "2026-10-25",
-  "img": "ant-humus.webp"
+  "img": "ant-yuvalama.webp"
 }

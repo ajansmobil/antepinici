@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-sadekiyma.webp",
-      "url": "/img/ant-sadekiyma.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 13,
-  "url": "/img/ant-sadekiyma.webp",
+  "index": 14,
   "text": {
     "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
   },

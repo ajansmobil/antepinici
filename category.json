@@ -159,5 +159,11 @@
         "footer": []
       }
     }
-  ]
+  ],
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true,
+    "body": true
+  }
 }

@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-kisabel.webp",
-      "url": "/img/ant-kisabel.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 7,
-  "url": "/img/ant-kisabel.webp",
+  "index": 3,
   "text": {
     "tr": "Domates-pul biber sosunda kıyma kebabı."
   },

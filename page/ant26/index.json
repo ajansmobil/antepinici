@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-salep.webp",
-      "url": "/img/ant-salep.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 26,
-  "url": "/img/ant-salep.webp",
+  "index": 23,
   "text": {
     "tr": "Türk usulü kahve."
   },
@@ -36,7 +29,7 @@
   "oldPrice": null,
   "stock": 50,
   "stock_status": "in_stock",
-  "image": "/img/ant-salep.webp",
+  "image": "/img/ant-turkkahvesi.webp",
   "badges": [],
   "specs": {
     "Kategori": "icecek",
@@ -46,5 +39,5 @@
   },
   "date": "2026-01-01",
   "update": "2026-10-25",
-  "img": "ant-salep.webp"
+  "img": "ant-turkkahvesi.webp"
 }

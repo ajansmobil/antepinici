@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-patlican.webp",
-      "url": "/img/ant-patlican.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 10,
-  "url": "/img/ant-patlican.webp",
+  "index": 13,
   "text": {
     "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
   },

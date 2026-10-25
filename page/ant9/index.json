@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-alinazik.webp",
-      "url": "/img/ant-alinazik.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 9,
-  "url": "/img/ant-alinazik.webp",
+  "index": 12,
   "text": {
     "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
   },

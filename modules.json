@@ -91,12 +91,12 @@
           "tr": "Keşfet",
           "en": "Explore"
         },
-        "btn1_url": "urunler",
+        "btn1_url": "/tr/urunler/",
         "btn2": {
           "tr": "Menü",
           "en": "Menu"
         },
-        "btn2_url": "menu"
+        "btn2_url": "/tr/menu/"
       },
       "version": "1.0",
       "icon": "",
@@ -958,7 +958,7 @@
           "tr": "kabul etmiş oluyorum.",
           "en": "."
         },
-        "newsletter_consent_url": "gizlilik-politikasi",
+        "newsletter_consent_url": "/tr/gizlilik-politikasi/",
         "newsletter_consent_error": {
           "tr": "Lütfen gizlilik politikasını kabul edin.",
           "en": "Please accept the privacy policy."
@@ -1787,7 +1787,7 @@
         {
           "id": "cart",
           "icon": "shopping_cart",
-          "href": "/sepetim",
+          "href": "/tr/sepetim/",
           "label": {
             "tr": "Sepetim",
             "en": "My cart"
@@ -1796,7 +1796,7 @@
         {
           "id": "orders",
           "icon": "receipt_long",
-          "href": "/siparislerim",
+          "href": "/tr/siparislerim/",
           "label": {
             "tr": "Siparişlerim",
             "en": "My orders"
@@ -1805,7 +1805,7 @@
         {
           "id": "account",
           "icon": "person",
-          "href": "/hesabim",
+          "href": "/tr/hesabim/",
           "label": {
             "tr": "Hesabım",
             "en": "Account"
@@ -1814,7 +1814,7 @@
         {
           "id": "contact",
           "icon": "support_agent",
-          "href": "/iletisim",
+          "href": "/tr/iletisim/",
           "label": {
             "tr": "Destek",
             "en": "Support"
@@ -1925,10 +1925,10 @@
       "id": "pxMnu01",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -1959,10 +1959,10 @@
       "id": "pxMnu02",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -1993,10 +1993,10 @@
       "id": "pxMnu03",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2027,10 +2027,10 @@
       "id": "pxMnu04",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2061,10 +2061,10 @@
       "id": "pxMnu05",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2095,10 +2095,10 @@
       "id": "pxMnu06",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2129,10 +2129,10 @@
       "id": "pxMnu07",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2163,10 +2163,10 @@
       "id": "pxMnu08",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2197,10 +2197,10 @@
       "id": "pxMnu09",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"
@@ -2231,10 +2231,10 @@
       "id": "pxMnu10",
       "desing": {
         "max": "1200px",
-        "bgcolor": "#14100c",
+        "bgcolor": "#f4ede1",
         "accent": "#9a6b2f",
-        "titlecolor": "#f4ede1",
-        "textcolor": "#b9ad9a",
+        "titlecolor": "#14100c",
+        "textcolor": "#57503f",
         "badge": {
           "tr": "01.10.2026 · KDV dahil",
           "en": "Menu 01.10.2026"

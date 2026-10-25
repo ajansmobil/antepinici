@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-iskender.webp",
-      "url": "/img/ant-iskender.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 11,
-  "url": "/img/ant-iskender.webp",
+  "index": 7,
   "text": {
     "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
   },

@@ -1,0 +1,31 @@
+{
+  "id": "catKofte",
+  "name": {
+    "tr": "Köfte & Yöresel"
+  },
+  "description": {
+    "tr": "Çiğ köfte, içli köfte, yuvalama ve yöresel közlemeler."
+  },
+  "path": "kofte",
+  "pathnext": "",
+  "icon": "donut",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxKat01",
+      "pxVit001"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Köfte & Yöresel | Antepinici"
+  },
+  "date": "2026-10-25T04:04:14.783754Z",
+  "update": "2026-10-25T04:04:14.783754Z",
+  "index": 1,
+  "img": ""
+}

@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-kariskebap.webp",
-      "url": "/img/ant-kariskebap.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 5,
-  "url": "/img/ant-kariskebap.webp",
+  "index": 1,
   "text": {
     "tr": "Sade kıyma, kuşbaşı, pirzola."
   },

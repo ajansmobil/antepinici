@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-kusleme.webp",
-      "url": "/img/ant-kusleme.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 6,
-  "url": "/img/ant-kusleme.webp",
+  "index": 2,
   "text": {
     "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
   },

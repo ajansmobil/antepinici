@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-lahmacun.webp",
-      "url": "/img/ant-lahmacun.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 14,
-  "url": "/img/ant-lahmacun.webp",
+  "index": 8,
   "text": {
     "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
   },

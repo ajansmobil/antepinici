@@ -9,7 +9,7 @@
   },
   "category": "Restoran & E-Ticaret",
   "name": "Antepinici",
-  "domain": "mx-antepinici.yunusevgane.workers.dev",
+  "domain": "www.antebinici.com.tr",
   "langs": {
     "tr": true,
     "en": false,
@@ -32,5 +32,6 @@
   "modOdeme": true,
   "modKargo": true,
   "modUyeler": true,
-  "modUyeAdres": true
+  "modUyeAdres": true,
+  "apiBase": "https://antebinici.com.tr"
 }

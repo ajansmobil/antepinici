@@ -15,17 +15,10 @@
   "status": "play",
   "desing": {
     "header": [],
-    "body": [
-      "pxDet01"
-    ],
-    "footer": [],
-    "pxDet01": {
-      "image": "/img/ant-salgam.webp",
-      "url": "/img/ant-salgam.webp"
-    }
+    "body": [],
+    "footer": []
   },
-  "index": 25,
-  "url": "/img/ant-salgam.webp",
+  "index": 22,
   "text": {
     "tr": "Acılı-sade şalgam suyu."
   },
