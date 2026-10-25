@@ -21,7 +21,8 @@
    "description": {
     "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
    },
-   "img": ""
+   "img": "img/ant-antebinkebab.webp",
+   "price": 960
   },
   {
    "name": {
@@ -41,7 +42,8 @@
    "description": {
     "tr": "Sade kıyma, kuşbaşı, pirzola."
    },
-   "img": ""
+   "img": "img/ant-kariskebap.webp",
+   "price": 970
   },
   {
    "name": {
@@ -61,7 +63,8 @@
    "description": {
     "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
    },
-   "img": ""
+   "img": "img/ant-kusleme.webp",
+   "price": 950
   },
   {
    "name": {
@@ -81,7 +84,8 @@
    "description": {
     "tr": "Domates-pul biber sosunda kıyma kebabı."
    },
-   "img": ""
+   "img": "img/ant-kisabel.webp",
+   "price": 850
   },
   {
    "name": {
@@ -101,7 +105,8 @@
    "description": {
     "tr": "Kuzu omuzundan ince dilim, ızgara."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-kulbasti.webp",
+   "price": 890
   },
   {
    "name": {
@@ -121,7 +126,8 @@
    "description": {
     "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
    },
-   "img": ""
+   "img": "img/ant-kilis.webp",
+   "price": 990
   },
   {
    "name": {
@@ -141,7 +147,8 @@
    "description": {
     "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-kuzusis.webp",
+   "price": 790
   },
   {
    "name": {
@@ -161,7 +168,8 @@
    "description": {
     "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
    },
-   "img": ""
+   "img": "img/ant-kilis.webp",
+   "price": 670
   },
   {
    "name": {
@@ -181,7 +189,8 @@
    "description": {
     "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-lahmacun.webp",
+   "price": 160
   },
   {
    "name": {
@@ -201,7 +210,8 @@
    "description": {
     "tr": "Antep usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-cigkofte.webp",
+   "price": 250
   },
   {
    "name": {
@@ -221,7 +231,8 @@
    "description": {
     "tr": "Antep'in meşhur katmeri; simit katmer 650₺."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-katmer.webp",
+   "price": 650
   },
   {
    "name": {
@@ -241,7 +252,8 @@
    "description": {
     "tr": "Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği. Kişi başı; en az 2 kişilik; 220₺ servis; 2 çay dahil."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-meze.webp",
+   "price": 680
   },
   {
    "name": {
@@ -261,7 +273,8 @@
    "description": {
     "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
    },
-   "img": ""
+   "img": "img/ant-alinazik.webp",
+   "price": 720
   },
   {
    "name": {
@@ -281,7 +294,8 @@
    "description": {
     "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
    },
-   "img": ""
+   "img": "img/kahvalti-patlican-kizartmasi.webp",
+   "price": 720
   },
   {
    "name": {
@@ -301,7 +315,8 @@
    "description": {
     "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
    },
-   "img": ""
+   "img": "img/ant-sadekiyma.webp",
+   "price": 625
   },
   {
    "name": {
@@ -321,7 +336,8 @@
    "description": {
     "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-iclikofte.webp",
+   "price": 110
   },
   {
    "name": {
@@ -341,7 +357,8 @@
    "description": {
     "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-merzimekkofte.webp",
+   "price": 220
   },
   {
    "name": {
@@ -361,7 +378,8 @@
    "description": {
     "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-yuvalama.webp",
+   "price": 300
   },
   {
    "name": {
@@ -381,7 +399,8 @@
    "description": {
     "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
    },
-   "img": ""
+   "img": "img/ant-ezogelin.webp",
+   "price": 150
   },
   {
    "name": {
@@ -401,7 +420,8 @@
    "description": {
     "tr": "Antep fıstıklı şekerli börek."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-cigborek.webp",
+   "price": 500
   },
   {
    "name": {
@@ -421,7 +441,8 @@
    "description": {
     "tr": "Tel kadayıf, ceviz, şerbet."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-kunefe.webp",
+   "price": 200
   },
   {
    "name": {
@@ -441,7 +462,8 @@
    "description": {
     "tr": "Yayık ayranı."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-yayik-ayran.webp",
+   "price": 50
   },
   {
    "name": {
@@ -461,7 +483,8 @@
    "description": {
     "tr": "Acılı-sade şalgam suyu."
    },
-   "img": ""
+   "img": "img/ant-salgam.webp",
+   "price": 60
   },
   {
    "name": {
@@ -481,7 +504,8 @@
    "description": {
     "tr": "Türk usulü kahve."
    },
-   "img": ""
+   "img": "https://antebinici.com.tr/img/ant-turkkahvesi.webp",
+   "price": 140
   }
  ],
  "modulestatus": {

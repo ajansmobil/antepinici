@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://www.antebinici.com.tr/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/" />
@@ -37,6 +38,10 @@
         <loc>https://www.antebinici.com.tr/tr/antebinkebab/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/antebinkebab/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/antebinkebab/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/4/img/ant-antebinkebab.webp</image:loc>
+            <image:title>Antebin Kebabı (220gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -45,6 +50,10 @@
         <loc>https://www.antebinici.com.tr/tr/kariskebap-et/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kariskebap-et/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kariskebap-et/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/5/img/ant-kariskebap.webp</image:loc>
+            <image:title>Karışık Kebap – Et (360gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -53,6 +62,10 @@
         <loc>https://www.antebinici.com.tr/tr/kusleme/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kusleme/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kusleme/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/6/img/ant-kusleme.webp</image:loc>
+            <image:title>Küşleme (200gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -61,6 +74,10 @@
         <loc>https://www.antebinici.com.tr/tr/kisabel/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kisabel/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kisabel/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/7/img/ant-kisabel.webp</image:loc>
+            <image:title>Kısabel (220gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -69,6 +86,10 @@
         <loc>https://www.antebinici.com.tr/tr/kuzumadalyon/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kuzumadalyon/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kuzumadalyon/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/8/https://antebinici.com.tr/img/ant-kulbasti.webp</image:loc>
+            <image:title>Kuzu Madalyon (240gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -77,6 +98,10 @@
         <loc>https://www.antebinici.com.tr/tr/kilistavasi/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kilistavasi/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kilistavasi/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/12/img/ant-kilis.webp</image:loc>
+            <image:title>Kilis Tavası (2 kişilik)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -85,6 +110,10 @@
         <loc>https://www.antebinici.com.tr/tr/kusbasili/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kusbasili/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kusbasili/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/3/https://antebinici.com.tr/img/ant-kuzusis.webp</image:loc>
+            <image:title>Kuşbaşılı (220gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -93,6 +122,10 @@
         <loc>https://www.antebinici.com.tr/tr/kiliskebab/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kiliskebab/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kiliskebab/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/11/img/ant-kilis.webp</image:loc>
+            <image:title>Kilis Kebabı</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -101,6 +134,10 @@
         <loc>https://www.antebinici.com.tr/tr/antep-lahmacun/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/antep-lahmacun/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/antep-lahmacun/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/14/https://antebinici.com.tr/img/ant-lahmacun.webp</image:loc>
+            <image:title>Antep Lahmacun</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -109,6 +146,10 @@
         <loc>https://www.antebinici.com.tr/tr/cigkofta/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/cigkofta/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/cigkofta/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/15/https://antebinici.com.tr/img/ant-cigkofte.webp</image:loc>
+            <image:title>Çiğ Köfte (10 adet)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -117,6 +158,10 @@
         <loc>https://www.antebinici.com.tr/tr/katmer/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/katmer/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/katmer/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/21/https://antebinici.com.tr/img/ant-katmer.webp</image:loc>
+            <image:title>Katmer</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -125,6 +170,10 @@
         <loc>https://www.antebinici.com.tr/tr/serpme-kahvalti/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/serpme-kahvalti/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/serpme-kahvalti/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/20/https://antebinici.com.tr/img/ant-meze.webp</image:loc>
+            <image:title>Yöresel Serpme Antep Kahvaltısı</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -133,6 +182,10 @@
         <loc>https://www.antebinici.com.tr/tr/alinazik/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/alinazik/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/alinazik/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/9/img/ant-alinazik.webp</image:loc>
+            <image:title>Alı Nazik (220gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -141,6 +194,10 @@
         <loc>https://www.antebinici.com.tr/tr/patlicankebab/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/patlicankebab/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/patlicankebab/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/10/img/kahvalti-patlican-kizartmasi.webp</image:loc>
+            <image:title>Patlıcan Kebabı (240gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -149,6 +206,10 @@
         <loc>https://www.antebinici.com.tr/tr/sadekiyma/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/sadekiyma/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/sadekiyma/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/13/img/ant-sadekiyma.webp</image:loc>
+            <image:title>Sade Kıyma (220gr)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -157,6 +218,10 @@
         <loc>https://www.antebinici.com.tr/tr/iclikofte/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/iclikofte/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/iclikofte/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/16/https://antebinici.com.tr/img/ant-iclikofte.webp</image:loc>
+            <image:title>İçli Köfte (kızarma)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -165,6 +230,10 @@
         <loc>https://www.antebinici.com.tr/tr/mercimekkofte/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/mercimekkofte/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/mercimekkofte/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/17/https://antebinici.com.tr/img/ant-merzimekkofte.webp</image:loc>
+            <image:title>Mercimekli Köfte</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -173,6 +242,10 @@
         <loc>https://www.antebinici.com.tr/tr/yuvalama/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/yuvalama/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/yuvalama/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/18/https://antebinici.com.tr/img/ant-yuvalama.webp</image:loc>
+            <image:title>Yuvalama</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -181,6 +254,10 @@
         <loc>https://www.antebinici.com.tr/tr/ezogelin/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/ezogelin/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/ezogelin/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/19/img/ant-ezogelin.webp</image:loc>
+            <image:title>Ezogelin Çorbası</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -189,6 +266,10 @@
         <loc>https://www.antebinici.com.tr/tr/fistikli-sekerli-borek/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/fistikli-sekerli-borek/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/fistikli-sekerli-borek/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/22/https://antebinici.com.tr/img/ant-cigborek.webp</image:loc>
+            <image:title>Fıstıklı Şekerli Börek</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -197,6 +278,10 @@
         <loc>https://www.antebinici.com.tr/tr/cevizli-kadayif/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/cevizli-kadayif/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/cevizli-kadayif/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/23/https://antebinici.com.tr/img/ant-kunefe.webp</image:loc>
+            <image:title>Cevizli Kadayıf</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -205,6 +290,10 @@
         <loc>https://www.antebinici.com.tr/tr/ayran/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/ayran/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/ayran/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/24/https://antebinici.com.tr/img/ant-yayik-ayran.webp</image:loc>
+            <image:title>Ayran</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -213,6 +302,10 @@
         <loc>https://www.antebinici.com.tr/tr/salgam/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/salgam/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/salgam/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/25/img/ant-salgam.webp</image:loc>
+            <image:title>Şalgam (Gazlı)</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -221,6 +314,10 @@
         <loc>https://www.antebinici.com.tr/tr/turk-kahvesi/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/turk-kahvesi/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/turk-kahvesi/" />
+        <image:image>
+            <image:loc>https://www.antebinici.com.tr/page/26/https://antebinici.com.tr/img/ant-turkkahvesi.webp</image:loc>
+            <image:title>Türk Kahvesi</image:title>
+        </image:image>
         <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -285,7 +382,7 @@
         <loc>https://www.antebinici.com.tr/tr/iade-ve-teslimat/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/iade-ve-teslimat/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/iade-ve-teslimat/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -293,7 +390,7 @@
         <loc>https://www.antebinici.com.tr/tr/hakkimizda/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/hakkimizda/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/hakkimizda/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -301,7 +398,7 @@
         <loc>https://www.antebinici.com.tr/tr/misyon/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/misyon/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/misyon/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -309,7 +406,7 @@
         <loc>https://www.antebinici.com.tr/tr/vizyon/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/vizyon/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/vizyon/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -317,7 +414,7 @@
         <loc>https://www.antebinici.com.tr/tr/kalitepolitikamiz/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kalitepolitikamiz/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kalitepolitikamiz/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -325,7 +422,7 @@
         <loc>https://www.antebinici.com.tr/tr/gizlilik-politikasi/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/gizlilik-politikasi/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/gizlilik-politikasi/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -333,7 +430,7 @@
         <loc>https://www.antebinici.com.tr/tr/kisiselveriler/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kisiselveriler/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kisiselveriler/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -341,7 +438,7 @@
         <loc>https://www.antebinici.com.tr/tr/kullanicahaklari/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kullanicahaklari/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kullanicahaklari/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -349,7 +446,7 @@
         <loc>https://www.antebinici.com.tr/tr/yasaluyari/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/yasaluyari/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/yasaluyari/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -357,7 +454,7 @@
         <loc>https://www.antebinici.com.tr/tr/mesafeli-satis-sozlesmesi/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/mesafeli-satis-sozlesmesi/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/mesafeli-satis-sozlesmesi/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -365,79 +462,7 @@
         <loc>https://www.antebinici.com.tr/tr/iletisim/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/iletisim/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/iletisim/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/siparislerim/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/siparislerim/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/siparislerim/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/favorilerim/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/favorilerim/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/favorilerim/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/adreslerim/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/adreslerim/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/adreslerim/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/hesabim/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/hesabim/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/hesabim/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/login/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/login/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/login/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/kayit/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kayit/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/kayit/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/sifre-sifirlama/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/sifre-sifirlama/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/sifre-sifirlama/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/sepetim/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/sepetim/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/sepetim/" />
-        <lastmod>2026-10-25</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.antebinici.com.tr/tr/odeme/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/odeme/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.antebinici.com.tr/tr/odeme/" />
-        <lastmod>2026-10-25</lastmod>
+        <lastmod>2026-10-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
