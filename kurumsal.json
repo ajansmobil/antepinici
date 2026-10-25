@@ -17,7 +17,7 @@
         "body": [],
         "footer": []
       },
-      "index": 0
+      "index": 1
     },
     {
       "name": {
@@ -34,7 +34,7 @@
         ],
         "footer": []
       },
-      "index": 1,
+      "index": 2,
       "icon": "article"
     },
     {
@@ -52,7 +52,7 @@
         ],
         "footer": []
       },
-      "index": 2,
+      "index": 3,
       "icon": "article"
     },
     {
@@ -70,7 +70,7 @@
         ],
         "footer": []
       },
-      "index": 3,
+      "index": 4,
       "icon": "article"
     },
     {
@@ -88,7 +88,7 @@
         ],
         "footer": []
       },
-      "index": 4,
+      "index": 5,
       "icon": "article"
     },
     {
@@ -106,7 +106,7 @@
         ],
         "footer": []
       },
-      "index": 5,
+      "index": 6,
       "icon": "article"
     },
     {
@@ -124,7 +124,7 @@
         ],
         "footer": []
       },
-      "index": 6,
+      "index": 7,
       "icon": "article"
     },
     {
@@ -142,7 +142,7 @@
         ],
         "footer": []
       },
-      "index": 7,
+      "index": 8,
       "icon": "article"
     },
     {
@@ -160,7 +160,7 @@
         ],
         "footer": []
       },
-      "index": 8,
+      "index": 9,
       "icon": "article"
     },
     {
@@ -180,7 +180,7 @@
         "body": [],
         "footer": []
       },
-      "index": 9
+      "index": 10
     },
     {
       "name": {
@@ -242,7 +242,7 @@
         "body": [],
         "footer": []
       },
-      "index": 12
+      "index": 13
     },
     {
       "id": "uyeliksozlesmesi",
@@ -261,7 +261,7 @@
         "body": [],
         "footer": []
       },
-      "index": 13
+      "index": 14
     },
     {
       "id": "saticibilgileri",
@@ -280,7 +280,7 @@
         "body": [],
         "footer": []
       },
-      "index": 14
+      "index": 15
     }
   ],
   "desc": [],
