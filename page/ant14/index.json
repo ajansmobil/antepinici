@@ -1,0 +1,50 @@
+{
+  "id": "ant14",
+  "name": {
+    "tr": "Antep Lahmacun"
+  },
+  "description": {
+    "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+  },
+  "keyword": {
+    "tr": "Antep Lahmacun, Fırın, Antepinici"
+  },
+  "path": "antep-lahmacun",
+  "icon": "local_fire_department",
+  "category": "firin",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-lahmacun.webp",
+      "url": "/img/ant-lahmacun.webp"
+    }
+  },
+  "index": 14,
+  "url": "/img/ant-lahmacun.webp",
+  "text": {
+    "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+  },
+  "title": {
+    "tr": "Antep Lahmacun"
+  },
+  "price": 160,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-lahmacun.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "firin",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "160₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-lahmacun.webp"
+}

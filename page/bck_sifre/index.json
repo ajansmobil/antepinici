@@ -1,0 +1,30 @@
+{
+  "id": "bck_sifre",
+  "name": {
+    "tr": "Şifremi Unuttum"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "sifre-sifirlama",
+  "icon": "lock_reset",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxLog01"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "title": {
+    "tr": "Şifremi Unuttum"
+  },
+  "date": "2026-10-23T14:45:11.381Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

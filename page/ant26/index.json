@@ -1,0 +1,50 @@
+{
+  "id": "ant26",
+  "name": {
+    "tr": "Türk Kahvesi"
+  },
+  "description": {
+    "tr": "Türk usulü kahve."
+  },
+  "keyword": {
+    "tr": "Türk Kahvesi, İçecekler, Antepinici"
+  },
+  "path": "turk-kahvesi",
+  "icon": "sports_bar",
+  "category": "icecek",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-salep.webp",
+      "url": "/img/ant-salep.webp"
+    }
+  },
+  "index": 26,
+  "url": "/img/ant-salep.webp",
+  "text": {
+    "tr": "Türk usulü kahve."
+  },
+  "title": {
+    "tr": "Türk Kahvesi"
+  },
+  "price": 140,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-salep.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "icecek",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "140₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-salep.webp"
+}

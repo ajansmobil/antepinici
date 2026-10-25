@@ -1,0 +1,50 @@
+{
+  "id": "ant18",
+  "name": {
+    "tr": "Yuvalama"
+  },
+  "description": {
+    "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
+  },
+  "keyword": {
+    "tr": "Yuvalama, Çorbalar, Antepinici"
+  },
+  "path": "yuvalama",
+  "icon": "soup",
+  "category": "corba",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-humus.webp",
+      "url": "/img/ant-humus.webp"
+    }
+  },
+  "index": 18,
+  "url": "/img/ant-humus.webp",
+  "text": {
+    "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
+  },
+  "title": {
+    "tr": "Yuvalama"
+  },
+  "price": 300,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-humus.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "corba",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "300₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-humus.webp"
+}

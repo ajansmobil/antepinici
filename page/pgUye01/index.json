@@ -1,0 +1,28 @@
+{
+  "id": "pgUye01",
+  "name": {
+    "tr": "Üye Giriş / Kayıt"
+  },
+  "description": {
+    "tr": "Antepinici — Üye Giriş / Kayıt"
+  },
+  "path": "login",
+  "pathnext": "",
+  "icon": "person",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxLog01"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Üye Giriş / Kayıt | Antepinici"
+  },
+  "date": "2026-10-05T22:03:57.921Z",
+  "update": "2026-10-05T22:03:57.921Z"
+}

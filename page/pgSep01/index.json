@@ -1,0 +1,28 @@
+{
+  "id": "pgSep01",
+  "name": {
+    "tr": "Sepet"
+  },
+  "description": {
+    "tr": "Antepinici — Sepet"
+  },
+  "path": "sepet",
+  "pathnext": "",
+  "icon": "shopping_cart",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxSep01"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sepet | Antepinici"
+  },
+  "date": "2026-10-05T22:03:57.921Z",
+  "update": "2026-10-05T22:03:57.921Z"
+}

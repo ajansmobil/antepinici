@@ -1,0 +1,300 @@
+{
+  "data": [
+    {
+      "id": "in7yg4pcnt",
+      "name": {
+        "tr": "İade ve Değişim"
+      },
+      "description": {
+        "tr": "Antepinici — İade ve değişim koşulları"
+      },
+      "path": "iade-ve-teslimat",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 1,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Misyon"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 2,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Vizyon"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 3,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalitepolitikamiz",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 4,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilik-politikasi",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 5,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisiselveriler",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 6,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanicahaklari",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 7,
+      "icon": "article"
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasaluyari",
+      "category": "",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "index": 8,
+      "icon": "article"
+    },
+    {
+      "id": "mesafelisatis",
+      "name": {
+        "tr": "Mesafeli Satış Sözleşmesi"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "mesafeli-satis-sozlesmesi",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 9
+    },
+    {
+      "name": {
+        "tr": "İletişim"
+      },
+      "status": "play",
+      "category": "",
+      "id": "pgIls01",
+      "url": "",
+      "path": "iletisim",
+      "pathnext": "",
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxCon01",
+          "pxWa01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Antepinici — İletişim"
+      },
+      "index": 11
+    },
+    {
+      "id": "onbilgilendirmeformu",
+      "name": {
+        "tr": "Ön Bilgilendirme Formu"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "on-bilgilendirme-formu",
+      "icon": "gavel",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 12
+    },
+    {
+      "id": "cerezpolitikasi",
+      "name": {
+        "tr": "Çerez Politikası"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "cerez-politikasi",
+      "icon": "gavel",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 12
+    },
+    {
+      "id": "uyeliksozlesmesi",
+      "name": {
+        "tr": "Üyelik Sözleşmesi"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "uyelik-sozlesmesi",
+      "icon": "gavel",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 13
+    },
+    {
+      "id": "saticibilgileri",
+      "name": {
+        "tr": "Satıcı Bilgileri"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "satici-bilgileri",
+      "icon": "gavel",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 14
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [
+      "pxPage01"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

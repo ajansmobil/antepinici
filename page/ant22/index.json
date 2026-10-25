@@ -1,0 +1,50 @@
+{
+  "id": "ant22",
+  "name": {
+    "tr": "Fıstıklı Şekerli Börek"
+  },
+  "description": {
+    "tr": "Antep fıstıklı şekerli börek."
+  },
+  "keyword": {
+    "tr": "Fıstıklı Şekerli Börek, Tatlilar, Antepinici"
+  },
+  "path": "fistikli-sekerli-borek",
+  "icon": "cake",
+  "category": "tatli",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-cigborek.webp",
+      "url": "/img/ant-cigborek.webp"
+    }
+  },
+  "index": 22,
+  "url": "/img/ant-cigborek.webp",
+  "text": {
+    "tr": "Antep fıstıklı şekerli börek."
+  },
+  "title": {
+    "tr": "Fıstıklı Şekerli Börek"
+  },
+  "price": 500,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-cigborek.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "tatli",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "500₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-cigborek.webp"
+}

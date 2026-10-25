@@ -1,0 +1,50 @@
+{
+  "id": "ant9",
+  "name": {
+    "tr": "Alı Nazik (220gr)"
+  },
+  "description": {
+    "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
+  },
+  "keyword": {
+    "tr": "Alı Nazik (220gr), Kebaplar, Antepinici"
+  },
+  "path": "alinazik",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-alinazik.webp",
+      "url": "/img/ant-alinazik.webp"
+    }
+  },
+  "index": 9,
+  "url": "/img/ant-alinazik.webp",
+  "text": {
+    "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
+  },
+  "title": {
+    "tr": "Alı Nazik (220gr)"
+  },
+  "price": 720,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-alinazik.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "720₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-alinazik.webp"
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Back",
+  "path": "back",
+  "modulestatus": {
+    "body": true,
+    "icon": true,
+    "detail": false
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "data": [
+    {
+      "id": "usr_login",
+      "name": {
+        "tr": "Uye Giris"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "login",
+      "icon": "login",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxLog01"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "bck_kayit",
+      "name": {
+        "tr": "Üye Ol"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "kayit",
+      "icon": "person_add",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxLog01"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "bck_sifre",
+      "name": {
+        "tr": "Şifremi Unuttum"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "sifre-sifirlama",
+      "icon": "lock_reset",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxLog01"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "usr_sepet",
+      "name": {
+        "tr": "Sepetim"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "sepetim",
+      "icon": "shopping_cart",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxSep01"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "usr_odeme",
+      "name": {
+        "tr": "Odeme"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "odeme",
+      "icon": "payment",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxSip01"
+        ],
+        "footer": []
+      },
+      "index": 4
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "usr_siparis",
+  "name": {
+    "tr": "Siparislerim"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "siparislerim",
+  "icon": "receipt_long",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxSpl01",
+      "pxTak01"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "title": {
+    "tr": "Siparislerim"
+  },
+  "date": "2026-10-23T14:45:11.381Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

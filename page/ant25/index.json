@@ -1,0 +1,50 @@
+{
+  "id": "ant25",
+  "name": {
+    "tr": "Şalgam (Gazlı)"
+  },
+  "description": {
+    "tr": "Acılı-sade şalgam suyu."
+  },
+  "keyword": {
+    "tr": "Şalgam (Gazlı), İçecekler, Antepinici"
+  },
+  "path": "salgam",
+  "icon": "sports_bar",
+  "category": "icecek",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-salgam.webp",
+      "url": "/img/ant-salgam.webp"
+    }
+  },
+  "index": 25,
+  "url": "/img/ant-salgam.webp",
+  "text": {
+    "tr": "Acılı-sade şalgam suyu."
+  },
+  "title": {
+    "tr": "Şalgam (Gazlı)"
+  },
+  "price": 60,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-salgam.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "icecek",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "60₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-salgam.webp"
+}

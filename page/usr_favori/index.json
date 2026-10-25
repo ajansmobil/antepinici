@@ -1,0 +1,30 @@
+{
+  "id": "usr_favori",
+  "name": {
+    "tr": "Favorilerim"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "favorilerim",
+  "icon": "favorite",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "4ntsof"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "title": {
+    "tr": "Favorilerim"
+  },
+  "date": "2026-10-23T10:28:37.684Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

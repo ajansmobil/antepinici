@@ -1,0 +1,50 @@
+{
+  "id": "ant17",
+  "name": {
+    "tr": "Mercimekli Köfte"
+  },
+  "description": {
+    "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
+  },
+  "keyword": {
+    "tr": "Mercimekli Köfte, Köfte & Yöresel, Antepinici"
+  },
+  "path": "mercimekkofte",
+  "icon": "donut",
+  "category": "kofte",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-merzimekkofte.webp",
+      "url": "/img/ant-merzimekkofte.webp"
+    }
+  },
+  "index": 17,
+  "url": "/img/ant-merzimekkofte.webp",
+  "text": {
+    "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
+  },
+  "title": {
+    "tr": "Mercimekli Köfte"
+  },
+  "price": 220,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-merzimekkofte.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kofte",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "220₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-merzimekkofte.webp"
+}

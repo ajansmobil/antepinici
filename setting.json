@@ -1,0 +1,36 @@
+{
+  "order": true,
+  "user": true,
+  "description": {
+    "tr": "Gaziantep usulü kebap, lahmacun, künefe — Antepinici'den evlere."
+  },
+  "keyword": {
+    "tr": "antepinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep"
+  },
+  "category": "Restoran & E-Ticaret",
+  "name": "Antepinici",
+  "domain": "mx-antepinici.yunusevgane.workers.dev",
+  "langs": {
+    "tr": true,
+    "en": false,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "eticaret": true,
+  "modSepet": true,
+  "modSiparis": true,
+  "modOdeme": true,
+  "modKargo": true,
+  "modUyeler": true,
+  "modUyeAdres": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "in7yg4pcnt",
+  "name": {
+    "tr": "İade ve Değişim"
+  },
+  "description": {
+    "tr": "Antepinici — İade ve değişim koşulları"
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "iade-ve-teslimat",
+  "icon": "article",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">İade ve Değişim</h2>\n    <p style=\" font-size: 16px;\">\n        Antepinici'de tüm ürünlerimiz günlük, taze ve hijyen standartlarında hazırlanır. 6502 sayılı Tüketicinin Korunması Hakkında Kanun ile Uzak Yollarla Ticaret Hakkında Yönetmelik'in istisna maddeleri gereği, sağlık ve hijyenle ilgili (taze gıda) ürünlerde standart iade hakkı uygulanmaz. Bu nedenle teslim aldığınız ürünleri iade alamaz; ancak aşağıdaki durumlarda tarafımıza kolayca ulaşabilirsiniz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Siparişinizde eksik ürün, yanlış ürün ya da hasarlı ürün tespit ederseniz, sipariş tarihinden itibaren 48 saat içinde bizimle iletişime geçmeniz yeterlidir. Ürünün fotoğrafını ilettiğinizde hatayı doğruladığımız anda, aynı ürünün yeniden gönderimi ya da ücretin geri iadesi için süreci başlatırız.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Sipariş sırasında bir hata yaptığınızı fark ederseniz (adres, ürün adedi, ürün seçimi), sipariş hazırlığa alınmadan önce WhatsApp ya da telefon üzerinden bize ulaşarak siparişinizi güncelletebilir, ürün ekleyebilir ya da çıkarabilirsiniz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        İade ve değişim talepleriniz için: WhatsApp — 0531 679 10 14. Talebinizi en kısa sürede değerlendirir, sonuçlandırırız.\n    </p>"
+  },
+  "title": {
+    "tr": "İade ve Değişim | Antepinici"
+  },
+  "date": "2026-10-22T21:33:40.294Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ant23",
+  "name": {
+    "tr": "Cevizli Kadayıf"
+  },
+  "description": {
+    "tr": "Tel kadayıf, ceviz, şerbet."
+  },
+  "keyword": {
+    "tr": "Cevizli Kadayıf, Tatlilar, Antepinici"
+  },
+  "path": "cevizli-kadayif",
+  "icon": "cake",
+  "category": "tatli",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-baklava.webp",
+      "url": "/img/ant-baklava.webp"
+    }
+  },
+  "index": 23,
+  "url": "/img/ant-baklava.webp",
+  "text": {
+    "tr": "Tel kadayıf, ceviz, şerbet."
+  },
+  "title": {
+    "tr": "Cevizli Kadayıf"
+  },
+  "price": 200,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-baklava.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "tatli",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "200₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-baklava.webp"
+}

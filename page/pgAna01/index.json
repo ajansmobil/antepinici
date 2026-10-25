@@ -1,0 +1,30 @@
+{
+  "id": "pgAna01",
+  "name": {
+    "tr": "Ana Sayfa"
+  },
+  "description": {
+    "tr": "Antepinici — Ana Sayfa"
+  },
+  "path": "ana-sayfa",
+  "pathnext": "",
+  "icon": "home",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxHero01",
+      "pxVit001",
+      "pxHiz001"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ana Sayfa | Antepinici"
+  },
+  "date": "2026-10-05T22:03:57.921Z",
+  "update": "2026-10-05T22:03:57.921Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "usr_login",
+  "name": {
+    "tr": "Giriş"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "login",
+  "icon": "person",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxLog01"
+    ],
+    "footer": []
+  },
+  "index": 6,
+  "url": "",
+  "title": {
+    "tr": "Uye Giris"
+  },
+  "date": "2026-10-23T10:28:37.684Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

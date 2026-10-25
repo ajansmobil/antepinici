@@ -1,0 +1,50 @@
+{
+  "id": "ant5",
+  "name": {
+    "tr": "Karışık Kebap – Et (360gr)"
+  },
+  "description": {
+    "tr": "Sade kıyma, kuşbaşı, pirzola."
+  },
+  "keyword": {
+    "tr": "Karışık Kebap – Et (360gr), Kebaplar, Antepinici"
+  },
+  "path": "kariskebap-et",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-kariskebap.webp",
+      "url": "/img/ant-kariskebap.webp"
+    }
+  },
+  "index": 5,
+  "url": "/img/ant-kariskebap.webp",
+  "text": {
+    "tr": "Sade kıyma, kuşbaşı, pirzola."
+  },
+  "title": {
+    "tr": "Karışık Kebap – Et (360gr)"
+  },
+  "price": 970,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-kariskebap.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "970₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-kariskebap.webp"
+}

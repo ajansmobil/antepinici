@@ -1,0 +1,30 @@
+{
+  "id": "usr_odeme",
+  "name": {
+    "tr": "Odeme"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "odeme",
+  "icon": "payment",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxSip01"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "title": {
+    "tr": "Odeme"
+  },
+  "date": "2026-10-23T10:28:37.684Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

@@ -1,0 +1,187 @@
+{
+  "animation": {
+    "duration": {
+      "fast": "150ms",
+      "normal": "250ms",
+      "slow": "400ms"
+    },
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+  },
+  "breakpoints": {
+    "mobile": "390px",
+    "tablet": "768px",
+    "desktop": "1024px",
+    "wide": "1280px",
+    "ultra": "1536px"
+  },
+  "colors": {
+    "lite": [
+      {
+        "name": "--color1--",
+        "value": "#1e1812"
+      },
+      {
+        "name": "--color2--",
+        "value": "#3f5c48"
+      },
+      {
+        "name": "--bg--",
+        "value": "#14100c"
+      },
+      {
+        "name": "--text--",
+        "value": "#f4ede1"
+      },
+      {
+        "name": "--button--",
+        "value": "#c9a227"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#14100c"
+      }
+    ],
+    "dark": [
+      {
+        "name": "--color1--",
+        "value": "#1e1812"
+      },
+      {
+        "name": "--color2--",
+        "value": "#3f5c48"
+      },
+      {
+        "name": "--bg--",
+        "value": "#14100c"
+      },
+      {
+        "name": "--text--",
+        "value": "#f4ede1"
+      },
+      {
+        "name": "--button--",
+        "value": "#c9a227"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#14100c"
+      }
+    ],
+    "bg": "#14100c",
+    "bgCard": "#1e1812",
+    "bgDark": "#14100c",
+    "text": "#f4ede1",
+    "textMuted": "#b9ad9a",
+    "accent": "#c9a227",
+    "accentHover": "#dcb944",
+    "primary": "#c9a227",
+    "primaryHover": "#dcb944",
+    "secondary": "#3f5c48",
+    "copper": "#9a6b2f",
+    "brand": "#14100c",
+    "border": "#33291f",
+    "borderFocus": "#c9a227",
+    "muted": "#b9ad9a",
+    "price": "#c9a227",
+    "priceOld": "#b9ad9a",
+    "badgeBg": "#c9a227",
+    "badgeText": "#14100c"
+  },
+  "typography": {
+    "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif",
+    "displayFamily": "'Playfair Display', Georgia, 'Times New Roman', serif",
+    "sizes": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "lg": "20px",
+      "xl": "28px",
+      "display": "44px"
+    },
+    "weights": {
+      "body": 400,
+      "medium": 500,
+      "bold": 600,
+      "display": 700
+    },
+    "lineHeight": {
+      "body": 1.6,
+      "display": 1.15
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "40px",
+    "xxl": "64px",
+    "touchMin": "44px"
+  },
+  "radius": {
+    "none": "0",
+    "sm": "8px",
+    "md": "12px",
+    "lg": "16px",
+    "xl": "20px",
+    "full": "9999px"
+  },
+  "grid": {
+    "columns": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3,
+      "wide": 4
+    },
+    "containerMax": "1200px",
+    "gap": {
+      "mobile": "12px",
+      "tablet": "16px",
+      "desktop": "20px"
+    }
+  },
+  "shadow": {
+    "card": "0 10px 28px rgba(0,0,0,.38)",
+    "raised": "0 18px 44px rgba(0,0,0,.5)"
+  },
+  "header": [
+    "pxMenu01"
+  ],
+  "body": [
+    "pxHero01",
+    "pxVit001",
+    "pxHiz001"
+  ],
+  "footer": [
+    "pxAlt01",
+    "4ny1sf",
+    "suvapk",
+    "kavq2u"
+  ],
+  "headerdefault": [
+    "pxMenu01"
+  ],
+  "bodydefault": [],
+  "footerdefault": [
+    "pxAlt01",
+    "suvapk",
+    "kavq2u"
+  ],
+  "headtop": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap\"><meta name=\"theme-color\" content=\"#14100c\">",
+  "headbottom": "<style>html,body{background:#14100c;color:#f4ede1;font-family:Inter,'Segoe UI',system-ui,sans-serif}h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}a,button,input,select,textarea{font-family:inherit}button,[role=button],input[type=submit]{min-height:44px}a[class*=\"CardName\"]:link,a[class*=\"CardName\"]:visited,a[class*=\"CardName\"]:hover,a[class*=\"CardName\"]:active{color:#f4ede1}</style>",
+  "gradient": "linear-gradient(135deg, #14100c 0%, #1e1812 58%, #26352b 100%)",
+  "gradientHero": "linear-gradient(135deg, #14100c 0%, #1e1812 58%, #26352b 100%)",
+  "gradientOverlay": "linear-gradient(135deg, rgba(20,16,12,.94) 0%, rgba(30,24,18,.86) 100%)",
+  "gradientCard": "linear-gradient(180deg, #1e1812 0%, #14100c 100%)",
+  "btnPrimaryBg": "#c9a227",
+  "btnPrimaryColor": "#14100c",
+  "statAccent": "#c9a227",
+  "shape1": "rgba(201,162,39,.18)",
+  "shape2": "rgba(63,92,72,.22)",
+  "shape3": "rgba(244,237,225,.08)",
+  "meta": {
+    "project": "antepinici",
+    "tema": "premium-koyu",
+    "lastUpdated": "2026-10-05"
+  }
+}

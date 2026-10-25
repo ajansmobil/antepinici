@@ -1,0 +1,50 @@
+{
+  "id": "ant4",
+  "name": {
+    "tr": "Antebin Kebabı (220gr)"
+  },
+  "description": {
+    "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
+  },
+  "keyword": {
+    "tr": "Antebin Kebabı (220gr), Kebaplar, Antepinici"
+  },
+  "path": "antebinkebab",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-antebinkebab.webp",
+      "url": "/img/ant-antebinkebab.webp"
+    }
+  },
+  "index": 4,
+  "url": "/img/ant-antebinkebab.webp",
+  "text": {
+    "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
+  },
+  "title": {
+    "tr": "Antebin Kebabı (220gr)"
+  },
+  "price": 960,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-antebinkebab.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "960₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-antebinkebab.webp"
+}

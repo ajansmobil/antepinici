@@ -1,0 +1,50 @@
+{
+  "id": "ant24",
+  "name": {
+    "tr": "Ayran"
+  },
+  "description": {
+    "tr": "Yayık ayranı."
+  },
+  "keyword": {
+    "tr": "Ayran, İçecekler, Antepinici"
+  },
+  "path": "ayran",
+  "icon": "sports_bar",
+  "category": "icecek",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-yayik-ayran.webp",
+      "url": "/img/ant-yayik-ayran.webp"
+    }
+  },
+  "index": 24,
+  "url": "/img/ant-yayik-ayran.webp",
+  "text": {
+    "tr": "Yayık ayranı."
+  },
+  "title": {
+    "tr": "Ayran"
+  },
+  "price": 50,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-yayik-ayran.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "icecek",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "50₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-yayik-ayran.webp"
+}

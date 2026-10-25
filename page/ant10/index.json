@@ -1,0 +1,50 @@
+{
+  "id": "ant10",
+  "name": {
+    "tr": "Patlıcan Kebabı (240gr)"
+  },
+  "description": {
+    "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
+  },
+  "keyword": {
+    "tr": "Patlıcan Kebabı (240gr), Kebaplar, Antepinici"
+  },
+  "path": "patlicankebab",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-patlican.webp",
+      "url": "/img/ant-patlican.webp"
+    }
+  },
+  "index": 10,
+  "url": "/img/ant-patlican.webp",
+  "text": {
+    "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
+  },
+  "title": {
+    "tr": "Patlıcan Kebabı (240gr)"
+  },
+  "price": 720,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-patlican.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "720₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-patlican.webp"
+}

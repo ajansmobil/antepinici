@@ -1,0 +1,50 @@
+{
+  "id": "ant16",
+  "name": {
+    "tr": "İçli Köfte (kızarma)"
+  },
+  "description": {
+    "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
+  },
+  "keyword": {
+    "tr": "İçli Köfte (kızarma), Köfte & Yöresel, Antepinici"
+  },
+  "path": "iclikofte",
+  "icon": "donut",
+  "category": "kofte",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-iclikofte.webp",
+      "url": "/img/ant-iclikofte.webp"
+    }
+  },
+  "index": 16,
+  "url": "/img/ant-iclikofte.webp",
+  "text": {
+    "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
+  },
+  "title": {
+    "tr": "İçli Köfte (kızarma)"
+  },
+  "price": 110,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-iclikofte.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kofte",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "110₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-iclikofte.webp"
+}

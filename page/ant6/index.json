@@ -1,0 +1,50 @@
+{
+  "id": "ant6",
+  "name": {
+    "tr": "Küşleme (200gr)"
+  },
+  "description": {
+    "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
+  },
+  "keyword": {
+    "tr": "Küşleme (200gr), Kebaplar, Antepinici"
+  },
+  "path": "kusleme",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-kusleme.webp",
+      "url": "/img/ant-kusleme.webp"
+    }
+  },
+  "index": 6,
+  "url": "/img/ant-kusleme.webp",
+  "text": {
+    "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
+  },
+  "title": {
+    "tr": "Küşleme (200gr)"
+  },
+  "price": 950,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-kusleme.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "950₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-kusleme.webp"
+}

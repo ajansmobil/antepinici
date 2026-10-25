@@ -1,0 +1,50 @@
+{
+  "id": "ant19",
+  "name": {
+    "tr": "Ezogelin Çorbası"
+  },
+  "description": {
+    "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
+  },
+  "keyword": {
+    "tr": "Ezogelin Çorbası, Çorbalar, Antepinici"
+  },
+  "path": "ezogelin",
+  "icon": "soup",
+  "category": "corba",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-ezogelin.webp",
+      "url": "/img/ant-ezogelin.webp"
+    }
+  },
+  "index": 19,
+  "url": "/img/ant-ezogelin.webp",
+  "text": {
+    "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
+  },
+  "title": {
+    "tr": "Ezogelin Çorbası"
+  },
+  "price": 150,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-ezogelin.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "corba",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "150₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-ezogelin.webp"
+}

@@ -1,0 +1,163 @@
+{
+  "name": {
+    "tr": "Kategoriler"
+  },
+  "path": "category",
+  "desc": [],
+  "data": [
+    {
+      "id": "catKebap",
+      "path": "kebab",
+      "name": {
+        "tr": "Kebaplar"
+      },
+      "description": {
+        "tr": "Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Antep'in kebabları."
+      },
+      "status": "play",
+      "icon": "restaurant",
+      "img": "",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "id": "catKofte",
+      "path": "kofte",
+      "name": {
+        "tr": "Köfte & Yöresel"
+      },
+      "description": {
+        "tr": "Çiğ köfte, içli köfte, yuvalama ve yöresel közlemeler."
+      },
+      "status": "play",
+      "icon": "donut",
+      "img": "",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "id": "catCorba",
+      "path": "corba",
+      "name": {
+        "tr": "Çorbalar"
+      },
+      "description": {
+        "tr": "Ezogelin, yayla, et paça ve yöresel çorbalar."
+      },
+      "status": "play",
+      "icon": "soup",
+      "img": "",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "id": "catFir",
+      "path": "firin",
+      "name": {
+        "tr": "Fırın"
+      },
+      "description": {
+        "tr": "El açması Antep lahmacun ve çıra tavaları."
+      },
+      "status": "play",
+      "icon": "local_fire_department",
+      "img": "",
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "id": "catKah",
+      "path": "kahvalti",
+      "name": {
+        "tr": "Kahvaltı"
+      },
+      "description": {
+        "tr": "Yöresel serpme Antep kahvaltısı ve serpme seçmeli menü."
+      },
+      "status": "play",
+      "icon": "breakfast",
+      "img": "",
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "id": "catTat",
+      "path": "tatli",
+      "name": {
+        "tr": "Tatlilar"
+      },
+      "description": {
+        "tr": "Katmer, kadayıf, zerda ve Antep tatlıları."
+      },
+      "status": "play",
+      "icon": "cake",
+      "img": "",
+      "index": 5,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "id": "catIce",
+      "path": "icecek",
+      "name": {
+        "tr": "İçecekler"
+      },
+      "description": {
+        "tr": "Yayık ayranı, şalgam ve Türk kahvesi."
+      },
+      "status": "play",
+      "icon": "sports_bar",
+      "img": "",
+      "index": 6,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      }
+    }
+  ]
+}

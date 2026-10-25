@@ -1,0 +1,50 @@
+{
+  "id": "ant13",
+  "name": {
+    "tr": "Sade Kıyma (220gr)"
+  },
+  "description": {
+    "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
+  },
+  "keyword": {
+    "tr": "Sade Kıyma (220gr), Kebaplar, Antepinici"
+  },
+  "path": "sadekiyma",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-sadekiyma.webp",
+      "url": "/img/ant-sadekiyma.webp"
+    }
+  },
+  "index": 13,
+  "url": "/img/ant-sadekiyma.webp",
+  "text": {
+    "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
+  },
+  "title": {
+    "tr": "Sade Kıyma (220gr)"
+  },
+  "price": 625,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-sadekiyma.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "625₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-sadekiyma.webp"
+}

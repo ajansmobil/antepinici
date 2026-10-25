@@ -1,0 +1,30 @@
+{
+  "id": "usr_bilgi",
+  "name": {
+    "tr": "Hesabim"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "hesabim",
+  "icon": "person",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "tk7p09"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "title": {
+    "tr": "Hesabim"
+  },
+  "date": "2026-10-23T10:28:37.684Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

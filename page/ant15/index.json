@@ -1,0 +1,50 @@
+{
+  "id": "ant15",
+  "name": {
+    "tr": "Çiğ Köfte (10 adet)"
+  },
+  "description": {
+    "tr": "Antep usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
+  },
+  "keyword": {
+    "tr": "Çiğ Köfte (10 adet), Köfte & Yöresel, Antepinici"
+  },
+  "path": "cigkofta",
+  "icon": "donut",
+  "category": "kofte",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-cigkofte.webp",
+      "url": "/img/ant-cigkofte.webp"
+    }
+  },
+  "index": 15,
+  "url": "/img/ant-cigkofte.webp",
+  "text": {
+    "tr": "Antep usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
+  },
+  "title": {
+    "tr": "Çiğ Köfte (10 adet)"
+  },
+  "price": 250,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-cigkofte.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kofte",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "250₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-cigkofte.webp"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ant12",
+  "name": {
+    "tr": "Kilis Tavası (2 kişilik)"
+  },
+  "description": {
+    "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
+  },
+  "keyword": {
+    "tr": "Kilis Tavası (2 kişilik), Kebaplar, Antepinici"
+  },
+  "path": "kilistavasi",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-kilis.webp",
+      "url": "/img/ant-kilis.webp"
+    }
+  },
+  "index": 12,
+  "url": "/img/ant-kilis.webp",
+  "text": {
+    "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
+  },
+  "title": {
+    "tr": "Kilis Tavası (2 kişilik)"
+  },
+  "price": 990,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-kilis.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "990₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-kilis.webp"
+}

@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Sayfalar"
+      },
+      "path": "page",
+      "desc": [],
+      "data": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "bgimg": true,
+        "detail": true,
+        "body": true
+      }
+    },
+    {
+      "name": {
+        "tr": "Ürünler"
+      },
+      "path": "products",
+      "desc": [],
+      "data": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true,
+        "bgimg": true,
+        "detail": true,
+        "body": true
+      }
+    },
+    {
+      "name": {
+        "tr": "Kategoriler"
+      },
+      "path": "category",
+      "desc": [],
+      "data": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true,
+        "bgimg": true,
+        "detail": true,
+        "body": true
+      }
+    },
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "pxPage01"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "bgimg": true,
+        "detail": true,
+        "body": true
+      }
+    },
+    {
+      "path": "user",
+      "name": {
+        "tr": "Uye"
+      },
+      "icon": "person",
+      "active": true,
+      "modulestatus": {
+        "body": true,
+        "icon": true,
+        "detail": false
+      }
+    },
+    {
+      "path": "back",
+      "name": {
+        "tr": "Misafir"
+      },
+      "icon": "lock_open",
+      "active": true,
+      "modulestatus": {
+        "body": true,
+        "icon": true,
+        "detail": false
+      }
+    }
+  ]
+}

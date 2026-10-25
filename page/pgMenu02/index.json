@@ -1,0 +1,37 @@
+{
+  "id": "pgMenu02",
+  "name": {
+    "tr": "Menü"
+  },
+  "description": {
+    "tr": "Antepinici — Tam Menu (01.10.2026, KDV dahil)"
+  },
+  "path": "menu",
+  "pathnext": "",
+  "icon": "menu_book",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxMnu01",
+      "pxMnu02",
+      "pxMnu03",
+      "pxMnu04",
+      "pxMnu05",
+      "pxMnu06",
+      "pxMnu07",
+      "pxMnu08",
+      "pxMnu09",
+      "pxMnu10"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Menü | Antepinici"
+  },
+  "date": "2026-10-25T04:04:14.783754Z",
+  "update": "2026-10-25T04:04:14.783754Z"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ant11",
+  "name": {
+    "tr": "Kilis Kebabı"
+  },
+  "description": {
+    "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
+  },
+  "keyword": {
+    "tr": "Kilis Kebabı, Kebaplar, Antepinici"
+  },
+  "path": "kiliskebab",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-iskender.webp",
+      "url": "/img/ant-iskender.webp"
+    }
+  },
+  "index": 11,
+  "url": "/img/ant-iskender.webp",
+  "text": {
+    "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
+  },
+  "title": {
+    "tr": "Kilis Kebabı"
+  },
+  "price": 670,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-iskender.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "670₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-iskender.webp"
+}

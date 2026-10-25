@@ -1,0 +1,50 @@
+{
+  "id": "ant3",
+  "name": {
+    "tr": "Kuşbaşılı (220gr)"
+  },
+  "description": {
+    "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
+  },
+  "keyword": {
+    "tr": "Kuşbaşılı (220gr), Kebaplar, Antepinici"
+  },
+  "path": "kusbasili",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-kuzusis.webp",
+      "url": "/img/ant-kuzusis.webp"
+    }
+  },
+  "index": 3,
+  "url": "/img/ant-kuzusis.webp",
+  "text": {
+    "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
+  },
+  "title": {
+    "tr": "Kuşbaşılı (220gr)"
+  },
+  "price": 790,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-kuzusis.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "790₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-kuzusis.webp"
+}

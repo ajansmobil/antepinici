@@ -1,0 +1,2261 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Antep Menu",
+      "path": "menu-eticaret-1",
+      "local": "header",
+      "id": "pxMenu01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "#c9a227",
+        "colorhover": "#dcb944",
+        "height": "64px",
+        "urlsepet": "sepetim",
+        "bgcolor": "#14100c",
+        "bgcolorhover": "#1e1812",
+        "searchPlaceholder": {
+          "tr": "Menüden ürün ara…",
+          "en": "Search the menu…"
+        },
+        "searchAria": {
+          "tr": "Ürün ve kategori ara",
+          "en": "Search products"
+        },
+        "cartText": {
+          "tr": "Sepetim",
+          "en": "My Cart"
+        },
+        "loginText": {
+          "tr": "Üye Girişi",
+          "en": "Login"
+        },
+        "welcomeTitle": {
+          "tr": "Hoş geldiniz!",
+          "en": "Welcome!"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 1,
+      "name": "Hero",
+      "path": "hero-1",
+      "local": "body",
+      "id": "pxHero01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, #14100c 0%, #1e1812 58%, #26352b 100%)",
+        "overlay": "linear-gradient(135deg, rgba(20,16,12,.94) 0%, rgba(30,24,18,.86) 100%)",
+        "title_accent": "linear-gradient(135deg, #c9a227, #e6c766)",
+        "btn_primary_bg": "#c9a227",
+        "btn_primary_color": "#14100c",
+        "stat_accent": "#c9a227",
+        "shape1": "linear-gradient(135deg, rgba(201,162,39,.34), rgba(201,162,39,.06))",
+        "shape2": "linear-gradient(135deg, rgba(63,92,72,.6), rgba(63,92,72,.14))",
+        "shape3": "linear-gradient(135deg, rgba(244,237,225,.10), rgba(244,237,225,.02))",
+        "title": {
+          "tr": "Gaziantep Usulü, Kapınıza",
+          "en": "Gaziantep-style, delivered to your door"
+        },
+        "description": {
+          "tr": "Antebin İçi — Gaziantep'in yöresel kebabı, 01.10.2026 menü fiyatlarıyla, KDV dahil.",
+          "en": "Antebin Ici — regional Gaziantep kebab, menu prices dated 01.10.2026, VAT included."
+        },
+        "badge": {
+          "tr": "Gaziantep'in Lezzeti · KDV Dahil",
+          "en": "Flavors of Gaziantep"
+        },
+        "image": "/img/hero-anatolia.webp",
+        "alt": {
+          "tr": "Antepinici — Gaziantep kebabı",
+          "en": "Antepinici — Gaziantep kebab"
+        },
+        "stats": [
+          {
+            "value": "24",
+            "label": {
+              "tr": "yöresel lezzet"
+            }
+          },
+          {
+            "value": "7",
+            "label": {
+              "tr": "kategori"
+            }
+          }
+        ],
+        "btn1": {
+          "tr": "Keşfet",
+          "en": "Explore"
+        },
+        "btn1_url": "urunler",
+        "btn2": {
+          "tr": "Menü",
+          "en": "Menu"
+        },
+        "btn2_url": "menu"
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 2,
+      "name": "Vitrin Ana",
+      "path": "eticaret-urun-vitrin",
+      "local": "body",
+      "id": "pxVit001",
+      "desing": {
+        "color": "#f4ede1",
+        "bgcolor": "#14100c",
+        "pricecolor": "#c9a227",
+        "oldpricecolor": "#b9ad9a",
+        "badgecolor": "#14100c",
+        "badgebg-new": "#c9a227",
+        "badgebg-sale": "#e0705a",
+        "badgebg-soldout": "#6b6257",
+        "buttonbg": "#c9a227",
+        "buttoncolor": "#14100c",
+        "bordercolor": "#33291f",
+        "title": {
+          "tr": "Menü",
+          "en": "Menu"
+        },
+        "addToCart": {
+          "tr": "Sepete Ekle",
+          "en": "Add to Cart"
+        },
+        "soldOutText": {
+          "tr": "Tükendi",
+          "en": "Sold Out"
+        },
+        "newText": {
+          "tr": "Yeni",
+          "en": "New"
+        },
+        "saleText": {
+          "tr": "İndirim",
+          "en": "Sale"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 3,
+      "name": "Kategori Filtre",
+      "path": "eticaret-kategori-filtre",
+      "local": "body",
+      "id": "pxKat01",
+      "desing": {
+        "color": "#f4ede1",
+        "bgcolor": "#14100c",
+        "bordercolor": "#33291f",
+        "activecolor": "#f4ede1",
+        "activebg": "#3f5c48",
+        "title": {
+          "tr": "Filtreler",
+          "en": "Filters"
+        },
+        "categoryTitle": {
+          "tr": "Kategoriler",
+          "en": "Categories"
+        },
+        "priceTitle": {
+          "tr": "Fiyat Aralığı",
+          "en": "Price Range"
+        },
+        "stockTitle": {
+          "tr": "Stok",
+          "en": "Stock"
+        },
+        "inStockText": {
+          "tr": "Stokta Var",
+          "en": "In Stock"
+        },
+        "outOfStockText": {
+          "tr": "Tükendi",
+          "en": "Sold Out"
+        },
+        "allCategories": {
+          "tr": "Tümü",
+          "en": "All"
+        },
+        "clearFilters": {
+          "tr": "Filtreleri Temizle",
+          "en": "Clear Filters"
+        },
+        "resultCount": {
+          "tr": "ürün",
+          "en": "products"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Kategoriler",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxHiz001",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "Menü Kategorileri",
+          "en": "Menu Categories"
+        },
+        "title": {
+          "tr": "Menüye Göre Keşfedin",
+          "en": "Browse by Category"
+        },
+        "description": {
+          "tr": "Kebaplar, lahmacun, meze, künefe — her kategoriden seçim yapın.",
+          "en": "Kebaplar, lahmacun, meze, künefe — her kategoriden."
+        },
+        "page": "category",
+        "size": 5,
+        "category": "",
+        "aspect-ratio": "4 / 3",
+        "linkText": {
+          "tr": "İncele",
+          "en": "View"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 5,
+      "name": "Ürün Detay",
+      "path": "eticaret-urun-detay",
+      "local": "body",
+      "id": "pxDet01",
+      "desing": {
+        "color": "#f4ede1",
+        "bgcolor": "#14100c",
+        "pricecolor": "#c9a227",
+        "oldpricecolor": "#b9ad9a",
+        "primarycolor": "#c9a227",
+        "bordercolor": "#33291f",
+        "starcolor": "#c9a227",
+        "badgebg-sale": "#e0705a",
+        "title": {
+          "tr": "Ürün Detayı",
+          "en": "Product Detail"
+        },
+        "addToCart": {
+          "tr": "Sepete Ekle",
+          "en": "Add to Cart"
+        },
+        "description": {
+          "tr": "Açıklama",
+          "en": "Description"
+        },
+        "specifications": {
+          "tr": "Özellikler",
+          "en": "Specifications"
+        },
+        "reviews": {
+          "tr": "Değerlendirmeler",
+          "en": "Reviews"
+        },
+        "relatedProducts": {
+          "tr": "Bağlantılı Ürünler",
+          "en": "Related Products"
+        },
+        "quantity": {
+          "tr": "Adet",
+          "en": "Quantity"
+        },
+        "inStock": {
+          "tr": "Stokta Var",
+          "en": "In Stock"
+        },
+        "outOfStock": {
+          "tr": "Stokta Yok",
+          "en": "Out of Stock"
+        },
+        "discount": {
+          "tr": "İndirim",
+          "en": "Sale"
+        },
+        "breadcrumbHome": {
+          "tr": "Ana Sayfa",
+          "en": "Home"
+        },
+        "currency": "TL",
+        "relatedCount": 4,
+        "noSpecs": {
+          "tr": "Bu ürün için özellik bilgisi eklenmemiş.",
+          "en": "No specifications added."
+        },
+        "noReviews": {
+          "tr": "Henüz değerlendirme yapılmamış.",
+          "en": "No reviews yet."
+        },
+        "noRelated": {
+          "tr": "Bağlantılı ürün bulunamadı.",
+          "en": "No related products."
+        },
+        "noDescription": {
+          "tr": "Açıklama eklenmemiş.",
+          "en": "No description."
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 6,
+      "name": "Sepet",
+      "path": "sepet-1",
+      "local": "body",
+      "id": "pxSep01",
+      "desing": {
+        "max": "1100px",
+        "bgcolor": "#14100c",
+        "cardbg": "#1e1812",
+        "bordercolor": "#33291f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "accent": "#9a6b2f",
+        "pricecolor": "#c9a227",
+        "removecolor": "#e0705a",
+        "currency": "TL",
+        "shopUrl": "urunler",
+        "checkoutUrl": "odeme",
+        "title": {
+          "tr": "Sepetim",
+          "en": "My Cart"
+        },
+        "emptyText": {
+          "tr": "Sepetinizde ürün bulunmuyor.",
+          "en": "Cart is empty."
+        },
+        "shopText": {
+          "tr": "Menüyü Keşfet",
+          "en": "Browse Menu"
+        },
+        "summaryTitle": {
+          "tr": "Sipariş Özeti",
+          "en": "Order Summary"
+        },
+        "itemCountText": {
+          "tr": "Ürün adedi",
+          "en": "Items"
+        },
+        "totalText": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "checkoutText": {
+          "tr": "Siparişi Tamamla",
+          "en": "Complete Order"
+        },
+        "clearText": {
+          "tr": "Sepeti Temizle",
+          "en": "Clear Cart"
+        },
+        "removeText": {
+          "tr": "Sepetten çıkar",
+          "en": "Remove"
+        },
+        "clearConfirmTitle": {
+          "tr": "Sepet temizlensin mi?",
+          "en": "Clear the cart?"
+        },
+        "clearConfirmText": {
+          "tr": "Tüm ürünler kaldırılacak.",
+          "en": "All items will be removed."
+        },
+        "clearConfirmOk": {
+          "tr": "Evet, temizle",
+          "en": "Yes, clear"
+        },
+        "clearConfirmCancel": {
+          "tr": "Vazgeç",
+          "en": "Cancel"
+        },
+        "clearedText": {
+          "tr": "Sepet temizlendi",
+          "en": "Cart cleared"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 7,
+      "name": "Sipariş Formu",
+      "path": "siparis-1",
+      "local": "body",
+      "id": "pxSip01",
+      "desing": {
+        "max": "1100px",
+        "bgcolor": "#14100c",
+        "cardbg": "#1e1812",
+        "bordercolor": "#33291f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "accent": "#9a6b2f",
+        "pricecolor": "#9a6b2f",
+        "wabg": "#25D366",
+        "currency": "TL",
+        "number": "905316791014",
+        "shopUrl": "urunler",
+        "ordersUrl": "siparislerim",
+        "title": {
+          "tr": "Siparişi Tamamla",
+          "en": "Complete Order"
+        },
+        "emptyText": {
+          "tr": "Sepetiniz boş; önce ürün ekleyin.",
+          "en": "Cart empty; add items first."
+        },
+        "shopText": {
+          "tr": "Menüyü Keşfet",
+          "en": "Browse Menu"
+        },
+        "formTitle": {
+          "tr": "Teslimat Bilgileri",
+          "en": "Delivery Details"
+        },
+        "nameLabel": {
+          "tr": "Ad Soyad",
+          "en": "Full Name"
+        },
+        "namePlaceholder": {
+          "tr": "Adınız Soyadınız",
+          "en": "Your full name"
+        },
+        "phoneLabel": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "phonePlaceholder": {
+          "tr": "05xx xxx xx xx",
+          "en": "Phone number"
+        },
+        "addressLabel": {
+          "tr": "Adres",
+          "en": "Address"
+        },
+        "addressPlaceholder": {
+          "tr": "Teslimat adresiniz",
+          "en": "Delivery address"
+        },
+        "noteLabel": {
+          "tr": "Sipariş Notu",
+          "en": "Note"
+        },
+        "notePlaceholder": {
+          "tr": "Eklemek istedikleriniz (opsiyonel)",
+          "en": "Anything to add"
+        },
+        "submitText": {
+          "tr": "WhatsApp ile Sipariş Ver",
+          "en": "Order via WhatsApp"
+        },
+        "cancelText": {
+          "tr": "Vazgeç",
+          "en": "Cancel"
+        },
+        "hintText": {
+          "tr": "Siparişiniz WhatsApp üzerinden iletilecektir.",
+          "en": "Your order will be sent via WhatsApp."
+        },
+        "summaryTitle": {
+          "tr": "Sipariş Özeti",
+          "en": "Order Summary"
+        },
+        "totalText": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "doneTitle": {
+          "tr": "Siparişiniz Alındı!",
+          "en": "Order Received!"
+        },
+        "doneText": {
+          "tr": "Sipariş detayları WhatsApp üzerinden iletildi. En kısa sürede sizinle iletişime geçeceğiz.",
+          "en": "Order details were sent via WhatsApp. We will contact you shortly."
+        },
+        "doneOrdersText": {
+          "tr": "Siparişlerim",
+          "en": "My Orders"
+        },
+        "waHeader": {
+          "tr": "Yeni Sipariş",
+          "en": "New Order"
+        },
+        "waTotal": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "waName": {
+          "tr": "Ad Soyad",
+          "en": "Name"
+        },
+        "waPhone": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "waAddress": {
+          "tr": "Adres",
+          "en": "Address"
+        },
+        "waNote": {
+          "tr": "Not",
+          "en": "Note"
+        },
+        "requiredMsg": {
+          "tr": "Bu alan zorunludur",
+          "en": "This field is required"
+        },
+        "minLengthMsg": {
+          "tr": "Daha uzun bir değer girin",
+          "en": "Enter a longer value"
+        },
+        "phoneMsg": {
+          "tr": "Geçerli bir telefon numarası girin",
+          "en": "Enter a valid phone number"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 8,
+      "name": "Siparişlerim",
+      "path": "siparislerim-1",
+      "local": "body",
+      "id": "pxSpl01",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "#14100c",
+        "cardbg": "#1e1812",
+        "bordercolor": "#33291f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "accent": "#9a6b2f",
+        "pricecolor": "#c9a227",
+        "currency": "TL",
+        "shopUrl": "urunler",
+        "title": {
+          "tr": "Siparişlerim",
+          "en": "My Orders"
+        },
+        "emptyText": {
+          "tr": "Henüz siparişiniz bulunmuyor.",
+          "en": "No orders yet."
+        },
+        "shopText": {
+          "tr": "Menüyü Keşfet",
+          "en": "Browse Menu"
+        },
+        "totalText": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "reorderText": {
+          "tr": "Tekrar Sipariş",
+          "en": "Reorder"
+        },
+        "reorderedText": {
+          "tr": "Ürünler sepete eklendi",
+          "en": "Items added to cart"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 9,
+      "name": "Sipariş Takip",
+      "path": "eticaret-siparis-takip",
+      "local": "body",
+      "id": "pxTak01",
+      "desing": {
+        "max": "720px",
+        "bgcolor": "#14100c",
+        "cardbg": "#1e1812",
+        "bordercolor": "#33291f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "accent": "#9a6b2f",
+        "currency": "TL",
+        "cargoUrl": "siparislerim",
+        "title": {
+          "tr": "Sipariş Takibi",
+          "en": "Order Tracking"
+        },
+        "lead": {
+          "tr": "Sipariş numarası ve telefonla sorgulayın.",
+          "en": "Look up with order number and phone."
+        },
+        "orderLabel": {
+          "tr": "Sipariş No",
+          "en": "Order No"
+        },
+        "orderPlaceholder": {
+          "tr": "MX-…",
+          "en": "MX-…"
+        },
+        "phoneLabel": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "phonePlaceholder": {
+          "tr": "05xx xxx xx xx",
+          "en": "Phone used at checkout"
+        },
+        "submitText": {
+          "tr": "Sorgula",
+          "en": "Track"
+        },
+        "notFound": {
+          "tr": "Sipariş bulunamadı. Numara ve telefonu kontrol edin.",
+          "en": "No order found."
+        },
+        "resultTitle": {
+          "tr": "Sipariş durumu",
+          "en": "Status"
+        },
+        "totalText": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "dateText": {
+          "tr": "Tarih",
+          "en": "Date"
+        },
+        "cargoCta": {
+          "tr": "Kargo Takibi",
+          "en": "Track Shipping"
+        },
+        "pricecolor": "#c9a227",
+        "stepReceived": {
+          "tr": "Alındı",
+          "en": "Received"
+        },
+        "stepPrep": {
+          "tr": "Hazırlanıyor",
+          "en": "Preparing"
+        },
+        "stepShip": {
+          "tr": "Kargoda",
+          "en": "Shipped"
+        },
+        "stepDone": {
+          "tr": "Teslim",
+          "en": "Delivered"
+        },
+        "liveIdle": {
+          "tr": "Sipariş sorgulama formu",
+          "en": "Order lookup form"
+        },
+        "liveFound": {
+          "tr": "Sipariş bulundu",
+          "en": "Order found"
+        },
+        "liveMissing": {
+          "tr": "Sipariş bulunamadı",
+          "en": "Order not found"
+        },
+        "requiredMsg": {
+          "tr": "Bu alan zorunludur",
+          "en": "This field is required"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 10,
+      "name": "Üye Giriş",
+      "path": "login",
+      "local": "body",
+      "id": "pxLog01",
+      "desing": {
+        "color": "#9a6b2f",
+        "bgcolor": "#14100c",
+        "nextUrl": "siparislerim",
+        "loginTitle": {
+          "tr": "Giriş Yap",
+          "en": "Login"
+        },
+        "registerTitle": {
+          "tr": "Üye Ol",
+          "en": "Register"
+        },
+        "emailPlaceholder": {
+          "tr": "E-posta adresiniz",
+          "en": "Your email"
+        },
+        "userPlaceholder": {
+          "tr": "Kullanıcı adı",
+          "en": "Username"
+        },
+        "surnamePlaceholder": {
+          "tr": "Soyad",
+          "en": "Surname"
+        },
+        "passwordPlaceholder": {
+          "tr": "Şifre",
+          "en": "Password"
+        },
+        "passwordConfirmPlaceholder": {
+          "tr": "Şifre Tekrar",
+          "en": "Confirm Password"
+        },
+        "namePlaceholder": {
+          "tr": "Ad Soyad",
+          "en": "Full Name"
+        },
+        "loginButton": {
+          "tr": "Giriş Yap",
+          "en": "Login"
+        },
+        "registerButton": {
+          "tr": "Üye Ol",
+          "en": "Register"
+        },
+        "forgotPassword": {
+          "tr": "Şifremi Unuttum",
+          "en": "Forgot Password"
+        },
+        "alreadyMember": {
+          "tr": "Üye misin?",
+          "en": "Already a member?"
+        },
+        "googleLogin": {
+          "tr": "Google İle Giriş Yap",
+          "en": "Login with Google"
+        },
+        "resetPasswordButton": {
+          "tr": "Şifre Sıfırlama Maili Gönder",
+          "en": "Send Password Reset Email"
+        },
+        "backToLogin": {
+          "tr": "Giriş Sayfasına Dön",
+          "en": "Back to Login"
+        },
+        "nameRequired": {
+          "tr": "Ad soyad giriniz!",
+          "en": "Please enter your full name!"
+        },
+        "userRequired": {
+          "tr": "Kullanıcı adı giriniz!",
+          "en": "Please enter username!"
+        },
+        "validEmailRequired": {
+          "tr": "Geçerli bir email adresi giriniz!",
+          "en": "Please enter a valid email address!"
+        },
+        "passwordMinLength": {
+          "tr": "Şifre en az 6 karakter olmalıdır!",
+          "en": "Password must be at least 6 characters!"
+        },
+        "passwordsNotMatch": {
+          "tr": "Şifreler eşleşmiyor!",
+          "en": "Passwords do not match!"
+        },
+        "emailAlreadyExists": {
+          "tr": "Bu email adresi zaten kullanımda!",
+          "en": "This email address is already in use!"
+        },
+        "userAlreadyExists": {
+          "tr": "Bu kullanıcı adı zaten kullanılıyor!",
+          "en": "This username is already in use!"
+        },
+        "registrationSuccess": {
+          "tr": "Üyelik başarıyla oluşturuldu!",
+          "en": "Registration successful!"
+        },
+        "registrationError": {
+          "tr": "Üyelik oluşturulurken bir hata oluştu!",
+          "en": "An error occurred during registration!"
+        },
+        "passwordRequired": {
+          "tr": "Şifre giriniz!",
+          "en": "Please enter your password!"
+        },
+        "invalidCredentials": {
+          "tr": "Kullanıcı adı veya şifre hatalı!",
+          "en": "Invalid username or password!"
+        },
+        "accountDeactivated": {
+          "tr": "Hesabınız deaktif durumda!",
+          "en": "Your account is deactivated!"
+        },
+        "loginSuccess": {
+          "tr": "Giriş başarılı!",
+          "en": "Login successful!"
+        },
+        "loginError": {
+          "tr": "Giriş yapılırken bir hata oluştu!",
+          "en": "An error occurred during login!"
+        },
+        "userNotFound": {
+          "tr": "Bu email adresine kayıtlı kullanıcı bulunamadı!",
+          "en": "No user found with this email address!"
+        },
+        "resetEmailSent": {
+          "tr": "Şifre sıfırlama maili gönderildi!",
+          "en": "Password reset email sent!"
+        },
+        "resetEmailError": {
+          "tr": "Şifre sıfırlama maili gönderilirken bir hata oluştu!",
+          "en": "An error occurred while sending reset email!"
+        },
+        "googleLoginDevelopment": {
+          "tr": "Google login özelliği geliştiriliyor...",
+          "en": "Google login feature is under development..."
+        },
+        "alreadyLoggedIn": {
+          "tr": "Zaten giriş yapmışsınız!",
+          "en": "You are already logged in!"
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 11,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "id": "pxCon01",
+      "desing": {
+        "color": "#3f5c48",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us"
+        },
+        "margin": "40px 0px"
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul",
+      "data": [
+        {
+          "icon": "call",
+          "text": "0531 679 10 14",
+          "url": "tel:+905316791014"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Harita",
+      "path": "map",
+      "local": "body",
+      "id": "pxMap01",
+      "desing": {
+        "height": "300",
+        "opacity": "0.9",
+        "backgroundcolor": "#ffffff",
+        "color": "#f4ede1",
+        "img": "",
+        "externalUrl": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 13,
+      "name": "WhatsApp",
+      "path": "whatsapp",
+      "local": "body",
+      "id": "pxWa01",
+      "desing": {
+        "number": "905316791014",
+        "numbertitle": "0531 679 10 14",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us"
+        },
+        "margin": "16px 0px"
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 14,
+      "name": "Footer",
+      "path": "eticaret-alt",
+      "local": "footer",
+      "id": "pxAlt01",
+      "desing": {
+        "color": "#f4ede1",
+        "accent": "#9a6b2f",
+        "bgcolor": "#14100c",
+        "footer_bg": "#14100c",
+        "footer_text": "#f4ede1",
+        "footer_main_bg": "#1e1812",
+        "footer_link": "#f4ede1",
+        "trust_bg": "#1e1812",
+        "trust_border": "#33291f",
+        "trust_hover_bg": "#14100c",
+        "trust_muted": "#b9ad9a",
+        "features_bg": "#1e1812",
+        "footer_aria": {
+          "tr": "Site alt bilgisi",
+          "en": "Site footer"
+        },
+        "payments_aria": {
+          "tr": "Kabul edilen ödeme yöntemleri",
+          "en": "Accepted payment methods"
+        },
+        "newsletter_title": {
+          "tr": "Bülten Aboneliği",
+          "en": "Newsletter"
+        },
+        "newsletter_desc": {
+          "tr": "Yeni menü ve kampanyalardan ilk siz haberdar olun.",
+          "en": "Be first to know about new dishes and promos."
+        },
+        "newsletter_placeholder": {
+          "tr": "E-posta adresiniz",
+          "en": "Your email"
+        },
+        "newsletter_btn": {
+          "tr": "Abone Ol",
+          "en": "Subscribe"
+        },
+        "newsletter_success": {
+          "tr": "Teşekkürler, abone olundu.",
+          "en": "Thanks, subscribed."
+        },
+        "newsletter_consent_prefix": {
+          "tr": "Aboneliğe kayıt olmakla",
+          "en": "By subscribing I agree to the"
+        },
+        "newsletter_consent_link": {
+          "tr": "gizlilik politikasını",
+          "en": "privacy policy"
+        },
+        "newsletter_consent_suffix": {
+          "tr": "kabul etmiş oluyorum.",
+          "en": "."
+        },
+        "newsletter_consent_url": "gizlilik-politikasi",
+        "newsletter_consent_error": {
+          "tr": "Lütfen gizlilik politikasını kabul edin.",
+          "en": "Please accept the privacy policy."
+        },
+        "web_name": {
+          "tr": "Antepinici"
+        },
+        "copyright": {
+          "tr": "Antepinici © 2026 — Tüm hakları saklıdır."
+        }
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul",
+      "data": {
+        "trust": [],
+        "features": [],
+        "social": [
+          {
+            "name": {
+              "tr": "antebin_ici"
+            },
+            "url": "https://instagram.com/antebin_ici",
+            "icon": "instagram"
+          },
+          {
+            "name": {
+              "tr": "antepinici_miks"
+            },
+            "url": "https://instagram.com/antepinici_miks",
+            "icon": "instagram"
+          }
+        ],
+        "payments": [],
+        "columns": [
+          {
+            "id": "col_menu",
+            "title": {
+              "tr": "Sipariş"
+            },
+            "links": [
+              {
+                "name": {
+                  "tr": "Menü"
+                },
+                "url": "/tr/menu/"
+              },
+              {
+                "name": {
+                  "tr": "Ürünler"
+                },
+                "url": "/tr/urunler/"
+              },
+              {
+                "name": {
+                  "tr": "Sepet"
+                },
+                "url": "/tr/sepetim/"
+              },
+              {
+                "name": {
+                  "tr": "Siparişlerim"
+                },
+                "url": "/tr/siparislerim/"
+              },
+              {
+                "name": {
+                  "tr": "İletişim"
+                },
+                "url": "/tr/iletisim/"
+              }
+            ]
+          },
+          {
+            "id": "col_corp",
+            "title": {
+              "tr": "Kurumsal"
+            },
+            "links": [
+              {
+                "name": {
+                  "tr": "Hakkımızda"
+                },
+                "url": "/tr/hakkimizda/"
+              },
+              {
+                "name": {
+                  "tr": "Gizlilik Politikası"
+                },
+                "url": "/tr/gizlilik-politikasi/"
+              },
+              {
+                "name": {
+                  "tr": "Kişisel Veriler"
+                },
+                "url": "/tr/kisiselveriler/"
+              },
+              {
+                "name": {
+                  "tr": "Yasal Uyarı"
+                },
+                "url": "/tr/yasaluyari/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "name": "Kurumsal Metin",
+      "path": "page-desing-5",
+      "local": "body",
+      "id": "pxPage01",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#14100c",
+        "menu-active": "#3f5c48",
+        "textcolor": "#f4ede1",
+        "bgcolor": "#fbf7ef",
+        "border_radius": "16px",
+        "card_shadow": "0 10px 28px rgba(0,0,0,.38)",
+        "color": "#f4ede1",
+        "colortitle": "#9a6b2f",
+        "coloractive": "#9a6b2f",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Ürünler",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "Teklif Al",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Products",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Get Quote",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "المنتجات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "عرض سعر",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "version": "1.3.1",
+      "icon": "article",
+      "category": "modul"
+    },
+    {
+      "name": {
+        "tr": "Çerez Bandı",
+        "en": "Cookie Banner"
+      },
+      "desing": {
+        "bgcolor": "#1e1812",
+        "color": "#f4ede1",
+        "accent": "#c9a227",
+        "privacyUrl": "kisiselveriler",
+        "text": {
+          "tr": "KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında, size daha iyi hizmet verebilmek için sitemizde çerez kullanıyoruz. Sitemize devam ederek çerez kullanımını kabul etmiş olursunuz.",
+          "en": "In line with KVKK (Personal Data Protection Law), we use cookies on this site to provide you with a better service. By continuing to use the site, you accept the use of cookies."
+        },
+        "acceptText": {
+          "tr": "Kabul et",
+          "en": "Accept"
+        },
+        "moreText": {
+          "tr": "Kişisel Veriler",
+          "en": "Personal Data"
+        }
+      },
+      "category": "e-commerce",
+      "description": {
+        "tr": "Hafif çerez onay bandı (localStorage). Paket 597 P10 — Set B silinmez.",
+        "en": "Light cookie consent bar (localStorage). Package 597 P10 — Set B untouched."
+      },
+      "version": "2.0.0",
+      "icon": "cookie",
+      "id": "4ny1sf",
+      "path": "cerez-banner",
+      "local": "footer",
+      "data": [],
+      "index": 16
+    },
+    {
+      "name": "Favorilerim",
+      "description": "Beğenilen ürünleri kaydetme ve wishlist yönetim modülü. Kullanıcıların ilgilendiği ürünleri favorilere ekler, sepete hızlı ekleme yapar. 3 farklı e-ticaret projesinde müşterilerin istek listesini saklar. Favori ürün bildirim sistemi ve fiyat düşüşü takibi özellikleri vardır.",
+      "version": "1.0.0",
+      "icon": "favorite",
+      "category": "e-commerce",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "favoritecolor": "#dc3545",
+        "primarycolor": "#007bff",
+        "moduleTitle": {
+          "tr": "Favorilerim",
+          "en": "My Favorites"
+        },
+        "addToCart": {
+          "tr": "Sepete Ekle",
+          "en": "Add to Cart"
+        },
+        "removeFromFavorites": {
+          "tr": "Favorilerden Çıkar",
+          "en": "Remove from Favorites"
+        },
+        "noFavorites": {
+          "tr": "Henüz favori ürününüz bulunmuyor",
+          "en": "No favorite products yet"
+        },
+        "favoriUrunleriniziGormekIcin": {
+          "tr": "Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Favori urunlerinizi gormek icin giris yapmaniz gerekiyor."
+        },
+        "henuzFavoriUrununuzBulunmuyor": {
+          "tr": "Henüz favori ürününüz bulunmuyor.",
+          "en": "Henuz favori urununuz bulunmuyor."
+        },
+        "favorilerYuklenirkenBirHata": {
+          "tr": "Favoriler yüklenirken bir hata oluştu.",
+          "en": "Favoriler yuklenirken bir hata olustu."
+        },
+        "favoriUrunleriniziGormekIcin2": {
+          "tr": "Favori ürünlerinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Favori urunlerinizi gormek icin giris yapmaniz gerekiyor."
+        },
+        "favorilerYuklenirkenHata": {
+          "tr": "Favoriler yüklenirken hata:",
+          "en": "Favoriler yuklenirken hata:"
+        },
+        "buUrunuFavorilerdenCikarmak": {
+          "tr": "Bu ürünü favorilerden çıkarmak istediğinizden emin misiniz?",
+          "en": "Bu urunu favorilerden cikarmak istediginizden emin misiniz?"
+        },
+        "urunFavorilerdenCikarildi": {
+          "tr": "Ürün favorilerden çıkarıldı!",
+          "en": "urun favorilerden cikarildi!"
+        },
+        "favoriCikarilirkenHata": {
+          "tr": "Favori çıkarılırken hata:",
+          "en": "Favori cikarilirken hata:"
+        },
+        "islemSirasindaHataOlustu": {
+          "tr": "İşlem sırasında hata oluştu!",
+          "en": "islem sirasinda hata olustu!"
+        },
+        "urunBulunamadi": {
+          "tr": "Ürün bulunamadı!",
+          "en": "urun bulunamadi!"
+        },
+        "urunSepeteEklendi": {
+          "tr": "Ürün sepete eklendi!",
+          "en": "Product sepete eklendi!"
+        },
+        "sepeteEklenirkenHata": {
+          "tr": "Sepete eklenirken hata:",
+          "en": "Sepete eklenirken hata:"
+        },
+        "sepeteEklemeSirasindaHata": {
+          "tr": "Sepete ekleme sırasında hata oluştu!",
+          "en": "Sepete ekleme sirasinda hata olustu!"
+        },
+        "demoUrunEklemekIcin": {
+          "tr": "Demo ürün eklemek için giriş yapmanız gerekiyor.",
+          "en": "Demo urun eklemek icin giris yapmaniz gerekiyor."
+        },
+        "demoUrunFavorilereEklendi": {
+          "tr": "Demo ürün favorilere eklendi!",
+          "en": "Demo product favorilere eklendi!"
+        },
+        "demoUrunEklenirkenHata": {
+          "tr": "Demo ürün eklenirken hata:",
+          "en": "Demo product eklenirken hata:"
+        },
+        "demoUrunEklenirkenHata2": {
+          "tr": "Demo ürün eklenirken hata oluştu!",
+          "en": "Demo urun eklenirken hata olustu!"
+        },
+        "nikeAirMax270": {
+          "tr": "Nike Air Max 270",
+          "en": "Nike Air Max 270"
+        },
+        "sporAyakkabi": {
+          "tr": "Spor Ayakkabı",
+          "en": "Spor Ayakkabi"
+        },
+        "favoriteid": {
+          "tr": "${favoriteId}",
+          "en": "${favoriteId}"
+        },
+        "favoriteid2": {
+          "tr": "${favoriteId}",
+          "en": "${favoriteId}"
+        },
+        "favoriteproductid": {
+          "tr": "${favorite.productId}",
+          "en": "${favorite.productId}"
+        },
+        "keyframesSlideinFromTransform": {
+          "tr": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      ",
+          "en": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      "
+        }
+      },
+      "id": "4ntsof",
+      "path": "eticaret-favorilerim",
+      "local": "body",
+      "data": [],
+      "index": 17
+    },
+    {
+      "name": "Adreslerim",
+      "description": "Müşteri teslimat ve fatura adresleri yönetim modülü. Ev, iş, diğer adres türlerini kaydeder, düzenler ve varsayılan adres seçimi yapar. 3 farklı e-ticaret projesinde sipariş teslimatı için kayıtlı adresleri saklar. Hızlı ödeme akışı için adres seçimi ve düzenleme form popup'ı sunar.",
+      "version": "1.0.0",
+      "icon": "location_on",
+      "category": "e-commerce",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "primarycolor": "#007bff",
+        "successcolor": "#28a745",
+        "moduleTitle": {
+          "tr": "Adreslerim",
+          "en": "My Addresses"
+        },
+        "addButton": {
+          "tr": "Yeni Adres Ekle",
+          "en": "Add New Address"
+        },
+        "defaultBadge": {
+          "tr": "Varsayılan",
+          "en": "Default"
+        },
+        "addressType": {
+          "tr": "Ev",
+          "en": "Home"
+        },
+        "editButton": {
+          "tr": "Düzenle",
+          "en": "Edit"
+        },
+        "deleteButton": {
+          "tr": "Sil",
+          "en": "Delete"
+        },
+        "setDefaultButton": {
+          "tr": "Varsayılan Yap",
+          "en": "Set as Default"
+        },
+        "adresleriniziGormekIcinGiris": {
+          "tr": "Adreslerinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Adreslerinizi gormek icin giris yapmaniz gerekiyor."
+        },
+        "henuzAdresinizBulunmuyor": {
+          "tr": "Henüz adresiniz bulunmuyor.",
+          "en": "Not yet adresiniz not found."
+        },
+        "varsayilan": {
+          "tr": "Varsayılan",
+          "en": "Varsayilan"
+        },
+        "adreslerYuklenirkenBirHata": {
+          "tr": "Adresler yüklenirken bir hata oluştu.",
+          "en": "Adresler yuklenirken bir hata olustu."
+        },
+        "adresleriniziGormekIcinGiris2": {
+          "tr": "Adreslerinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Adreslerinizi gormek icin giris yapmaniz gerekiyor."
+        },
+        "styledisplaynone": {
+          "tr": "style=\"display:none\"",
+          "en": "style=\"display:none\""
+        },
+        "adreslerYuklenirkenHata": {
+          "tr": "Adresler yüklenirken hata:",
+          "en": "Adresler yuklenirken hata:"
+        },
+        "buAdresiSilmekIstediginizden": {
+          "tr": "Bu adresi silmek istediğinizden emin misiniz?",
+          "en": "Bu adresi silmek istediginizden emin misiniz?"
+        },
+        "adresBasariylaSilindi": {
+          "tr": "Adres başarıyla silindi!",
+          "en": "Adres basariyla silindi!"
+        },
+        "adresSilinirkenHata": {
+          "tr": "Adres silinirken hata:",
+          "en": "Adres silinirken hata:"
+        },
+        "adresSilinirkenBirHata": {
+          "tr": "Adres silinirken bir hata oluştu!",
+          "en": "Adres silinirken bir hata olustu!"
+        },
+        "varsayilanAdresGuncellendi": {
+          "tr": "Varsayılan adres güncellendi!",
+          "en": "Varsayilan adres guncellendi!"
+        },
+        "varsayilanAdresGuncellenirkenHata": {
+          "tr": "Varsayılan adres güncellenirken hata:",
+          "en": "Varsayilan adres guncellenirken hata:"
+        },
+        "islemSirasindaBirHata": {
+          "tr": "İşlem sırasında bir hata oluştu!",
+          "en": "islem sirasinda bir hata olustu!"
+        },
+        "demoAdresEklemekIcin": {
+          "tr": "Demo adres eklemek için giriş yapmanız gerekiyor.",
+          "en": "Demo adres eklemek icin giris yapmaniz gerekiyor."
+        },
+        "demoAdresEklendi": {
+          "tr": "Demo adres eklendi!",
+          "en": "Demo adres eklendi!"
+        },
+        "demoAdresEklenirkenHata": {
+          "tr": "Demo adres eklenirken hata:",
+          "en": "Demo adres eklenirken hata:"
+        },
+        "adresEklenirkenBirHata": {
+          "tr": "Adres eklenirken bir hata oluştu!",
+          "en": "Adres eklenirken bir hata olustu!"
+        },
+        "addressactionDelete": {
+          "tr": "address-action delete",
+          "en": "address-action delete"
+        },
+        "addressactionSetdefault": {
+          "tr": "address-action set-default",
+          "en": "address-action set-default"
+        },
+        "demoAdres": {
+          "tr": "Demo Adres",
+          "en": "Demo Adres"
+        },
+        "demoKullanici": {
+          "tr": "Demo Kullanıcı",
+          "en": "Demo Kullanici"
+        },
+        "demoMahalleDemoSokak": {
+          "tr": "Demo Mahalle, Demo Sokak No:1 Demo/İstanbul",
+          "en": "Demo Mahalle, Demo Sokak No:1 Demo/istanbul"
+        },
+        "jsText": {
+          "tr": "+90 555 000 0000",
+          "en": "+90 555 000 0000"
+        },
+        "demoAdresEkle": {
+          "tr": "Demo Adres Ekle",
+          "en": "Demo Adres Add"
+        },
+        "addressid": {
+          "tr": "${addressId}",
+          "en": "${addressId}"
+        },
+        "addressid2": {
+          "tr": "${addressId}",
+          "en": "${addressId}"
+        },
+        "addressid3": {
+          "tr": "${addressId}",
+          "en": "${addressId}"
+        },
+        "varsayilanYap": {
+          "tr": "Varsayılan Yap",
+          "en": "Varsayilan Yap"
+        },
+        "keyframesSlideinFromTransform": {
+          "tr": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      ",
+          "en": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      "
+        }
+      },
+      "id": "jbkomv",
+      "path": "eticaret-adresler",
+      "local": "body",
+      "data": [],
+      "index": 18
+    },
+    {
+      "name": "Kullanıcı Bilgilerim",
+      "description": "Müşteri profil bilgileri görüntüleme ve düzenleme modülü. Ad, soyad, email, telefon, doğum tarihi bilgilerini günceller. 3 farklı e-ticaret projesinde profil senkronizasyonu yapar. Şifre değiştirme, email doğrulama ve hesap silme özellikleri içerir.",
+      "version": "1.0.0",
+      "icon": "person",
+      "category": "e-commerce",
+      "desing": {
+        "color": "#333333",
+        "bgcolor": "#ffffff",
+        "bordercolor": "#e0e0e0",
+        "inputcolor": "#6c757d",
+        "primarycolor": "#007bff",
+        "moduleTitle": {
+          "tr": "Kullanıcı Bilgilerim",
+          "en": "My Profile"
+        },
+        "profileInfo": {
+          "tr": "Profil Bilgileri",
+          "en": "Profile Information"
+        },
+        "firstName": {
+          "tr": "Ad",
+          "en": "First Name"
+        },
+        "lastName": {
+          "tr": "Soyad",
+          "en": "Last Name"
+        },
+        "email": {
+          "tr": "E-posta",
+          "en": "Email"
+        },
+        "phone": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "updateButton": {
+          "tr": "Güncelle",
+          "en": "Update"
+        },
+        "changePassword": {
+          "tr": "Şifre Değiştir",
+          "en": "Change Password"
+        },
+        "deleteButton": {
+          "tr": "Sil",
+          "en": "Delete"
+        },
+        "turkce": {
+          "tr": "Türkçe",
+          "en": "Turkce"
+        },
+        "yukleniyor": {
+          "tr": "Yükleniyor...",
+          "en": "Loading..."
+        },
+        "uyelik": {
+          "tr": "Üyelik: -",
+          "en": "Memberlik: -"
+        },
+        "sonGiris": {
+          "tr": "Son Giriş: -",
+          "en": "Son Giris: -"
+        },
+        "profilBilgileri": {
+          "tr": "Profil Bilgileri",
+          "en": "Profil Bilgwithri"
+        },
+        "sifreDegistir": {
+          "tr": "Şifre Değiştir",
+          "en": "sifre Degistir"
+        },
+        "epostaAdresiDegistirilemez": {
+          "tr": "E-posta adresi değiştirilemez",
+          "en": "E-posta adresi degistirilemez"
+        },
+        "dogumTarihi": {
+          "tr": "Doğum Tarihi",
+          "en": "Dogum Tarihi"
+        },
+        "mevcutSifre": {
+          "tr": "Mevcut Şifre",
+          "en": "Mevcut sifre"
+        },
+        "yeniSifre": {
+          "tr": "Yeni Şifre",
+          "en": "Yeni sifre"
+        },
+        "enAz6Karakter": {
+          "tr": "En az 6 karakter olmalıdır",
+          "en": "En az 6 karakter olmalidir"
+        },
+        "yeniSifreTekrar": {
+          "tr": "Yeni Şifre Tekrar",
+          "en": "Yeni sifre Tekrar"
+        },
+        "dilTercihi": {
+          "tr": "Dil Tercihi",
+          "en": "Dil Tercihi"
+        },
+        "tehlikeliBolge": {
+          "tr": "Tehlikeli Bölge",
+          "en": "Tehlikeli Bolge"
+        },
+        "userState": {
+          "tr": "User state:",
+          "en": "User state:"
+        },
+        "userNotLoggedIn": {
+          "tr": "User not logged in or ID missing",
+          "en": "User not logged in or ID missing"
+        },
+        "profilBilgileriniziGormekIcin": {
+          "tr": "Profil bilgilerinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Profil bilgilerinizi gormek icin giris yapmaniz gerekiyor."
+        },
+        "profileavatarImg": {
+          "tr": ".profile-avatar img",
+          "en": ".profile-avatar img"
+        },
+        "inputnamenewsletter": {
+          "tr": "input[name=\"newsletter\"]",
+          "en": "input[name=\"newsletter\"]"
+        },
+        "inputnamesmsnotification": {
+          "tr": "input[name=\"smsNotification\"]",
+          "en": "input[name=\"smsNotification\"]"
+        },
+        "selectnamelanguage": {
+          "tr": "select[name=\"language\"]",
+          "en": "select[name=\"language\"]"
+        },
+        "userDataNotFound": {
+          "tr": "User data not found for ID:",
+          "en": "User data not found for ID:"
+        },
+        "kullaniciProfiliBulunamadiYeni": {
+          "tr": "Kullanıcı profili bulunamadı! Yeni profil oluşturuluyor...",
+          "en": "Kullanici profili bulunamadi! Yeni profil olusturuluyor..."
+        },
+        "profilOlusturulduSayfaYenileniyor": {
+          "tr": "Profil oluşturuldu! Sayfa yenileniyor...",
+          "en": "Profil olusturuldu! Sayfa yenileniyor..."
+        },
+        "profilYuklenirkenHata": {
+          "tr": "Profil yüklenirken hata:",
+          "en": "Profil yuklenirken hata:"
+        },
+        "profilBilgileriYuklenirkenHata": {
+          "tr": "Profil bilgileri yüklenirken hata oluştu!",
+          "en": "Profil bilgileri yuklenirken hata olustu!"
+        },
+        "profilBilgileriGuncellendi": {
+          "tr": "Profil bilgileri güncellendi!",
+          "en": "Profil bilgileri guncellendi!"
+        },
+        "profilGuncellenirkenHata": {
+          "tr": "Profil güncellenirken hata:",
+          "en": "Profil guncellenirken hata:"
+        },
+        "profilGuncellenirkenHataOlustu": {
+          "tr": "Profil güncellenirken hata oluştu!",
+          "en": "Profil guncellenirken hata olustu!"
+        },
+        "sifreBasariylaDegistirildi": {
+          "tr": "Şifre başarıyla değiştirildi!",
+          "en": "sifre basariyla degistirildi!"
+        },
+        "inputnamecurrentpassword": {
+          "tr": "input[name=\"currentPassword\"]",
+          "en": "input[name=\"currentPassword\"]"
+        },
+        "inputnamenewpassword": {
+          "tr": "input[name=\"newPassword\"]",
+          "en": "input[name=\"newPassword\"]"
+        },
+        "inputnameconfirmpassword": {
+          "tr": "input[name=\"confirmPassword\"]",
+          "en": "input[name=\"confirmPassword\"]"
+        },
+        "sifreDegistirilirkenHata": {
+          "tr": "Şifre değiştirilirken hata:",
+          "en": "sifre degistirilirken hata:"
+        },
+        "sifreDegistirilirkenHataOlustu": {
+          "tr": "Şifre değiştirilirken hata oluştu!",
+          "en": "sifre degistirilirken hata olustu!"
+        },
+        "mevcutSifreHatali": {
+          "tr": "Mevcut şifre hatalı!",
+          "en": "Mevcut sifre hatali!"
+        },
+        "yeniSifreCokZayif": {
+          "tr": "Yeni şifre çok zayıf!",
+          "en": "Yeni sifre cok zayif!"
+        },
+        "hesabiniziSilmekIstediginizdenEmin": {
+          "tr": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!",
+          "en": "Hesabinizi silmek istediginizden emin misiniz? Bu islem geri alinamaz!"
+        },
+        "sonKezSoruyoruzHesabinizi": {
+          "tr": "Son kez soruyoruz: Hesabınızı kalıcı olarak silmek istediğinizden emin misiniz?",
+          "en": "Son kez soruyoruz: Hesabinizi kalici olarak silmek istediginizden emin misiniz?"
+        },
+        "hesabinizBasariylaSilindiYonlendiriliyorsunuz": {
+          "tr": "Hesabınız başarıyla silindi. Yönlendiriliyorsunuz...",
+          "en": "Hesabiniz basariyla silindi. Yonlendiriliyorsunuz..."
+        },
+        "hesapSilinirkenHata": {
+          "tr": "Hesap silinirken hata:",
+          "en": "Hesap silinirken hata:"
+        },
+        "hesapSilinirkenHataOlustu": {
+          "tr": "Hesap silinirken hata oluştu!",
+          "en": "Hesap silinirken hata olustu!"
+        },
+        "profilBilgileriniziGormekIcin2": {
+          "tr": "Profil bilgilerinizi görmek için giriş yapmanız gerekiyor.",
+          "en": "Profil bilgilerinizi gormek icin giris yapmaniz gerekiyor."
+        },
+        "tumSifreAlanlariniDoldurun": {
+          "tr": "Tüm şifre alanlarını doldurun!",
+          "en": "Tum sifre alanlarini doldurun!"
+        },
+        "yeniSifrelerEslesmiyor": {
+          "tr": "Yeni şifreler eşleşmiyor!",
+          "en": "Yeni sifreler eslesmiyor!"
+        },
+        "yeniSifreEnAz": {
+          "tr": "Yeni şifre en az 6 karakter olmalıdır!",
+          "en": "Yeni sifre en az 6 karakter olmalidir!"
+        },
+        "profilFotografiDegistirmeOzelligi": {
+          "tr": "Profil fotoğrafı değiştirme özelliği geliştiriliyor...",
+          "en": "Profil fotografi degistirme ozelligi gelistiriliyor..."
+        },
+        "kullanici": {
+          "tr": "Kullanıcı",
+          "en": "Kullanici"
+        },
+        "jsText": {
+          "tr": "+90 555 000 0000",
+          "en": "+90 555 000 0000"
+        },
+        "inputnamenewsletter2": {
+          "tr": "input[name=\"newsletter\"]",
+          "en": "input[name=\"newsletter\"]"
+        },
+        "inputnamesmsnotification2": {
+          "tr": "input[name=\"smsNotification\"]",
+          "en": "input[name=\"smsNotification\"]"
+        },
+        "selectnamelanguage2": {
+          "tr": "select[name=\"language\"]",
+          "en": "select[name=\"language\"]"
+        },
+        "demoVerilerDoldurulduKaydet": {
+          "tr": "Demo veriler dolduruldu! Kaydet butonuna tıklayın.",
+          "en": "Demo veriler dolduruldu! Kaydet butonuna tiklayin."
+        },
+        "demoVeriDoldur": {
+          "tr": "Demo Veri Doldur",
+          "en": "Demo Veri Doldur"
+        },
+        "sifreyiDegistir": {
+          "tr": "Şifreyi Değiştir",
+          "en": "sifreyi Degistir"
+        },
+        "epostaBulteniAlmakIstiyorum": {
+          "tr": "E-posta bülteni almak istiyorum",
+          "en": "E-posta bulteni almak istiyorum"
+        },
+        "smsBildirimleriAlmakIstiyorum": {
+          "tr": "SMS bildirimleri almak istiyorum",
+          "en": "SMS bildirimleri almak istiyorum"
+        },
+        "tercihleriKaydet": {
+          "tr": "Tercihleri Kaydet",
+          "en": "Tercihleri Save"
+        },
+        "profilFotografi": {
+          "tr": "Profil Fotoğrafı",
+          "en": "Profile photo"
+        },
+        "hesabimi": {
+          "tr": "Hesabımı",
+          "en": "Hesabimi"
+        },
+        "keyframesSlideinFromTransform": {
+          "tr": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      ",
+          "en": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      "
+        },
+        "membershipLabel": {
+          "tr": "Üyelik:",
+          "en": "Member since:"
+        },
+        "lastLoginLabel": {
+          "tr": "Son Giriş:",
+          "en": "Last login:"
+        }
+      },
+      "id": "tk7p09",
+      "path": "eticaret-kullanicibilgileri",
+      "local": "body",
+      "data": [],
+      "index": 19
+    },
+    {
+      "name": "E-ticaret Hızlı Erişim",
+      "desing": {
+        "color": "#1d3557",
+        "bgcolor": "#f1f5f9",
+        "pillhover": "#2196f3",
+        "border_radius": "24px",
+        "max": "1200px"
+      },
+      "category": "footer",
+      "description": "E-ticaret sitelerinde sepet, siparişler, hesap ve iletişim sayfalarına yönlendiren yatay hızlı erişim şeridi. Material ikonlar, çok dilli başlıklar ve 768px altında kaydırılabilir yatay düzen sunar.",
+      "version": "1.0.0",
+      "icon": "bolt",
+      "data": [
+        {
+          "id": "cart",
+          "icon": "shopping_cart",
+          "href": "/sepetim",
+          "label": {
+            "tr": "Sepetim",
+            "en": "My cart"
+          }
+        },
+        {
+          "id": "orders",
+          "icon": "receipt_long",
+          "href": "/siparislerim",
+          "label": {
+            "tr": "Siparişlerim",
+            "en": "My orders"
+          }
+        },
+        {
+          "id": "account",
+          "icon": "person",
+          "href": "/hesabim",
+          "label": {
+            "tr": "Hesabım",
+            "en": "Account"
+          }
+        },
+        {
+          "id": "contact",
+          "icon": "support_agent",
+          "href": "/iletisim",
+          "label": {
+            "tr": "Destek",
+            "en": "Support"
+          }
+        }
+      ],
+      "id": "suvapk",
+      "path": "eticaret-hizli-erisim",
+      "local": "footer",
+      "index": 20
+    },
+    {
+      "name": "Sepet Widget",
+      "desing": {
+        "fabbg": "#DE6D26",
+        "fabcolor": "#ffffff",
+        "badgebg": "#e53935",
+        "badgecolor": "#ffffff",
+        "drawerbg": "#ffffff",
+        "drawercolor": "#1e293b",
+        "bordercolor": "#e2e8f0",
+        "pricecolor": "#DE6D26",
+        "removecolor": "#e53935",
+        "toastbg": "#1e293b",
+        "toastcolor": "#ffffff",
+        "currency": "₺",
+        "cartUrl": "sepetim",
+        "cartTitle": {
+          "tr": "Sepetim",
+          "en": "My Cart"
+        },
+        "closeText": {
+          "tr": "Kapat",
+          "en": "Close"
+        },
+        "emptyText": {
+          "tr": "Sepetiniz boş.",
+          "en": "Your cart is empty."
+        },
+        "totalText": {
+          "tr": "Toplam",
+          "en": "Total"
+        },
+        "goCartText": {
+          "tr": "Sepete Git",
+          "en": "Go to Cart"
+        },
+        "addedText": {
+          "tr": "Ürün sepete eklendi",
+          "en": "Product added to cart"
+        },
+        "removeText": {
+          "tr": "Sepetten çıkar",
+          "en": "Remove from cart"
+        },
+        "favAddedText": {
+          "tr": "Favorilere eklendi",
+          "en": "Added to favorites"
+        },
+        "favRemovedText": {
+          "tr": "Favorilerden çıkarıldı",
+          "en": "Removed from favorites"
+        },
+        "compareAddedText": {
+          "tr": "Karşılaştırma listesine eklendi",
+          "en": "Added to compare list"
+        },
+        "compareRemovedText": {
+          "tr": "Karşılaştırma listesinden çıkarıldı",
+          "en": "Removed from compare list"
+        },
+        "compareMaxText": {
+          "tr": "En fazla 4 ürün karşılaştırılabilir",
+          "en": "You can compare up to 4 products"
+        },
+        "quickViewTitle": {
+          "tr": "Hızlı Görünüm",
+          "en": "Quick View"
+        },
+        "quickViewDetailText": {
+          "tr": "Ürün Detayı",
+          "en": "Product Details"
+        },
+        "quickViewAddText": {
+          "tr": "Sepete Ekle",
+          "en": "Add to Cart"
+        },
+        "compareUrl": {
+          "tr": "karsilastirma",
+          "en": "compare"
+        }
+      },
+      "category": "e-commerce",
+      "description": "Site geneli localStorage sepet çekirdeği. Yüzen sepet butonu, adet rozeti, çekmece (drawer) sepet listesi ve window.mxCartAdd / window.addToCart global API'sini sağlar. Vitrin, detay ve liste modüllerinin sepete ekle butonları bu modülle çalışır hale gelir. Veri anahtarı: mxCartV1.",
+      "version": "1.0.0",
+      "icon": "shopping_cart",
+      "id": "kavq2u",
+      "path": "sepet-widget",
+      "local": "footer",
+      "data": [],
+      "index": 21
+    },
+    {
+      "index": 4,
+      "name": "Menu KAHVALTI",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "KAHVALTI",
+          "en": "KAHVALTI"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "kahvalti",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu ÇORBALAR",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu02",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "ÇORBALAR",
+          "en": "ÇORBALAR"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "corba",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu KÖFTE & YÖRESEL",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu03",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "KÖFTE & YÖRESEL",
+          "en": "KÖFTE & YÖRESEL"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "kofte",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu KEBAPLAR",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu04",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "KEBAPLAR",
+          "en": "KEBAPLAR"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "kebab",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu MEVSİM",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu05",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "MEVSİM",
+          "en": "MEVSİM"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "mevsim",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu FIRIN",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu06",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "FIRIN",
+          "en": "FIRIN"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "firin",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu PİDELER",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu07",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "PİDELER",
+          "en": "PİDELER"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "pide",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu TATLI",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu08",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "TATLI",
+          "en": "TATLI"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "tatli",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu İÇECEKLER",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu09",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "İÇECEKLER",
+          "en": "İÇECEKLER"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "icecek",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    },
+    {
+      "index": 4,
+      "name": "Menu MENÜ",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "id": "pxMnu10",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#14100c",
+        "accent": "#9a6b2f",
+        "titlecolor": "#f4ede1",
+        "textcolor": "#b9ad9a",
+        "badge": {
+          "tr": "01.10.2026 · KDV dahil",
+          "en": "Menu 01.10.2026"
+        },
+        "title": {
+          "tr": "MENÜ",
+          "en": "MENÜ"
+        },
+        "description": {
+          "tr": "Fiyatlar KDV dahildir.",
+          "en": "Prices include VAT."
+        },
+        "page": "menu",
+        "size": 5,
+        "category": "menu",
+        "aspect-ratio": "4 / 3",
+        "linkText": ""
+      },
+      "version": "1.0",
+      "icon": "",
+      "category": "modul"
+    }
+  ]
+}

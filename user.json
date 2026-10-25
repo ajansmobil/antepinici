@@ -1,0 +1,102 @@
+{
+  "name": "User",
+  "path": "user",
+  "modulestatus": {
+    "body": true,
+    "icon": true,
+    "detail": false
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "data": [
+    {
+      "id": "usr_siparis",
+      "name": {
+        "tr": "Siparislerim"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "siparislerim",
+      "icon": "receipt_long",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxSpl01",
+          "pxTak01"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "usr_favori",
+      "name": {
+        "tr": "Favorilerim"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "favorilerim",
+      "icon": "favorite",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "4ntsof"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "usr_adres",
+      "name": {
+        "tr": "Adreslerim"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "adreslerim",
+      "icon": "location_on",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jbkomv"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "usr_bilgi",
+      "name": {
+        "tr": "Hesabim"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "hesabim",
+      "icon": "person",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "tk7p09"
+        ],
+        "footer": []
+      },
+      "index": 5
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "usr_adres",
+  "name": {
+    "tr": "Adreslerim"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "adreslerim",
+  "icon": "location_on",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "jbkomv"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "title": {
+    "tr": "Adreslerim"
+  },
+  "date": "2026-10-23T10:28:37.684Z",
+  "update": "2026-10-23T14:45:11.381Z"
+}

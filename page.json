@@ -1,0 +1,118 @@
+{
+  "name": {
+    "tr": "Sayfalar"
+  },
+  "path": "page",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Ana Sayfa"
+      },
+      "status": "pause",
+      "category": "",
+      "id": "pgAna01",
+      "url": "",
+      "path": "ana-sayfa",
+      "pathnext": "",
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxHero01",
+          "pxVit001",
+          "pxHiz001"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Antepinici — Ana Sayfa"
+      }
+    },
+    {
+      "name": {
+        "tr": "Ürünler"
+      },
+      "status": "play",
+      "category": "",
+      "id": "pgMen01",
+      "url": "",
+      "path": "urunler",
+      "pathnext": "",
+      "icon": "restaurant_menu",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxKat01",
+          "pxVit001"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Antepinici — Ürünler"
+      }
+    },
+    {
+      "name": {
+        "tr": "Ürün Detay"
+      },
+      "status": "pause",
+      "category": "",
+      "id": "pgDet01",
+      "url": "",
+      "path": "urun-detay",
+      "pathnext": "",
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Antepinici — Ürün Detay"
+      }
+    },
+    {
+      "name": {
+        "tr": "Menü",
+        "en": "Menu"
+      },
+      "id": "pgMenu02",
+      "path": "menu",
+      "icon": "menu_book",
+      "category": "page",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxMnu01",
+          "pxMnu02",
+          "pxMnu03",
+          "pxMnu04",
+          "pxMnu05",
+          "pxMnu06",
+          "pxMnu07",
+          "pxMnu08",
+          "pxMnu09",
+          "pxMnu10"
+        ],
+        "footer": []
+      },
+      "index": 3
+    }
+  ],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}

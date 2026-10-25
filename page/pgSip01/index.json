@@ -1,0 +1,28 @@
+{
+  "id": "pgSip01",
+  "name": {
+    "tr": "Sipariş"
+  },
+  "description": {
+    "tr": "Antepinici — Sipariş"
+  },
+  "path": "siparis",
+  "pathnext": "",
+  "icon": "receipt_long",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxSip01"
+    ],
+    "footer": []
+  },
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sipariş | Antepinici"
+  },
+  "date": "2026-10-05T22:03:57.921Z",
+  "update": "2026-10-05T22:03:57.921Z"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ant7",
+  "name": {
+    "tr": "Kısabel (220gr)"
+  },
+  "description": {
+    "tr": "Domates-pul biber sosunda kıyma kebabı."
+  },
+  "keyword": {
+    "tr": "Kısabel (220gr), Kebaplar, Antepinici"
+  },
+  "path": "kisabel",
+  "icon": "restaurant",
+  "category": "kebab",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pxDet01"
+    ],
+    "footer": [],
+    "pxDet01": {
+      "image": "/img/ant-kisabel.webp",
+      "url": "/img/ant-kisabel.webp"
+    }
+  },
+  "index": 7,
+  "url": "/img/ant-kisabel.webp",
+  "text": {
+    "tr": "Domates-pul biber sosunda kıyma kebabı."
+  },
+  "title": {
+    "tr": "Kısabel (220gr)"
+  },
+  "price": 850,
+  "oldPrice": null,
+  "stock": 50,
+  "stock_status": "in_stock",
+  "image": "/img/ant-kisabel.webp",
+  "badges": [],
+  "specs": {
+    "Kategori": "kebab",
+    "Ortam": "Restoran / Paket Servis",
+    "Servis": "Isıya hassastır — hızlı teslimat",
+    "Fiyat": "850₺ (KDV dahil)"
+  },
+  "date": "2026-01-01",
+  "update": "2026-10-25",
+  "img": "ant-kisabel.webp"
+}
