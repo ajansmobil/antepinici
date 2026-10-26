@@ -1,13 +1,13 @@
 {
   "id": "ant14",
   "name": {
-    "tr": "Antep Lahmacun"
+    "tr": "Anteb Lahmacun"
   },
   "description": {
-    "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+    "tr": "İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
   },
   "keyword": {
-    "tr": "Antep Lahmacun, Fırın, Antepinici"
+    "tr": "Anteb Lahmacun, Fırın, Antebinici"
   },
   "path": "antep-lahmacun",
   "icon": "local_fire_department",
@@ -20,10 +20,10 @@
   },
   "index": 8,
   "text": {
-    "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+    "tr": "İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
   },
   "title": {
-    "tr": "Antep Lahmacun"
+    "tr": "Anteb Lahmacun"
   },
   "price": 160,
   "oldPrice": null,

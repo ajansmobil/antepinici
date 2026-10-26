@@ -5,7 +5,7 @@
     "en": "Menu"
   },
   "description": {
-    "tr": "Antepinici — Tam Menu (01.10.2026, KDV dahil)"
+    "tr": "Antebinici — Tam Menu (01.10.2026, KDV dahil)"
   },
   "path": "menu",
   "pathnext": "",
@@ -30,7 +30,7 @@
   },
   "text": {},
   "title": {
-    "tr": "Menü | Antepinici"
+    "tr": "Menü | Antebinici"
   },
   "date": "2026-10-25T04:04:14.783754Z",
   "update": "2026-10-25T04:04:14.783754Z",

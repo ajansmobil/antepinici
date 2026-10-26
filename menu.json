@@ -1,5 +1,5 @@
 {
-  "name": "Antepinici",
+  "name": "Antebinici",
   "data": [
     {
       "name": {
@@ -107,10 +107,10 @@
     },
     {
       "name": {
-        "tr": "Antep Lahmacun"
+        "tr": "Anteb Lahmacun"
       },
       "description": {
-        "tr": "İnce hamur, Antep kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+        "tr": "İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
       },
       "status": "play",
       "category": "firin",
@@ -123,7 +123,7 @@
         "tr": "Çiğ Köfte (10 adet)"
       },
       "description": {
-        "tr": "Antep usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
+        "tr": "Anteb usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
       },
       "status": "play",
       "category": "kofte",
@@ -136,7 +136,7 @@
         "tr": "Katmer"
       },
       "description": {
-        "tr": "Antep'in meşhur katmeri; simit katmer 650₺."
+        "tr": "Anteb'in meşhur katmeri; simit katmer 650₺."
       },
       "status": "play",
       "category": "tatli",
@@ -146,7 +146,7 @@
     },
     {
       "name": {
-        "tr": "Yöresel Serpme Antep Kahvaltısı"
+        "tr": "Yöresel Serpme Anteb Kahvaltısı"
       },
       "description": {
         "tr": "Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği. Kişi başı; en az 2 kişilik; 220₺ servis; 2 çay dahil."

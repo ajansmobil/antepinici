@@ -4,7 +4,7 @@
     "tr": "Siparişlerim"
   },
   "description": {
-    "tr": "Antepinici — Siparişlerim"
+    "tr": "Antebinici — Siparişlerim"
   },
   "path": "siparislerim",
   "pathnext": "",
@@ -22,7 +22,7 @@
   "url": "",
   "text": {},
   "title": {
-    "tr": "Siparişlerim | Antepinici"
+    "tr": "Siparişlerim | Antebinici"
   },
   "date": "2026-10-05T22:03:57.921Z",
   "update": "2026-10-05T22:03:57.921Z"
