@@ -12,7 +12,7 @@
         "tr": "Kebaplar"
       },
       "description": {
-        "tr": "Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Anteb'in kebabları."
+        "tr": "Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Antep'in kebabları."
       },
       "status": "play",
       "icon": "restaurant",
@@ -78,7 +78,7 @@
         "tr": "Fırın"
       },
       "description": {
-        "tr": "El açması Anteb lahmacun ve çıra tavaları."
+        "tr": "El açması Antep lahmacun ve çıra tavaları."
       },
       "status": "play",
       "icon": "local_fire_department",
@@ -100,7 +100,7 @@
         "tr": "Kahvaltı"
       },
       "description": {
-        "tr": "Yöresel serpme Anteb kahvaltısı ve serpme seçmeli menü."
+        "tr": "Yöresel serpme Antep kahvaltısı ve serpme seçmeli menü."
       },
       "status": "play",
       "icon": "breakfast",
@@ -122,7 +122,7 @@
         "tr": "Tatlilar"
       },
       "description": {
-        "tr": "Katmer, kadayıf, zerda ve Anteb tatlıları."
+        "tr": "Katmer, kadayıf, zerda ve Antep tatlıları."
       },
       "status": "play",
       "icon": "cake",

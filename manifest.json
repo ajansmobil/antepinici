@@ -1,7 +1,7 @@
 {
-  "name": "Antepinici",
-  "short_name": "Antepinici",
-  "description": "Gaziantep usulü kebap, lahmacun, künefe — Antepinici'den evlere.",
+  "name": "Antebinici",
+  "short_name": "Antebinici",
+  "description": "Gaziantep usulü kebap, lahmacun, künefe — Antebinici'den evlere.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
