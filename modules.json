@@ -2,7 +2,7 @@
   "data": [
     {
       "index": 0,
-      "name": "Antep Menu",
+      "name": "Anteb Menu",
       "path": "menu-eticaret-1",
       "local": "header",
       "id": "pxMenu01",
@@ -70,8 +70,8 @@
         },
         "image": "/img/hero-anatolia.webp",
         "alt": {
-          "tr": "Antepinici — Gaziantep kebabı",
-          "en": "Antepinici — Gaziantep kebab"
+          "tr": "Antebinici — Gaziantep kebabı",
+          "en": "Antebinici — Gaziantep kebab"
         },
         "stats": [
           {
@@ -964,10 +964,10 @@
           "en": "Please accept the privacy policy."
         },
         "web_name": {
-          "tr": "Antepinici"
+          "tr": "Antebinici"
         },
         "copyright": {
-          "tr": "Antepinici © 2026 — Tüm hakları saklıdır."
+          "tr": "Antebinici © 2026 — Tüm hakları saklıdır."
         }
       },
       "version": "1.0",

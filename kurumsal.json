@@ -6,7 +6,7 @@
         "tr": "İade ve Değişim"
       },
       "description": {
-        "tr": "Antepinici — İade ve değişim koşulları"
+        "tr": "Antebinici — İade ve değişim koşulları"
       },
       "path": "iade-ve-teslimat",
       "icon": "article",
@@ -202,7 +202,7 @@
         "footer": []
       },
       "description": {
-        "tr": "Antepinici — İletişim"
+        "tr": "Antebinici — İletişim"
       },
       "index": 11
     },
