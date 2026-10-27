@@ -1,0 +1,60 @@
+# Antebinici
+
+> Gaziantep usulü kebap, lahmacun, künefe — Antebinici'den evlere.
+
+Web: https://www.antebinici.com.tr/tr/
+
+## Sayfalar
+- [Antebinici](https://www.antebinici.com.tr/tr/): Gaziantep usulü kebap, lahmacun, künefe — Antebinici'den evlere.
+- [Ürünler](https://www.antebinici.com.tr/tr/urunler/): Antebinici — Ürünler
+- [Menü](https://www.antebinici.com.tr/tr/menu/)
+- [İade ve Değişim](https://www.antebinici.com.tr/tr/iade-ve-teslimat/): Antebinici — İade ve değişim koşulları
+- [Hakkımızda](https://www.antebinici.com.tr/tr/hakkimizda/)
+- [Misyon](https://www.antebinici.com.tr/tr/misyon/)
+- [Vizyon](https://www.antebinici.com.tr/tr/vizyon/)
+- [Kalite Politikamız](https://www.antebinici.com.tr/tr/kalitepolitikamiz/)
+- [Gizlilik Politikası](https://www.antebinici.com.tr/tr/gizlilik-politikasi/)
+- [Kişisel Veriler](https://www.antebinici.com.tr/tr/kisiselveriler/)
+- [Kullanıcı Hakları](https://www.antebinici.com.tr/tr/kullanicahaklari/)
+- [Yasal Uyarı](https://www.antebinici.com.tr/tr/yasaluyari/)
+- [Mesafeli Satış Sözleşmesi](https://www.antebinici.com.tr/tr/mesafeli-satis-sozlesmesi/)
+- [İletişim](https://www.antebinici.com.tr/tr/iletisim/): Antebinici — İletişim
+
+## Urunler
+- [Antebin Kebabı (220gr)](https://www.antebinici.com.tr/tr/antebinkebab/): SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır.
+- [Karışık Kebap – Et (360gr)](https://www.antebinici.com.tr/tr/kariskebap-et/): Sade kıyma, kuşbaşı, pirzola.
+- [Küşleme (200gr)](https://www.antebinici.com.tr/tr/kusleme/): Kuzu eti kendi yağıyla (küşleme), ızgarada.
+- [Kısabel (220gr)](https://www.antebinici.com.tr/tr/kisabel/): Domates-pul biber sosunda kıyma kebabı.
+- [Kuzu Madalyon (240gr)](https://www.antebinici.com.tr/tr/kuzumadalyon/): Kuzu omuzundan ince dilim, ızgara.
+- [Kilis Tavası (2 kişilik)](https://www.antebinici.com.tr/tr/kilistavasi/): 2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri.
+- [Kuşbaşılı (220gr)](https://www.antebinici.com.tr/tr/kusbasili/): Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis.
+- [Kilis Kebabı](https://www.antebinici.com.tr/tr/kiliskebab/): Yöresel kıyma kebabı, domates-yoğurt sosu.
+- [Anteb Lahmacun](https://www.antebinici.com.tr/tr/antep-lahmacun/): İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺.
+- [Çiğ Köfte (10 adet)](https://www.antebinici.com.tr/tr/cigkofta/): Anteb usulü acı-yumuşak çiğ köfte, sumak ve maydanoz.
+- [Katmer](https://www.antebinici.com.tr/tr/katmer/): Anteb'in meşhur katmeri; simit katmer 650₺.
+- [Yöresel Serpme Anteb Kahvaltısı](https://www.antebinici.com.tr/tr/serpme-kahvalti/): Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği.
+- [Alı Nazik (220gr)](https://www.antebinici.com.tr/tr/alinazik/): Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde.
+- [Patlıcan Kebabı (240gr)](https://www.antebinici.com.tr/tr/patlicankebab/): Kızarmış patlıcanlar üzerinde kıyma kebabı.
+- [Sade Kıyma (220gr)](https://www.antebinici.com.tr/tr/sadekiyma/): İnce kıyma kebabı, pilav ve mevsim sebzeleriyle.
+- [İçli Köfte (kızarma)](https://www.antebinici.com.tr/tr/iclikofte/): Bulgur hamuru içinde et içi, kızartılmış, sosuyla.
+- [Mercimekli Köfte](https://www.antebinici.com.tr/tr/mercimekkofte/): Kırmızı mercimek ve bulgur, taze maydanoz.
+- [Yuvalama](https://www.antebinici.com.tr/tr/yuvalama/): Nohut-ıspanak yuvası, sarımsaklı yoğurt.
+- [Ezogelin Çorbası](https://www.antebinici.com.tr/tr/ezogelin/): Mercimekli yöresel çorba, tereyağlı-kuru soğan ile.
+- [Fıstıklı Şekerli Börek](https://www.antebinici.com.tr/tr/fistikli-sekerli-borek/): Antep fıstıklı şekerli börek.
+- [Cevizli Kadayıf](https://www.antebinici.com.tr/tr/cevizli-kadayif/): Tel kadayıf, ceviz, şerbet.
+- [Ayran](https://www.antebinici.com.tr/tr/ayran/): Yayık ayranı.
+- [Şalgam (Gazlı)](https://www.antebinici.com.tr/tr/salgam/): Acılı-sade şalgam suyu.
+- [Türk Kahvesi](https://www.antebinici.com.tr/tr/turk-kahvesi/): Türk usulü kahve.
+
+## Kategoriler
+- [Kebaplar](https://www.antebinici.com.tr/tr/kebab/): Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Anteb'in kebabları.
+- [Köfte & Yöresel](https://www.antebinici.com.tr/tr/kofte/): Çiğ köfte, içli köfte, yuvalama ve yöresel közlemeler.
+- [Çorbalar](https://www.antebinici.com.tr/tr/corba/): Ezogelin, yayla, et paça ve yöresel çorbalar.
+- [Fırın](https://www.antebinici.com.tr/tr/firin/): El açması Anteb lahmacun ve çıra tavaları.
+- [Kahvaltı](https://www.antebinici.com.tr/tr/kahvalti/): Yöresel serpme Anteb kahvaltısı ve serpme seçmeli menü.
+- [Tatlilar](https://www.antebinici.com.tr/tr/tatli/): Katmer, kadayıf, zerda ve Anteb tatlıları.
+- [İçecekler](https://www.antebinici.com.tr/tr/icecek/): Yayık ayranı, şalgam ve Türk kahvesi.
+
+## Diger
+- [sitemap.xml](https://www.antebinici.com.tr/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://www.antebinici.com.tr/llms-full.txt): sayfa govdeleri duz metin

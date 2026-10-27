@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Kebaplar</title>
   <meta name="description" content="Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Anteb&#39;in kebabları." />
-  <meta name="keywords" content="antepinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
+  <meta name="keywords" content="antebinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://www.antebinici.com.tr/tr/kebab/" />
   <link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/kebab/" />
@@ -27,22 +27,23 @@
   <meta name="twitter:image" content="https://www.antebinici.com.tr/img/logo.png" />
 
   <meta name="theme-color" content="#c9a227" />
+  <meta name="mx-api-base" content="none" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css?v=rul9w" />
-  <link rel="stylesheet" href="/src/css.css?v=rul9w" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=rul9w" />
+  <link rel="stylesheet" href="/src/rubik.css?v=pym9w" />
+  <link rel="stylesheet" href="/src/css.css?v=pym9w" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=pym9w" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=rul9w" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=pym9w" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=rul9w" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=pym9w" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=rul9w" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=rul9w" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rul9w" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=pym9w" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=pym9w" />
+  <link rel="shortcut icon" href="/img/icon.png?v=pym9w" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -114,7 +115,7 @@
 }
 </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"><meta name="theme-color" content="#14100c">
-<link rel="stylesheet" href="style.css?v=rul9w">
+<link rel="stylesheet" href="style.css?v=pym9w">
 </head>
 
 <body>
@@ -152,7 +153,7 @@
   <div class="h0000-body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=sa6ev"
+        src="/img/logo.png?v=rd94v"
         alt="Antebinici Logo"
         class="h0000-body-logo"
         loading="lazy"
@@ -169,11 +170,19 @@
       <a href="/tr/sepetim/" class="h0000-login">
         <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
         <div>Sepetim</div>
+        <span class="h0000-mxbadge" data-mx-sepet-sayi data-mx-bos="1" aria-label="Sepetteki ürün adedi">0</span>
       </a>
-      <a href="/tr/login/" class="h0000-login">
+      <a href="/tr/login/" class="h0000-login" data-mx-uye-goster="misafir">
         <span class="material-symbols-outlined" aria-hidden="true">account_circle</span>
         <div>Üye Girişi</div>
       </a>
+      <a href="/tr/hesabim/" class="h0000-login" data-mx-uye-goster="giris" style="display: none">
+        <span class="material-symbols-outlined" aria-hidden="true">person</span>
+        <div>Hesabım</div>
+      </a>
+      <button type="button" class="h0000-login h0000-mxcikis" data-mx-uye-goster="giris" data-mx-cikis style="display: none" aria-label="Çıkış yap" title="Çıkış yap">
+        <span class="material-symbols-outlined" aria-hidden="true">logout</span>
+      </button>
     </div>
   </div>
   <div class="h0000-menu-body">
@@ -189,6 +198,31 @@
   </div>
 </div>
 
+<script>
+  
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    var bs = document.querySelectorAll("[data-mx-cikis]");
+    for (var i = 0; i < bs.length; i++) {
+      if (bs[i].getAttribute("data-mx-cikis-bagli")) {
+        continue;
+      }
+      bs[i].setAttribute("data-mx-cikis-bagli", "1");
+      bs[i].addEventListener("click", function (ev) {
+        ev.preventDefault();
+        S.uye.cikis().then(function () {
+          window.location.href = "/tr/";
+        });
+      });
+    }
+  });
+  window.addEventListener("load", function () {
+    if (!window.MxStore) {
+      var s = document.createElement("script");
+      s.src = "/src/mx-store.js";
+      document.head.appendChild(s);
+    }
+  });
+</script>
 </div>
   <div id="content">
 
@@ -1064,9 +1098,10 @@ function f0000EfootNewsletterSubmit(form) {
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=rul9w"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=rul9w"></script>
-  <script defer src="/src/cookie.js?v=rul9w"></script>
+  <script defer src="/src/mx-ui.js?v=pym9w"></script>
+  <script defer src="/src/mx-store.js?v=pym9w"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=pym9w"></script>
+  <script defer src="/src/cookie.js?v=pym9w"></script>
 
   <script>
     setTimeout(function() {

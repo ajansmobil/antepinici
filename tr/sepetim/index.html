@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Sepetim</title>
   <meta name="description" content="Gaziantep usulü kebap, lahmacun, künefe — Antebinici&#39;den evlere." />
-  <meta name="keywords" content="antepinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
+  <meta name="keywords" content="antebinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
   <meta name="robots" content="noindex, nofollow" />
   <link rel="canonical" href="https://www.antebinici.com.tr/tr/sepetim/" />
   <link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/sepetim/" />
@@ -27,22 +27,23 @@
   <meta name="twitter:image" content="https://www.antebinici.com.tr/img/logo.png" />
 
   <meta name="theme-color" content="#c9a227" />
+  <meta name="mx-api-base" content="none" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css?v=pbm3u" />
-  <link rel="stylesheet" href="/src/css.css?v=pbm3u" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=pbm3u" />
+  <link rel="stylesheet" href="/src/rubik.css?v=fai7n" />
+  <link rel="stylesheet" href="/src/css.css?v=fai7n" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=fai7n" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=pbm3u" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=fai7n" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=pbm3u" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=fai7n" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=pbm3u" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=pbm3u" />
-  <link rel="shortcut icon" href="/img/icon.png?v=pbm3u" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=fai7n" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=fai7n" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fai7n" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +116,7 @@
 }
 </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"><meta name="theme-color" content="#14100c">
-<link rel="stylesheet" href="style.css?v=pbm3u">
+<link rel="stylesheet" href="style.css?v=fai7n">
 </head>
 
 <body>
@@ -153,7 +154,7 @@
   <div class="h0000-body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=cz17v"
+        src="/img/logo.png?v=jk4hb"
         alt="Antebinici Logo"
         class="h0000-body-logo"
         loading="lazy"
@@ -170,11 +171,19 @@
       <a href="/tr/sepetim/" class="h0000-login">
         <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
         <div>Sepetim</div>
+        <span class="h0000-mxbadge" data-mx-sepet-sayi data-mx-bos="1" aria-label="Sepetteki ürün adedi">0</span>
       </a>
-      <a href="/tr/login/" class="h0000-login">
+      <a href="/tr/login/" class="h0000-login" data-mx-uye-goster="misafir">
         <span class="material-symbols-outlined" aria-hidden="true">account_circle</span>
         <div>Üye Girişi</div>
       </a>
+      <a href="/tr/hesabim/" class="h0000-login" data-mx-uye-goster="giris" style="display: none">
+        <span class="material-symbols-outlined" aria-hidden="true">person</span>
+        <div>Hesabım</div>
+      </a>
+      <button type="button" class="h0000-login h0000-mxcikis" data-mx-uye-goster="giris" data-mx-cikis style="display: none" aria-label="Çıkış yap" title="Çıkış yap">
+        <span class="material-symbols-outlined" aria-hidden="true">logout</span>
+      </button>
     </div>
   </div>
   <div class="h0000-menu-body">
@@ -190,6 +199,31 @@
   </div>
 </div>
 
+<script>
+  
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    var bs = document.querySelectorAll("[data-mx-cikis]");
+    for (var i = 0; i < bs.length; i++) {
+      if (bs[i].getAttribute("data-mx-cikis-bagli")) {
+        continue;
+      }
+      bs[i].setAttribute("data-mx-cikis-bagli", "1");
+      bs[i].addEventListener("click", function (ev) {
+        ev.preventDefault();
+        S.uye.cikis().then(function () {
+          window.location.href = "/tr/";
+        });
+      });
+    }
+  });
+  window.addEventListener("load", function () {
+    if (!window.MxStore) {
+      var s = document.createElement("script");
+      s.src = "/src/mx-store.js";
+      document.head.appendChild(s);
+    }
+  });
+</script>
 </div>
   <div id="content"><section class="b0000-cartpage">
   <div class="b0000-cartpage-container">
@@ -238,7 +272,15 @@
     var CP_KEY = "mxCartV1";
     var CP_CURRENCY = "TL";
 
+    
+    function cpStore() {
+      return window.MxStore && window.MxStore.__mxStore === true ? window.MxStore : null;
+    }
+
     function cpRead() {
+      if (cpStore()) {
+        return cpStore().sepet.oku();
+      }
       if (typeof window.mxCartList === "function") {
         return window.mxCartList();
       }
@@ -261,19 +303,47 @@
       }
     }
 
+    
+    function cpEsc(v) {
+      return String(v == null ? "" : v)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    
+    function cpUrl(v) {
+      var u = String(v == null ? "" : v).trim();
+      if (!u || /[\x00-\x1f\x7f]/.test(u)) {
+        return "";
+      }
+      if (/^https?:\/\//i.test(u) || (u.charAt(0) === "/" && u.charAt(1) !== "/" && u.charAt(1) !== "\\")) {
+        return u;
+      }
+      
+      return /^[a-z][a-z0-9+.\-]*:/i.test(u) || u.charAt(0) === "/" || u.charAt(0) === "\\" ? "" : u;
+    }
+
     function cpMoney(value) {
       var n = Number(value) || 0;
       return n.toFixed(2).replace(".", ",") + " " + CP_CURRENCY;
     }
 
     window.cpSetQty = function (id, qty) {
+      if (cpStore()) {
+        cpStore().sepet.adet(id, qty);
+        cpRender();
+        return;
+      }
       var list = cpRead();
       var next = [];
       for (var i = 0; i < list.length; i++) {
         if (list[i].id === id) {
           var q = Number(qty) || 0;
           if (q > 0) {
-            list[i].qty = q;
+            list[i].qty = Math.min(99, q);
             next.push(list[i]);
           }
         } else {
@@ -284,6 +354,11 @@
     };
 
     window.cpRemove = function (id) {
+      if (cpStore()) {
+        cpStore().sepet.sil(id);
+        cpRender();
+        return;
+      }
       var list = cpRead();
       var next = [];
       for (var i = 0; i < list.length; i++) {
@@ -304,7 +379,7 @@
           cancelText: "Vazgeç"
         }).then(function (ok) {
           if (ok) {
-            cpWrite([]);
+            cpClearNow();
             if (typeof window.mxToast === "function") {
               window.mxToast("Sepet temizlendi", false);
             }
@@ -312,8 +387,17 @@
         });
         return;
       }
-      cpWrite([]);
+      cpClearNow();
     };
+
+    function cpClearNow() {
+      if (cpStore()) {
+        cpStore().sepet.temizle();
+        cpRender();
+        return;
+      }
+      cpWrite([]);
+    }
 
     function cpRender() {
       var root = document.querySelector(".b0000-cartpage");
@@ -337,33 +421,52 @@
         var line = (Number(it.price) || 0) * qty;
         totalQty += qty;
         totalPrice += line;
-        var safeName = String(it.name || "").replace(/</g, "&lt;");
+        var safeName = cpEsc(it.name || "");
+        var safeId = cpEsc(it.id);
+        var img = cpUrl(it.img);
+        var url = cpUrl(it.url);
         out += '<div class="b0000-cartpage-item">';
-        if (it.img) {
-          out += '<img class="b0000-cartpage-item-img" src="' + it.img + '" alt="' + safeName + '" loading="lazy" />';
+        if (img) {
+          out += '<img class="b0000-cartpage-item-img" src="' + cpEsc(img) + '" alt="' + safeName + '" loading="lazy" />';
         } else {
           out += '<div class="b0000-cartpage-item-noimg"><span class="material-symbols-outlined" aria-hidden="true">image</span></div>';
         }
         out += '<div class="b0000-cartpage-item-info">';
-        if (it.url) {
-          out += '<a class="b0000-cartpage-item-name" href="' + it.url + '">' + safeName + "</a>";
+        if (url) {
+          out += '<a class="b0000-cartpage-item-name" href="' + cpEsc(url) + '">' + safeName + "</a>";
         } else {
           out += '<span class="b0000-cartpage-item-name">' + safeName + "</span>";
         }
         out += '<div class="b0000-cartpage-item-unit">' + cpMoney(it.price) + "</div>";
         out += "</div>";
         out += '<div class="b0000-cartpage-item-qty">';
-        out += "<button type=\"button\" onclick=\"cpSetQty('" + it.id + "', " + (qty - 1) + ')" aria-label="-">&minus;</button>';
+        out += '<button type="button" data-mx-cp-act="qty" data-mx-cp-id="' + safeId + '" data-mx-cp-qty="' + (qty - 1) + '" aria-label="-">&minus;</button>';
         out += "<span>" + qty + "</span>";
-        out += "<button type=\"button\" onclick=\"cpSetQty('" + it.id + "', " + (qty + 1) + ')" aria-label="+">+</button>';
+        out += '<button type="button" data-mx-cp-act="qty" data-mx-cp-id="' + safeId + '" data-mx-cp-qty="' + Math.min(99, qty + 1) + '" aria-label="+">+</button>';
         out += "</div>";
         out += '<div class="b0000-cartpage-item-line">' + cpMoney(line) + "</div>";
-        out += "<button type=\"button\" class=\"b0000-cartpage-item-remove\" onclick=\"cpRemove('" + it.id + "')\" aria-label=\"Sepetten çıkar\">";
+        out += '<button type="button" class="b0000-cartpage-item-remove" data-mx-cp-act="remove" data-mx-cp-id="' + safeId + '" aria-label="Sepetten çıkar">';
         out += '<span class="material-symbols-outlined" aria-hidden="true">delete</span>';
         out += "</button>";
         out += "</div>";
       }
       listEl.innerHTML = out;
+      
+      if (!listEl.getAttribute("data-mx-cp-bagli")) {
+        listEl.setAttribute("data-mx-cp-bagli", "1");
+        listEl.addEventListener("click", function (ev) {
+          var b = ev.target && ev.target.closest ? ev.target.closest("[data-mx-cp-act]") : null;
+          if (!b || !listEl.contains(b)) {
+            return;
+          }
+          var id = b.getAttribute("data-mx-cp-id");
+          if (b.getAttribute("data-mx-cp-act") === "remove") {
+            window.cpRemove(id);
+          } else {
+            window.cpSetQty(id, parseInt(b.getAttribute("data-mx-cp-qty"), 10) || 0);
+          }
+        });
+      }
 
       var countEl = document.querySelector("[data-mx-cp-count]");
       if (countEl) {
@@ -382,6 +485,21 @@
     });
 
     setTimeout(cpRender, 50);
+
+    
+    (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+      S.sepet.abone(function () {
+        cpRender();
+      });
+      cpRender();
+    });
+    window.addEventListener("load", function () {
+      if (!window.MxStore) {
+        var s = document.createElement("script");
+        s.src = "/src/mx-store.js";
+        document.head.appendChild(s);
+      }
+    });
   })();
 </script>
 </div>
@@ -1056,9 +1174,10 @@ function f0000EfootNewsletterSubmit(form) {
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=pbm3u"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=pbm3u"></script>
-  <script defer src="/src/cookie.js?v=pbm3u"></script>
+  <script defer src="/src/mx-ui.js?v=fai7n"></script>
+  <script defer src="/src/mx-store.js?v=fai7n"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=fai7n"></script>
+  <script defer src="/src/cookie.js?v=fai7n"></script>
 
   <script>
     setTimeout(function() {

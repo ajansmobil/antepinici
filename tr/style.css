@@ -272,6 +272,60 @@
     }
   }
 
+
+  
+  .h0000-mxbadge,
+  .h0000-login > .h0000-mxbadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    margin-left: 2px;
+    border-radius: 999px;
+    background: #e11d48;
+    color: #ffffff !important;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .h0000-mxbadge[data-mx-bos],
+  .h0000-login > .h0000-mxbadge[data-mx-bos] {
+    display: none !important;
+  }
+
+  .h0000-mxcikis {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    min-width: 44px;
+    min-height: 44px;
+    transition: opacity 0.2s ease;
+  }
+
+  .h0000-mxcikis:hover {
+    opacity: 0.75;
+  }
+
+  @media (max-width: 768px) {
+    .h0000-mxbadge {
+      min-width: 16px;
+      height: 16px;
+      font-size: 10px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .h0000-mxbadge,
+    .h0000-mxcikis {
+      transition: none !important;
+    }
+  }
+
   
   a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [role="button"]:focus-visible, [tabindex]:focus-visible {
     outline: 2px solid currentColor;
@@ -379,7 +433,7 @@
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
     cursor: pointer;
     border: none;
   }
@@ -456,7 +510,6 @@
     background: linear-gradient(135deg, rgba(201,162,39,.34), rgba(201,162,39,.06));
     top: -50px;
     right: -50px;
-    animation: float 6s ease-in-out infinite;
   }
 
   .b0000-hero-visual-shape-2 {
@@ -465,7 +518,6 @@
     background: linear-gradient(135deg, rgba(63,92,72,.6), rgba(63,92,72,.14));
     bottom: -30px;
     left: -30px;
-    animation: float 8s ease-in-out infinite reverse;
   }
 
   .b0000-hero-visual-shape-3 {
@@ -475,7 +527,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: float 7s ease-in-out infinite;
   }
 
   .b0000-hero-image {
@@ -486,10 +537,7 @@
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   }
 
-  @keyframes float {
-    0%, 100% { transform: translateY(0px) rotate(0deg); }
-    50% { transform: translateY(-20px) rotate(5deg); }
-  }
+  
 
   @media (max-width: 1024px) {
     .b0000-hero-container {
@@ -1167,6 +1215,12 @@
     animation: f0000EfootMarquee 38s linear infinite;
   }
 
+  
+  .f0000-efoot-features-wrap:hover .f0000-efoot-features-track,
+  .f0000-efoot-features-wrap:focus-within .f0000-efoot-features-track {
+    animation-play-state: paused;
+  }
+
   .f0000-efoot-feature {
     display: flex;
     align-items: center;
@@ -1222,12 +1276,13 @@
     text-decoration: none;
     font-size: 13px;
     line-height: 1.4;
-    transition: color 0.25s ease, padding-left 0.25s ease;
+    display: inline-block;
+    transition: color 0.25s ease, transform 0.25s ease;
   }
 
   .f0000-efoot-links a:hover {
     color: #9a6b2f;
-    padding-left: 4px;
+    transform: translateX(4px);
   }
 
   .f0000-efoot-newsletter-desc {
@@ -1510,24 +1565,36 @@
 
   .mx-et-cookie {
     position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 9999;
-    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+    display: flex; flex-direction: column; gap: 10px;
+    max-width: 760px; margin: 0 auto;
     padding: 14px 18px; border-radius: 12px; background: #1e1812; color: #f4ede1;
     box-shadow: 0 8px 28px rgba(0,0,0,0.18); box-sizing: border-box;
-    animation: mxEtCookieIn 0.35s ease;
+    animation: mxEtCookieIn 0.3s ease-out;
   }
-  .mx-et-cookie[hidden] { display: none !important; }
-  .mx-et-cookie-text { margin: 0; flex: 1 1 220px; font-size: 14px; }
-  .mx-et-cookie-actions { display: flex; gap: 10px; align-items: center; }
+  .mx-et-cookie[hidden], .mx-et-cookie-prefs[hidden], .mx-et-cookie-btn[hidden], .mx-et-cookie-reopen[hidden] { display: none !important; }
+  .mx-et-cookie-title { margin: 0; font-size: 15px; font-weight: 700; }
+  .mx-et-cookie-text { margin: 0; font-size: 14px; line-height: 1.5; }
   .mx-et-cookie-more { color: inherit; text-decoration: underline; cursor: pointer; }
-  .mx-et-cookie-accept {
-    min-height: 42px; padding: 8px 16px; border: none; border-radius: 10px;
-    background: #c9a227; color: #fff; font-weight: 700; cursor: pointer;
+  .mx-et-cookie-prefs { display: flex; flex-direction: column; gap: 8px; }
+  .mx-et-cookie-cat { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; line-height: 1.45; cursor: pointer; }
+  .mx-et-cookie-cat input { width: 18px; height: 18px; margin: 2px 0 0; flex: 0 0 auto; accent-color: #c9a227; }
+  .mx-et-cookie-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  
+  .mx-et-cookie-btn {
+    flex: 1 1 140px; min-height: 44px; padding: 8px 16px; border: none; border-radius: 10px;
+    background: #c9a227; color: #ffffff; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer;
   }
-  .mx-et-cookie-accept:focus-visible, .mx-et-cookie-more:focus-visible {
+  .mx-et-cookie-reopen {
+    position: fixed; left: 16px; bottom: 16px; z-index: 9998;
+    width: 44px; height: 44px; border: none; border-radius: 50%; padding: 0;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: #1e1812; color: #f4ede1; box-shadow: 0 4px 14px rgba(0,0,0,0.2); cursor: pointer;
+  }
+  .mx-et-cookie-btn:focus-visible, .mx-et-cookie-more:focus-visible, .mx-et-cookie-reopen:focus-visible, .mx-et-cookie-cat input:focus-visible {
     outline: 3px solid var(--mx-et-green-fresh, #4A7C59); outline-offset: 2px;
   }
   @keyframes mxEtCookieIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
-  @media (max-width: 768px) { .mx-et-cookie { left: 10px; right: 10px; bottom: 10px; } }
+  @media (max-width: 768px) { .mx-et-cookie { left: 10px; right: 10px; bottom: 10px; } .mx-et-cookie-reopen { left: 10px; bottom: 10px; } }
   @media (prefers-reduced-motion: reduce) { .mx-et-cookie { animation: none !important; } }
 
 

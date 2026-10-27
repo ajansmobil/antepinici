@@ -69,32 +69,29 @@
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  scroll-behavior: smooth;
 }
 
-img,
-video,
-svg,
-picture {
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+:where(img:not([height]), video:not([height])) {
   max-width: 100%;
   height: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-  overflow-wrap: anywhere;
+:where(svg, picture) {
+  max-width: 100%;
 }
 
-p,
-li,
-dd,
-figcaption {
-  overflow-wrap: anywhere;
+:where(h1, h2, h3) {
+  text-wrap: balance;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p, li, dd, figcaption) {
+  overflow-wrap: break-word;
 }
 
 

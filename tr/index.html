@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Antebinici</title>
   <meta name="description" content="Gaziantep usulü kebap, lahmacun, künefe — Antebinici&#39;den evlere." />
-  <meta name="keywords" content="antepinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
+  <meta name="keywords" content="antebinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <link rel="canonical" href="https://www.antebinici.com.tr/tr/" />
   <link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/" />
@@ -27,22 +27,23 @@
   <meta name="twitter:image" content="https://www.antebinici.com.tr/img/logo.png" />
 
   <meta name="theme-color" content="#c9a227" />
+  <meta name="mx-api-base" content="none" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css?v=b8co3" />
-  <link rel="stylesheet" href="/src/css.css?v=b8co3" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=b8co3" />
+  <link rel="stylesheet" href="/src/rubik.css?v=pgwsu" />
+  <link rel="stylesheet" href="/src/css.css?v=pgwsu" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=pgwsu" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=b8co3" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=pgwsu" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=b8co3" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=pgwsu" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=b8co3" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=b8co3" />
-  <link rel="shortcut icon" href="/img/icon.png?v=b8co3" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=pgwsu" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=pgwsu" />
+  <link rel="shortcut icon" href="/img/icon.png?v=pgwsu" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -93,7 +94,7 @@
 }
 </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"><meta name="theme-color" content="#14100c">
-<link rel="stylesheet" href="style.css?v=b8co3">
+<link rel="stylesheet" href="style.css?v=pgwsu">
 </head>
 
 <body>
@@ -131,7 +132,7 @@
   <div class="h0000-body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=h3nmp"
+        src="/img/logo.png?v=gj0qg"
         alt="Antebinici Logo"
         class="h0000-body-logo"
         loading="lazy"
@@ -148,11 +149,19 @@
       <a href="/tr/sepetim/" class="h0000-login">
         <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
         <div>Sepetim</div>
+        <span class="h0000-mxbadge" data-mx-sepet-sayi data-mx-bos="1" aria-label="Sepetteki ürün adedi">0</span>
       </a>
-      <a href="/tr/login/" class="h0000-login">
+      <a href="/tr/login/" class="h0000-login" data-mx-uye-goster="misafir">
         <span class="material-symbols-outlined" aria-hidden="true">account_circle</span>
         <div>Üye Girişi</div>
       </a>
+      <a href="/tr/hesabim/" class="h0000-login" data-mx-uye-goster="giris" style="display: none">
+        <span class="material-symbols-outlined" aria-hidden="true">person</span>
+        <div>Hesabım</div>
+      </a>
+      <button type="button" class="h0000-login h0000-mxcikis" data-mx-uye-goster="giris" data-mx-cikis style="display: none" aria-label="Çıkış yap" title="Çıkış yap">
+        <span class="material-symbols-outlined" aria-hidden="true">logout</span>
+      </button>
     </div>
   </div>
   <div class="h0000-menu-body">
@@ -168,6 +177,31 @@
   </div>
 </div>
 
+<script>
+  
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    var bs = document.querySelectorAll("[data-mx-cikis]");
+    for (var i = 0; i < bs.length; i++) {
+      if (bs[i].getAttribute("data-mx-cikis-bagli")) {
+        continue;
+      }
+      bs[i].setAttribute("data-mx-cikis-bagli", "1");
+      bs[i].addEventListener("click", function (ev) {
+        ev.preventDefault();
+        S.uye.cikis().then(function () {
+          window.location.href = "/tr/";
+        });
+      });
+    }
+  });
+  window.addEventListener("load", function () {
+    if (!window.MxStore) {
+      var s = document.createElement("script");
+      s.src = "/src/mx-store.js";
+      document.head.appendChild(s);
+    }
+  });
+</script>
 </div>
   <div id="content"><section class="b0000-hero">
   <div class="b0000-hero-bg"></div>
@@ -348,13 +382,138 @@ function f0000EfootNewsletterSubmit(form) {
   return false;
 }
 </script>
-<div class="mx-et-cookie" id="mxEtCookie" data-mx-cookie hidden role="dialog" aria-live="polite" aria-label="KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında, size daha iyi hizmet verebilmek için sitemizde çerez kullanıyoruz. Sitemize devam ederek çerez kullanımını kabul etmiş olursunuz.">
-  <p class="mx-et-cookie-text">KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında, size daha iyi hizmet verebilmek için sitemizde çerez kullanıyoruz. Sitemize devam ederek çerez kullanımını kabul etmiş olursunuz.</p>
+<div class="mx-et-cookie" id="mxEtCookie" data-mx-cookie data-surum="1" hidden role="dialog" aria-live="polite" aria-labelledby="mxEtCookieTitle">
+  <p class="mx-et-cookie-title" id="mxEtCookieTitle">Çerez tercihleri</p>
+  <p class="mx-et-cookie-text">Sitenin çalışması için zorunlu çerezleri kullanıyoruz. İşlevsel, analitik ve pazarlama çerezlerini yalnız izin verirseniz kullanırız; seçiminizi dilediğiniz zaman değiştirebilirsiniz. <a class="mx-et-cookie-more" href="/tr/kisiselveriler/">Kişisel Veriler</a></p>
+  <div class="mx-et-cookie-prefs" id="mxEtCookiePrefs" hidden>
+    <label class="mx-et-cookie-cat"><input type="checkbox" checked disabled> <span><strong>Zorunlu</strong> Sepet, oturum ve güvenlik için gerekir; kapatılamaz.</span></label>
+    <label class="mx-et-cookie-cat"><input type="checkbox" data-mx-cerez-kat="islevsel"> <span><strong>İşlevsel</strong> Dil ve görünüm gibi tercihlerinizi hatırlar.</span></label>
+    <label class="mx-et-cookie-cat"><input type="checkbox" data-mx-cerez-kat="analitik"> <span><strong>Analitik</strong> Sitenin nasıl kullanıldığını ölçer (ör. Google Analytics, Clarity).</span></label>
+    <label class="mx-et-cookie-cat"><input type="checkbox" data-mx-cerez-kat="pazarlama"> <span><strong>Pazarlama</strong> İlgi alanınıza göre reklam gösterir (ör. Meta Pixel).</span></label>
+  </div>
   <div class="mx-et-cookie-actions">
-    <a class="mx-et-cookie-more" href="/tr/kisiselveriler/">Kişisel Veriler</a>
-    <button type="button" class="mx-et-cookie-accept" data-mx-cookie-accept>Kabul et</button>
+    <button type="button" class="mx-et-cookie-btn" data-mx-cookie-reject>Reddet</button>
+    <button type="button" class="mx-et-cookie-btn" data-mx-cookie-prefs aria-controls="mxEtCookiePrefs" aria-expanded="false">Tercihler</button>
+    <button type="button" class="mx-et-cookie-btn" data-mx-cookie-save hidden>Seçimleri kaydet</button>
+    <button type="button" class="mx-et-cookie-btn" data-mx-cookie-accept>Tümünü kabul et</button>
   </div>
 </div>
+<button type="button" class="mx-et-cookie-reopen" id="mxEtCookieReopen" data-mx-cerez-tercih hidden aria-label="Tercihler" title="Tercihler">
+  <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5zm-3.5 8a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm2 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+</button>
+<script>
+
+(function () {
+  
+  var KEY = "mxCerezRizaV1";
+  var ESKI = "mxCookieV1";
+  var GECERLILIK_MS = 365 * 24 * 60 * 60 * 1000;
+  var KATLAR = ["islevsel", "analitik", "pazarlama"];
+
+  function kutu() { return document.getElementById("mxEtCookie"); }
+  function surum() {
+    var el = kutu();
+    var v = el ? parseInt(el.getAttribute("data-surum"), 10) : 0;
+    return isNaN(v) ? 0 : v;
+  }
+  function oku() {
+    try {
+      var ham = localStorage.getItem(KEY);
+      if (!ham) return null;
+      var r = JSON.parse(ham);
+      if (!r || typeof r !== "object") return null;
+      if ((parseInt(r.surum, 10) || 0) !== surum()) return null;
+      var t = Date.parse(r.zaman);
+      if (isNaN(t) || Date.now() - t > GECERLILIK_MS) return null;
+      return r;
+    } catch (e) { return null; }
+  }
+  function yay(r) {
+    try { window.dispatchEvent(new CustomEvent("mx:cerez-riza", { detail: r })); } catch (e) {}
+  }
+  function kaydet(secim) {
+    var r = { surum: surum(), zaman: new Date().toISOString(), zorunlu: true };
+    var hepsi = true;
+    for (var i = 0; i < KATLAR.length; i++) {
+      r[KATLAR[i]] = secim[KATLAR[i]] === true;
+      if (!r[KATLAR[i]]) hepsi = false;
+    }
+    try {
+      localStorage.setItem(KEY, JSON.stringify(r));
+      if (hepsi) localStorage.setItem(ESKI, "1"); else localStorage.removeItem(ESKI);
+    } catch (e2) {}
+    gizle();
+    yay(r);
+  }
+  function hepsi(deger) {
+    var s = {};
+    for (var i = 0; i < KATLAR.length; i++) s[KATLAR[i]] = deger;
+    return s;
+  }
+  function kutulardan() {
+    var s = {};
+    var el = kutu();
+    for (var i = 0; i < KATLAR.length; i++) {
+      var cb = el ? el.querySelector('[data-mx-cerez-kat="' + KATLAR[i] + '"]') : null;
+      s[KATLAR[i]] = !!(cb && cb.checked);
+    }
+    return s;
+  }
+  function tercihler(ac) {
+    var el = kutu();
+    if (!el) return;
+    var p = document.getElementById("mxEtCookiePrefs");
+    var kaydetBtn = el.querySelector("[data-mx-cookie-save]");
+    var prefsBtn = el.querySelector("[data-mx-cookie-prefs]");
+    if (p) { if (ac) p.removeAttribute("hidden"); else p.setAttribute("hidden", ""); }
+    if (kaydetBtn) { if (ac) kaydetBtn.removeAttribute("hidden"); else kaydetBtn.setAttribute("hidden", ""); }
+    if (prefsBtn) { prefsBtn.setAttribute("aria-expanded", ac ? "true" : "false"); if (ac) prefsBtn.setAttribute("hidden", ""); else prefsBtn.removeAttribute("hidden"); }
+  }
+  function goster(tercihAcik) {
+    var el = kutu();
+    if (!el) return;
+    
+    var r = oku() || {};
+    for (var i = 0; i < KATLAR.length; i++) {
+      var cb = el.querySelector('[data-mx-cerez-kat="' + KATLAR[i] + '"]');
+      if (cb) cb.checked = r[KATLAR[i]] === true;
+    }
+    tercihler(!!tercihAcik);
+    el.removeAttribute("hidden");
+    var yeniden = document.getElementById("mxEtCookieReopen");
+    if (yeniden) yeniden.setAttribute("hidden", "");
+  }
+  function gizle() {
+    var el = kutu();
+    if (el) el.setAttribute("hidden", "");
+    var yeniden = document.getElementById("mxEtCookieReopen");
+    if (yeniden) yeniden.removeAttribute("hidden");
+  }
+  function init() {
+    var el = kutu();
+    if (!el) return;
+    var bagla = function (sec, fn) {
+      var b = el.querySelector(sec);
+      if (b) b.onclick = fn;
+    };
+    bagla("[data-mx-cookie-accept]", function () { kaydet(hepsi(true)); });
+    bagla("[data-mx-cookie-reject]", function () { kaydet(hepsi(false)); });
+    bagla("[data-mx-cookie-prefs]", function () { tercihler(true); });
+    bagla("[data-mx-cookie-save]", function () { kaydet(kutulardan()); });
+    
+    document.addEventListener("click", function (e) {
+      var t = e && e.target;
+      var hedef = t && t.closest ? t.closest("[data-mx-cerez-tercih]") : null;
+      if (hedef) { if (e.preventDefault) e.preventDefault(); goster(true); }
+    });
+    window.mxCerezTercihAc = function () { goster(true); };
+    var r = oku();
+    if (r) { gizle(); yay(r); return; }
+    goster(false);
+  }
+  setTimeout(init, 30);
+})();
+</script>
 
 <div class="f0002-quickroot"><nav class="f0002-quickwrap" aria-label="Hizli erisim"><div class="f0002-quickinner"><a class="f0002-quickpill" href="/tr/sepetim/" title="Sepetim"><span class="material-symbols-outlined f0002-quickicon">shopping_cart</span><span class="f0002-quicklabel">Sepetim</span></a><a class="f0002-quickpill" href="/tr/siparislerim/" title="Siparişlerim"><span class="material-symbols-outlined f0002-quickicon">receipt_long</span><span class="f0002-quicklabel">Siparişlerim</span></a><a class="f0002-quickpill" href="/tr/hesabim/" title="Hesabım"><span class="material-symbols-outlined f0002-quickicon">person</span><span class="f0002-quicklabel">Hesabım</span></a><a class="f0002-quickpill" href="/tr/iletisim/" title="Destek"><span class="material-symbols-outlined f0002-quickicon">support_agent</span><span class="f0002-quicklabel">Destek</span></a></div></nav></div>
 
@@ -951,9 +1110,10 @@ function f0000EfootNewsletterSubmit(form) {
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=b8co3"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=b8co3"></script>
-  <script defer src="/src/cookie.js?v=b8co3"></script>
+  <script defer src="/src/mx-ui.js?v=pgwsu"></script>
+  <script defer src="/src/mx-store.js?v=pgwsu"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=pgwsu"></script>
+  <script defer src="/src/cookie.js?v=pgwsu"></script>
 
   <script>
     setTimeout(function() {

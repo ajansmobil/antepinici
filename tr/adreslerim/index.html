@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Adreslerim</title>
   <meta name="description" content="Gaziantep usulü kebap, lahmacun, künefe — Antebinici&#39;den evlere." />
-  <meta name="keywords" content="antepinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
+  <meta name="keywords" content="antebinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
   <meta name="robots" content="noindex, nofollow" />
   <link rel="canonical" href="https://www.antebinici.com.tr/tr/adreslerim/" />
   <link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/adreslerim/" />
@@ -27,22 +27,23 @@
   <meta name="twitter:image" content="https://www.antebinici.com.tr/img/logo.png" />
 
   <meta name="theme-color" content="#c9a227" />
+  <meta name="mx-api-base" content="none" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css?v=hrbn2" />
-  <link rel="stylesheet" href="/src/css.css?v=hrbn2" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=hrbn2" />
+  <link rel="stylesheet" href="/src/rubik.css?v=e5il6" />
+  <link rel="stylesheet" href="/src/css.css?v=e5il6" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=e5il6" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=hrbn2" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=e5il6" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=hrbn2" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=e5il6" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=hrbn2" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=hrbn2" />
-  <link rel="shortcut icon" href="/img/icon.png?v=hrbn2" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=e5il6" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=e5il6" />
+  <link rel="shortcut icon" href="/img/icon.png?v=e5il6" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +116,7 @@
 }
 </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"><meta name="theme-color" content="#14100c">
-<link rel="stylesheet" href="style.css?v=hrbn2">
+<link rel="stylesheet" href="style.css?v=e5il6">
 </head>
 
 <body>
@@ -153,7 +154,7 @@
   <div class="h0000-body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=txeb6"
+        src="/img/logo.png?v=zx998"
         alt="Antebinici Logo"
         class="h0000-body-logo"
         loading="lazy"
@@ -170,11 +171,19 @@
       <a href="/tr/sepetim/" class="h0000-login">
         <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
         <div>Sepetim</div>
+        <span class="h0000-mxbadge" data-mx-sepet-sayi data-mx-bos="1" aria-label="Sepetteki ürün adedi">0</span>
       </a>
-      <a href="/tr/login/" class="h0000-login">
+      <a href="/tr/login/" class="h0000-login" data-mx-uye-goster="misafir">
         <span class="material-symbols-outlined" aria-hidden="true">account_circle</span>
         <div>Üye Girişi</div>
       </a>
+      <a href="/tr/hesabim/" class="h0000-login" data-mx-uye-goster="giris" style="display: none">
+        <span class="material-symbols-outlined" aria-hidden="true">person</span>
+        <div>Hesabım</div>
+      </a>
+      <button type="button" class="h0000-login h0000-mxcikis" data-mx-uye-goster="giris" data-mx-cikis style="display: none" aria-label="Çıkış yap" title="Çıkış yap">
+        <span class="material-symbols-outlined" aria-hidden="true">logout</span>
+      </button>
     </div>
   </div>
   <div class="h0000-menu-body">
@@ -190,6 +199,31 @@
   </div>
 </div>
 
+<script>
+  
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    var bs = document.querySelectorAll("[data-mx-cikis]");
+    for (var i = 0; i < bs.length; i++) {
+      if (bs[i].getAttribute("data-mx-cikis-bagli")) {
+        continue;
+      }
+      bs[i].setAttribute("data-mx-cikis-bagli", "1");
+      bs[i].addEventListener("click", function (ev) {
+        ev.preventDefault();
+        S.uye.cikis().then(function () {
+          window.location.href = "/tr/";
+        });
+      });
+    }
+  });
+  window.addEventListener("load", function () {
+    if (!window.MxStore) {
+      var s = document.createElement("script");
+      s.src = "/src/mx-store.js";
+      document.head.appendChild(s);
+    }
+  });
+</script>
 </div>
   <div id="content"><div class="b0000">
   <div class="b0000Title">
@@ -208,6 +242,23 @@
           Demo Adres Ekle
         </button>
       </div>
+      <form class="b0000AdrForm" id="adrForm-jbkomv" data-mx-adr-form hidden novalidate>
+        <input type="hidden" name="id" />
+        <div class="b0000AdrGrid">
+          <div class="mx-field"><label class="mx-label" for="adr-baslik-jbkomv">Adres başlığı</label><input class="mx-input" id="adr-baslik-jbkomv" name="baslik" maxlength="60" /></div>
+          <div class="mx-field"><label class="mx-label" for="adr-adsoyad-jbkomv">Ad soyad</label><input class="mx-input" id="adr-adsoyad-jbkomv" name="ad_soyad" maxlength="120" autocomplete="name" /></div>
+          <div class="mx-field"><label class="mx-label" for="adr-tel-jbkomv">Telefon</label><input class="mx-input" id="adr-tel-jbkomv" name="telefon" type="tel" maxlength="32" autocomplete="tel" /></div>
+          <div class="mx-field"><label class="mx-label" for="adr-il-jbkomv">İl</label><input class="mx-input" id="adr-il-jbkomv" name="il" maxlength="60" /></div>
+          <div class="mx-field"><label class="mx-label" for="adr-ilce-jbkomv">İlçe</label><input class="mx-input" id="adr-ilce-jbkomv" name="ilce" maxlength="60" /></div>
+          <div class="mx-field"><label class="mx-label" for="adr-pk-jbkomv">Posta kodu</label><input class="mx-input" id="adr-pk-jbkomv" name="posta_kodu" maxlength="16" inputmode="numeric" autocomplete="postal-code" /></div>
+          <div class="mx-field b0000AdrWide"><label class="mx-label" for="adr-adres-jbkomv">Açık adres</label><textarea class="mx-textarea" id="adr-adres-jbkomv" name="adres" rows="3" maxlength="500" required></textarea></div>
+          <label class="mx-checkbox b0000AdrWide"><input type="checkbox" name="varsayilan" /> <span>Varsayılan teslimat adresi yap</span></label>
+        </div>
+        <div class="mx-cluster">
+          <button type="submit" class="mx-btn mx-btn--primary">Kaydet</button>
+          <button type="button" class="mx-btn mx-btn--ghost" data-mx-adr-iptal>Vazgeç</button>
+        </div>
+      </form>
       <div class="addresses-list" id="addressesList">
         
       </div>
@@ -219,14 +270,13 @@
 
 <script>
   async function loadAddresses() {
+    if (adrStore()) { return adrMxLoad(adrStore()); }
     try {
-
       if (!user.isLoggedIn || !user.id) {
         var addressesList = document.getElementById('addressesList');
         addressesList.innerHTML = '<div class="no-addresses">Adreslerinizi görmek için giriş yapmanız gerekiyor.</div>';
         return;
       }
-
       var addressesSnapshot = await dataListWeb(`users/${user.id}/addresses`);
       var addressesList = document.getElementById('addressesList');
 
@@ -236,7 +286,6 @@
         addressesList.innerHTML = '<div style="text-align: center; padding: 50px;">Henüz adresiniz bulunmuyor.</div>';
         return;
       }
-
       addressesSnapshot.forEach(function(doc) {
         var address = doc.data();
         var addressId = doc.id;
@@ -279,9 +328,16 @@
         '<div style="text-align: center; padding: 50px; color: #dc3545;">Adresler yüklenirken bir hata oluştu.</div>';
     }
   }
-
   async function deleteAddress(addressId) {
     if (!confirm('Bu adresi silmek istediğinizden emin misiniz?')) return;
+    if (adrStore()) {
+      return adrStore().uye.adresSil(addressId).then(function () {
+        showNotification('Adres başarıyla silindi!', 'success');
+        loadAddresses();
+      }, function (err) {
+        showNotification(adrStore().hataMetni(err, 'Adres silinirken bir hata oluştu!'), 'error');
+      });
+    }
 
     try {
       await dataDeleteWeb(`users/${user.id}/addresses/${addressId}`);
@@ -292,10 +348,16 @@
       showNotification('Adres silinirken bir hata oluştu!', 'error');
     }
   }
-
   async function setDefaultAddress(addressId) {
+    if (adrStore()) {
+      return adrStore().uye.adresGuncelle(addressId, { varsayilan: true }).then(function () {
+        showNotification('Varsayılan adres güncellendi!', 'success');
+        loadAddresses();
+      }, function (err) {
+        showNotification(adrStore().hataMetni(err, 'İşlem sırasında bir hata oluştu!'), 'error');
+      });
+    }
     try {
-
       var addressesSnapshot = await dataListWeb(`users/${user.id}/addresses`);
       var updatePromises = [];
 
@@ -306,7 +368,6 @@
       });
 
       await Promise.all(updatePromises);
-
       await dataUpdateWeb(`users/${user.id}/addresses/${addressId}`, { isDefault: true });
 
       showNotification('Varsayılan adres güncellendi!', 'success');
@@ -316,7 +377,6 @@
       showNotification('İşlem sırasında bir hata oluştu!', 'error');
     }
   }
-
   async function addDemoAddress() {
     if (!user.isLoggedIn || !user.id) {
       showNotification('Demo adres eklemek için giriş yapmanız gerekiyor.', 'error');
@@ -342,7 +402,6 @@
       showNotification('Adres eklenirken bir hata oluştu!', 'error');
     }
   }
-
   function showNotification(message, type = 'info') {
     var existingNotification = document.querySelector('.notification');
     if (existingNotification) {
@@ -385,13 +444,12 @@
       }
     }, 3000);
   }
-
   authStateListenerWeb(function(authUser) {
+    
+    if (window.MxStore || adrMxBekle) { return; }
     if (authUser) {
-
       setTimeout(function() {
         loadAddresses();
-
         if (user && user.id === 's8RDlo2GsQblcPLWTsMHrudF0sm2') {
           document.querySelectorAll('.demo-address-btn').forEach(function(btn) {
             btn.style.display = 'flex';
@@ -399,14 +457,165 @@
         }
       }, 500); // Kullanıcı objesi güncellenmesi için biraz bekle
     } else {
-
       document.getElementById('addressesList').innerHTML =
         '<div class="no-addresses">Adreslerinizi görmek için giriş yapmanız gerekiyor.</div>';
     }
   });
-
   document.querySelector('.add-address-btn').addEventListener('click', function() {
+    if (adrStore()) { adrFormAc(null); return; }
     addDemoAddress(); // Demo için, gerçek uygulamada modal açılır
+  });
+</script>
+<script>
+  
+  var adrMxBekle = true;
+  var adrMxListe = [];
+
+  function adrStore() {
+    return window.MxStore && window.MxStore.__mxStore === true ? window.MxStore : null;
+  }
+
+  function adrForm() {
+    return document.querySelector('[data-mx-adr-form]');
+  }
+
+  function adrFormAc(a) {
+    var f = adrForm();
+    if (!f) { return; }
+    var v = a || {};
+    var alanlar = ['id', 'baslik', 'ad_soyad', 'telefon', 'il', 'ilce', 'adres', 'posta_kodu'];
+    for (var i = 0; i < alanlar.length; i++) {
+      if (f.elements[alanlar[i]]) { f.elements[alanlar[i]].value = v[alanlar[i]] || ''; }
+    }
+    f.elements.varsayilan.checked = !!v.varsayilan;
+    f.hidden = false;
+    if (f.elements.baslik && f.elements.baslik.focus) { f.elements.baslik.focus(); }
+  }
+
+  function adrFormKapat() {
+    var f = adrForm();
+    if (f) { f.hidden = true; if (f.reset) { f.reset(); } }
+  }
+
+  window.editAddress = function (id) {
+    for (var i = 0; i < adrMxListe.length; i++) {
+      if (String(adrMxListe[i].id) === String(id)) { adrFormAc(adrMxListe[i]); return; }
+    }
+  };
+
+  
+  var ADR_EYLEM = { edit: 'editAddress', 'delete': 'deleteAddress', varsayilan: 'setDefaultAddress' };
+  function adrBagla(el) {
+    if (el.getAttribute('data-adr-bagli')) { return; }
+    el.setAttribute('data-adr-bagli', '1');
+    el.addEventListener('click', function (ev) {
+      var b = ev.target && ev.target.closest ? ev.target.closest('[data-adr-act]') : null;
+      if (!b || !el.contains(b)) { return; }
+      var fn = window[ADR_EYLEM[b.getAttribute('data-adr-act')]];
+      if (typeof fn === 'function') { fn(b.getAttribute('data-adr-id')); }
+    });
+  }
+
+  function adrMxRender(S, list) {
+    var el = document.getElementById('addressesList');
+    if (!el) { return; }
+    if (!list.length) {
+      el.innerHTML = '<div class="mx-empty"><span class="material-symbols-outlined mx-empty__icon" aria-hidden="true">location_off</span><p class="mx-empty__text">Henüz adresiniz bulunmuyor.</p></div>';
+      return;
+    }
+    var e = S.esc;
+    var out = '';
+    for (var i = 0; i < list.length; i++) {
+      var a = list[i];
+      var id = e(a.id);
+      var yer = [a.ilce, a.il, a.posta_kodu].filter(function (x) { return !!x; }).join(' / ');
+      out += '<div class="address-item" data-address-id="' + id + '">';
+      out += '<div class="address-badge default" style="' + (a.varsayilan ? '' : 'display:none') + '">Varsayılan</div>';
+      out += '<div class="address-header"><div class="address-title">' + e(a.baslik || 'Ev') + '</div></div>';
+      out += '<div class="address-content"><div class="address-name">' + e(a.ad_soyad) + '</div>';
+      out += '<div class="address-text">' + e(a.adres) + (yer ? '<br>' + e(yer) : '') + '</div>';
+      out += '<div class="address-phone">' + e(a.telefon) + '</div></div>';
+      out += '<div class="address-actions">';
+      out += '<button type="button" class="address-action" data-adr-act="edit" data-adr-id="' + id + '"><span class="material-symbols-outlined" aria-hidden="true">edit</span>Düzenle</button>';
+      out += '<button type="button" class="address-action delete" data-adr-act="delete" data-adr-id="' + id + '"><span class="material-symbols-outlined" aria-hidden="true">delete</span>Sil</button>';
+      if (!a.varsayilan) {
+        out += '<button type="button" class="address-action set-default" data-adr-act="varsayilan" data-adr-id="' + id + '"><span class="material-symbols-outlined" aria-hidden="true">star</span>Varsayılan Yap</button>';
+      }
+      out += '</div></div>';
+    }
+    el.innerHTML = out;
+    adrBagla(el);
+  }
+
+  function adrMxLoad(S) {
+    var el = document.getElementById('addressesList');
+    if (el) { el.innerHTML = '<div class="mx-skeleton mx-skeleton--text"></div><div class="mx-skeleton mx-skeleton--text"></div>'; }
+    return S.uye.oturumGerekli('/tr/login/').then(function (u) {
+      if (!u) {
+        if (el) { el.innerHTML = '<div class="no-addresses">' + (S.uye.durum() === 'kullanilamiyor' ? 'Üyelik bu sitede şu an kullanılamıyor.' : 'Adreslerinizi görmek için giriş yapmanız gerekiyor.') + '</div>'; }
+        return;
+      }
+      return S.uye.adresler().then(function (list) {
+        adrMxListe = list;
+        adrMxRender(S, list);
+      }, function (err) {
+        if (el) { el.innerHTML = '<div class="mx-alert mx-alert--danger">' + S.esc(S.hataMetni(err, 'Adresler yüklenirken bir hata oluştu.')) + '</div>'; }
+      });
+    });
+  }
+
+  function adrMxSubmit(S, f) {
+    var veri = {
+      baslik: f.elements.baslik.value.trim(),
+      ad_soyad: f.elements.ad_soyad.value.trim(),
+      telefon: f.elements.telefon.value.trim(),
+      il: f.elements.il.value.trim(),
+      ilce: f.elements.ilce.value.trim(),
+      adres: f.elements.adres.value.trim(),
+      posta_kodu: f.elements.posta_kodu.value.trim(),
+      varsayilan: !!f.elements.varsayilan.checked
+    };
+    if (!veri.adres) {
+      showNotification('Açık adres zorunludur.', 'error');
+      return;
+    }
+    var id = f.elements.id.value;
+    var p = id ? S.uye.adresGuncelle(id, veri) : S.uye.adresEkle(veri);
+    p.then(function () {
+      showNotification('Adres kaydedildi.', 'success');
+      adrFormKapat();
+      adrMxLoad(S);
+    }, function (err) {
+      showNotification(S.hataMetni(err, 'Adres eklenirken bir hata oluştu!'), 'error');
+    });
+  }
+
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    var f = adrForm();
+    if (f) {
+      f.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        adrMxSubmit(S, f);
+      });
+      var iptal = f.querySelector('[data-mx-adr-iptal]');
+      if (iptal) { iptal.addEventListener('click', adrFormKapat); }
+    }
+    adrMxLoad(S);
+  });
+  window.addEventListener('load', function () {
+    if (!window.MxStore) {
+      var s = document.createElement('script');
+      s.src = '/src/mx-store.js';
+      s.onerror = function () { adrMxBekle = false; };
+      document.head.appendChild(s);
+      setTimeout(function () {
+        if (!window.MxStore) {
+          adrMxBekle = false;
+          var el = document.getElementById('addressesList');
+          if (el) { el.innerHTML = '<div class="no-addresses">Adreslerinizi görmek için giriş yapmanız gerekiyor.</div>'; }
+        }
+      }, 3000);
+    }
   });
 </script>
 </div>
@@ -1081,9 +1290,10 @@ function f0000EfootNewsletterSubmit(form) {
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=hrbn2"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=hrbn2"></script>
-  <script defer src="/src/cookie.js?v=hrbn2"></script>
+  <script defer src="/src/mx-ui.js?v=e5il6"></script>
+  <script defer src="/src/mx-store.js?v=e5il6"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=e5il6"></script>
+  <script defer src="/src/cookie.js?v=e5il6"></script>
 
   <script>
     setTimeout(function() {

@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Hesabim</title>
   <meta name="description" content="Gaziantep usulü kebap, lahmacun, künefe — Antebinici&#39;den evlere." />
-  <meta name="keywords" content="antepinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
+  <meta name="keywords" content="antebinici, kebap, lahmacun, iskender, kuzu şiş, künefe, meze, Gaziantep" />
   <meta name="robots" content="noindex, nofollow" />
   <link rel="canonical" href="https://www.antebinici.com.tr/tr/hesabim/" />
   <link rel="alternate" hreflang="tr" href="https://www.antebinici.com.tr/tr/hesabim/" />
@@ -27,22 +27,23 @@
   <meta name="twitter:image" content="https://www.antebinici.com.tr/img/logo.png" />
 
   <meta name="theme-color" content="#c9a227" />
+  <meta name="mx-api-base" content="none" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/rubik.css?v=ogtm3" />
-  <link rel="stylesheet" href="/src/css.css?v=ogtm3" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=ogtm3" />
+  <link rel="stylesheet" href="/src/rubik.css?v=ukm30" />
+  <link rel="stylesheet" href="/src/css.css?v=ukm30" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=ukm30" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=ogtm3" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=ukm30" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ogtm3" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ukm30" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=ogtm3" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ogtm3" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ogtm3" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=ukm30" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ukm30" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ukm30" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +116,7 @@
 }
 </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"><meta name="theme-color" content="#14100c">
-<link rel="stylesheet" href="style.css?v=ogtm3">
+<link rel="stylesheet" href="style.css?v=ukm30">
 </head>
 
 <body>
@@ -153,7 +154,7 @@
   <div class="h0000-body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=bmipi"
+        src="/img/logo.png?v=d5nng"
         alt="Antebinici Logo"
         class="h0000-body-logo"
         loading="lazy"
@@ -170,11 +171,19 @@
       <a href="/tr/sepetim/" class="h0000-login">
         <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
         <div>Sepetim</div>
+        <span class="h0000-mxbadge" data-mx-sepet-sayi data-mx-bos="1" aria-label="Sepetteki ürün adedi">0</span>
       </a>
-      <a href="/tr/login/" class="h0000-login">
+      <a href="/tr/login/" class="h0000-login" data-mx-uye-goster="misafir">
         <span class="material-symbols-outlined" aria-hidden="true">account_circle</span>
         <div>Üye Girişi</div>
       </a>
+      <a href="/tr/hesabim/" class="h0000-login" data-mx-uye-goster="giris" style="display: none">
+        <span class="material-symbols-outlined" aria-hidden="true">person</span>
+        <div>Hesabım</div>
+      </a>
+      <button type="button" class="h0000-login h0000-mxcikis" data-mx-uye-goster="giris" data-mx-cikis style="display: none" aria-label="Çıkış yap" title="Çıkış yap">
+        <span class="material-symbols-outlined" aria-hidden="true">logout</span>
+      </button>
     </div>
   </div>
   <div class="h0000-menu-body">
@@ -190,6 +199,31 @@
   </div>
 </div>
 
+<script>
+  
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    var bs = document.querySelectorAll("[data-mx-cikis]");
+    for (var i = 0; i < bs.length; i++) {
+      if (bs[i].getAttribute("data-mx-cikis-bagli")) {
+        continue;
+      }
+      bs[i].setAttribute("data-mx-cikis-bagli", "1");
+      bs[i].addEventListener("click", function (ev) {
+        ev.preventDefault();
+        S.uye.cikis().then(function () {
+          window.location.href = "/tr/";
+        });
+      });
+    }
+  });
+  window.addEventListener("load", function () {
+    if (!window.MxStore) {
+      var s = document.createElement("script");
+      s.src = "/src/mx-store.js";
+      document.head.appendChild(s);
+    }
+  });
+</script>
 </div>
   <div id="content"><div class="b0000">
   <div class="b0000Title">
@@ -347,6 +381,7 @@
 
 <script>
   async function loadUserProfile() {
+    if (kbStore()) { return kbMxLoad(kbStore()); }
     try {
       console.log('User state:', user); // Debug için
 
@@ -355,10 +390,8 @@
         showNotification('Profil bilgilerinizi görmek için giriş yapmanız gerekiyor.', 'error');
         return;
       }
-
       var userSnapshot = await dataListWeb(`users`);
       var userData = null;
-
       userSnapshot.forEach(function(doc) {
         if (doc.id === user.id) {
           userData = doc.data();
@@ -366,17 +399,14 @@
       });
 
       if (userData) {
-
         document.getElementById('profileName').textContent = `${userData.firstName || ''} ${userData.lastName || ''}`.trim() || '';
         document.getElementById('memberSince').textContent = 'Üyelik: ' + formatDate(userData.createdAt);
         document.getElementById('lastLogin').textContent = 'Son Giriş: ' + formatDate(userData.lastLoginAt);
-
         document.getElementById('firstName').value = userData.firstName || '';
         document.getElementById('lastName').value = userData.lastName || '';
         document.getElementById('email').value = userData.email || '';
         document.getElementById('phone').value = userData.phone || '';
         document.getElementById('birthDate').value = userData.birthDate || '';
-
         var avatar = document.querySelector('.profile-avatar img');
         if (userData.photoURL) {
           avatar.src = userData.photoURL;
@@ -384,7 +414,6 @@
           var fullName = `${userData.firstName || ''} ${userData.lastName || ''}`.trim() || 'User';
           avatar.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(fullName)}&background=random`;
         }
-
         var newsletterCheckbox = document.querySelector('input[name="newsletter"]');
         var smsCheckbox = document.querySelector('input[name="smsNotification"]');
         var languageSelect = document.querySelector('select[name="language"]');
@@ -396,7 +425,6 @@
       } else {
         console.log('User data not found for ID:', user.id); // Debug için
         showNotification('Kullanıcı profili bulunamadı! Yeni profil oluşturuluyor...', 'info');
-
         var newUserData = {
           firstName: user.displayName ? user.displayName.split(' ')[0] : '',
           lastName: user.displayName ? user.displayName.split(' ').slice(1).join(' ') : '',
@@ -425,8 +453,8 @@
       showNotification('Profil bilgileri yüklenirken hata oluştu!', 'error');
     }
   }
-
   async function updateProfile(formData) {
+    if (kbStore()) { return kbMxUpdate(kbStore(), formData); }
     try {
       var updateData = {
         firstName: formData.get('firstName'),
@@ -443,7 +471,6 @@
 
       await dataUpdateWeb(`users/${user.id}`, updateData);
       showNotification('Profil bilgileri güncellendi!', 'success');
-
       setTimeout(function() { return loadUserProfile(), 1000; });
 
     } catch (error) {
@@ -451,13 +478,11 @@
       showNotification('Profil güncellenirken hata oluştu!', 'error');
     }
   }
-
   async function changePassword(currentPassword, newPassword) {
+    if (kbStore()) { return kbMxPassword(kbStore(), currentPassword, newPassword); }
     try {
-
       await authChangePasswordWeb(currentPassword, newPassword);
       showNotification('Şifre başarıyla değiştirildi!', 'success');
-
       document.querySelector('input[name="currentPassword"]').value = '';
       document.querySelector('input[name="newPassword"]').value = '';
       document.querySelector('input[name="confirmPassword"]').value = '';
@@ -475,8 +500,8 @@
       showNotification(errorMessage, 'error');
     }
   }
-
   async function deleteAccount() {
+    if (kbStore()) { showNotification('Hesap silme talebiniz için lütfen bizimle iletişime geçin.', 'info'); return; }
     if (!confirm('Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!')) {
       return;
     }
@@ -486,13 +511,10 @@
     }
 
     try {
-
       await dataDeleteWeb(`users/${user.id}`);
-
       await authDeleteAccountWeb();
 
       showNotification('Hesabınız başarıyla silindi. Yönlendiriliyorsunuz...', 'success');
-
       setTimeout(function() {
         window.location.href = '/';
       }, 2000);
@@ -502,13 +524,11 @@
       showNotification('Hesap silinirken hata oluştu!', 'error');
     }
   }
-
   function formatDate(timestamp) {
     if (!timestamp) return 'Bilinmiyor';
     var date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
     return date.toLocaleDateString('tr-TR');
   }
-
   function showNotification(message, type = 'info') {
     var existingNotification = document.querySelector('.notification');
     if (existingNotification) {
@@ -551,7 +571,6 @@
       }
     }, 4000);
   }
-
   function initializeTabs() {
     var tabButtons = document.querySelectorAll('.tab-button');
     var tabContents = document.querySelectorAll('.tab-content');
@@ -559,38 +578,29 @@
     tabButtons.forEach(function(button) {
       button.addEventListener('click', function() {
         var targetTab = button.getAttribute('data-tab');
-
         tabButtons.forEach(function(btn) { return btn.classList.remove('active'); });
-
         tabContents.forEach(function(content) { return content.classList.remove('active'); });
-
         button.classList.add('active');
-
         document.getElementById(targetTab + '-tab').classList.add('active');
       });
     });
   }
-
 authStateListenerWeb(function(authUser) {
+  
+  if (window.MxStore || kbMxBekle) { return; }
   if (authUser) {
-
       setTimeout(function() {
         loadUserProfile();
-
         if (user && user.id === 's8RDlo2GsQblcPLWTsMHrudF0sm2') {
           document.querySelector('.demo-data-btn').style.display = 'flex';
         }
       }, 500); // Kullanıcı objesi güncellenmesi için biraz bekle
     } else {
-
       showNotification('Profil bilgilerinizi görmek için giriş yapmanız gerekiyor.', 'error');
     }
   });
-
   setTimeout(function() {
-
     initializeTabs();
-
     var profileForm = document.getElementById("profileForm");
     if (profileForm) {
       profileForm.addEventListener("submit", function(e) {
@@ -599,7 +609,6 @@ authStateListenerWeb(function(authUser) {
         updateProfile(formData);
       });
     }
-
     var passwordForm = document.getElementById("passwordForm");
     if (passwordForm) {
       passwordForm.addEventListener("submit", function(e) {
@@ -619,7 +628,7 @@ authStateListenerWeb(function(authUser) {
           return;
         }
 
-        if (newPassword.length < 6) {
+        if (!kbStore() && newPassword.length < 6) {
           showNotification('Yeni şifre en az 6 karakter olmalıdır!', 'error');
           return;
         }
@@ -627,7 +636,6 @@ authStateListenerWeb(function(authUser) {
         changePassword(currentPassword, newPassword);
       });
     }
-
     var preferencesForm = document.getElementById("preferencesForm");
     if (preferencesForm) {
       preferencesForm.addEventListener("submit", function(e) {
@@ -636,14 +644,12 @@ authStateListenerWeb(function(authUser) {
         updatePreferences(formData);
       });
     }
-
     var changeAvatarBtn = document.querySelector(".change-avatar");
     if (changeAvatarBtn) {
       changeAvatarBtn.addEventListener("click", function() {
         showNotification('Profil fotoğrafı değiştirme özelliği geliştiriliyor...', 'info');
       });
     }
-
     var deleteAccountBtn = document.querySelector(".delete-account");
     if (deleteAccountBtn) {
       deleteAccountBtn.addEventListener("click", function() {
@@ -652,12 +658,22 @@ authStateListenerWeb(function(authUser) {
     }
   }, 100);
 
+  
+  function updatePreferences(formData) {
+    try {
+      localStorage.setItem('mxUyeTercihV1', JSON.stringify({
+        newsletter: formData.get('newsletter') === 'on',
+        smsNotification: formData.get('smsNotification') === 'on',
+        language: formData.get('language') || ''
+      }));
+    } catch (e) {}
+    showNotification('Tercihleriniz bu cihazda saklandı.', 'info');
+  }
   function fillDemoData() {
     document.getElementById('firstName').value = 'Demo';
     document.getElementById('lastName').value = 'Kullanıcı';
     document.getElementById('phone').value = '+90 555 000 0000';
     document.getElementById('birthDate').value = '1990-01-01';
-
     var newsletterCheckbox = document.querySelector('input[name="newsletter"]');
     var smsCheckbox = document.querySelector('input[name="smsNotification"]');
     var languageSelect = document.querySelector('select[name="language"]');
@@ -668,6 +684,97 @@ authStateListenerWeb(function(authUser) {
 
     showNotification('Demo veriler dolduruldu! Kaydet butonuna tıklayın.', 'info');
   }
+</script>
+<script>
+  
+  var kbMxBekle = true;
+
+  function kbStore() {
+    return window.MxStore && window.MxStore.__mxStore === true ? window.MxStore : null;
+  }
+
+  function kbSet(id, v) {
+    var el = document.getElementById(id);
+    if (el) { if ('value' in el && el.tagName !== 'H2' && el.tagName !== 'SPAN') { el.value = v; } else { el.textContent = v; } }
+  }
+
+  function kbHelp(inputId, text) {
+    var el = document.getElementById(inputId);
+    if (!el || !el.parentNode || el.parentNode.querySelector('[data-mx-kb-help]')) { return; }
+    var h = document.createElement('small');
+    h.className = 'mx-help';
+    h.setAttribute('data-mx-kb-help', '1');
+    h.textContent = text;
+    el.parentNode.appendChild(h);
+  }
+
+  function kbMxFill(u) {
+    var ad = (u.ad || '') + ' ' + (u.soyad || '');
+    kbSet('profileName', ad.trim() || u.email || '');
+    if (u.created_at) { kbSet('memberSince', 'Üyelik: ' + formatDate(u.created_at)); }
+    if (u.son_giris_at) { kbSet('lastLogin', 'Son Giriş: ' + formatDate(u.son_giris_at)); }
+    kbSet('firstName', u.ad || '');
+    kbSet('lastName', u.soyad || '');
+    kbSet('email', u.email || '');
+    kbSet('phone', u.telefon || '');
+    kbHelp('birthDate', 'Doğum tarihi şimdilik yalnızca gösterilir, kaydedilmez.');
+    var avatar = document.querySelector('.profile-avatar img');
+    if (avatar) {
+      avatar.src = 'https://ui-avatars.com/api/?name=' + encodeURIComponent(ad.trim() || 'User') + '&background=random';
+    }
+  }
+
+  function kbMxLoad(S) {
+    return S.uye.oturumGerekli('/tr/login/').then(function (u) {
+      if (!u) {
+        if (S.uye.durum() === 'kullanilamiyor') { showNotification('Üyelik bu sitede şu an kullanılamıyor.', 'info'); }
+        return;
+      }
+      kbMxFill(u);
+      
+      S.api('/api/public/uye/ben', { uyeGerekli: true }).then(function (g) {
+        if (g && g.data) { kbMxFill(g.data); }
+      }, function () {});
+    });
+  }
+
+  function kbMxUpdate(S, formData) {
+    return S.uye.guncelle({
+      ad: formData.get('firstName') || '',
+      soyad: formData.get('lastName') || '',
+      telefon: formData.get('phone') || ''
+    }).then(function (u) {
+      if (u) { kbMxFill(u); }
+      showNotification('Profil bilgileri güncellendi!', 'success');
+    }, function (err) {
+      showNotification(S.hataMetni(err, 'Profil güncellenirken hata oluştu!'), 'error');
+    });
+  }
+
+  function kbMxPassword(S, eski, yeni) {
+    return S.uye.sifre(eski, yeni).then(function () {
+      showNotification('Şifre başarıyla değiştirildi!', 'success');
+      var f = document.getElementById('passwordForm');
+      if (f && f.reset) { f.reset(); }
+    }, function (err) {
+      showNotification(S.hataMetni(err, 'Şifre değiştirilirken hata oluştu!'), 'error');
+    });
+  }
+
+  (window.mxStoreQ = window.mxStoreQ || []).push(function (S) {
+    kbMxLoad(S);
+  });
+  window.addEventListener('load', function () {
+    if (!window.MxStore) {
+      var s = document.createElement('script');
+      s.src = '/src/mx-store.js';
+      s.onerror = function () { kbMxBekle = false; };
+      document.head.appendChild(s);
+      setTimeout(function () {
+        if (!window.MxStore) { kbMxBekle = false; showNotification('Profil bilgilerinizi görmek için giriş yapmanız gerekiyor.', 'error'); }
+      }, 3000);
+    }
+  });
 </script>
 </div>
   <div id="footer"><link
@@ -1341,9 +1448,10 @@ function f0000EfootNewsletterSubmit(form) {
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=ogtm3"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=ogtm3"></script>
-  <script defer src="/src/cookie.js?v=ogtm3"></script>
+  <script defer src="/src/mx-ui.js?v=ukm30"></script>
+  <script defer src="/src/mx-store.js?v=ukm30"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=ukm30"></script>
+  <script defer src="/src/cookie.js?v=ukm30"></script>
 
   <script>
     setTimeout(function() {
