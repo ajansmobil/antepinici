@@ -1,7 +1,7 @@
 {
   "id": "usr_login",
   "name": {
-    "tr": "Giriş"
+    "tr": "Uye Giris"
   },
   "description": {
     "tr": ""
@@ -10,7 +10,7 @@
     "tr": ""
   },
   "path": "login",
-  "icon": "person",
+  "icon": "login",
   "category": "",
   "status": "play",
   "desing": {
@@ -20,11 +20,11 @@
     ],
     "footer": []
   },
-  "index": 6,
+  "index": 0,
   "url": "",
   "title": {
-    "tr": "Uye Giris"
+    "tr": "Üye Girişi"
   },
   "date": "2026-10-23T10:28:37.684Z",
-  "update": "2026-10-23T14:45:11.381Z"
+  "update": "2026-11-02T09:30:42.443Z"
 }

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "İçli Köfte (kızarma)"
+  },
+  "id": 16,
+  "index": 15,
+  "path": "iclikofte",
+  "category": "kofte",
+  "status": "play",
+  "icon": "restaurant",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
+  },
+  "img": "https://antebinici.com.tr/img/ant-iclikofte.webp",
+  "price": 110,
+  "update": "2026-11-02T09:29:34.510Z"
+}

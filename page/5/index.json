@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Karışık Kebap – Et (360gr)"
+  },
+  "id": 5,
+  "index": 1,
+  "path": "kariskebap-et",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Sade kıyma, kuşbaşı, pirzola."
+  },
+  "img": "img/ant-kariskebap.webp",
+  "price": 970,
+  "update": "2026-11-02T09:29:34.443Z"
+}

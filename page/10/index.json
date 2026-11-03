@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Patlıcan Kebabı (240gr)"
+  },
+  "id": 10,
+  "index": 13,
+  "path": "patlicankebab",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
+  },
+  "img": "img/kahvalti-patlican-kizartmasi.webp",
+  "price": 720,
+  "update": "2026-11-02T09:29:34.502Z"
+}

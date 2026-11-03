@@ -1,7 +1,7 @@
 {
   "id": "usr_siparis",
   "name": {
-    "tr": "Siparislerim"
+    "tr": "Siparişlerim"
   },
   "description": {
     "tr": ""
@@ -24,8 +24,8 @@
   "index": 1,
   "url": "",
   "title": {
-    "tr": "Siparislerim"
+    "tr": "Siparişlerim"
   },
   "date": "2026-10-23T14:45:11.381Z",
-  "update": "2026-10-23T14:45:11.381Z"
+  "update": "2026-11-02T09:30:42.428Z"
 }

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Ayran"
+  },
+  "id": 24,
+  "index": 21,
+  "path": "ayran",
+  "category": "icecek",
+  "status": "play",
+  "icon": "sports_bar",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Yayık ayranı."
+  },
+  "img": "https://antebinici.com.tr/img/ant-yayik-ayran.webp",
+  "price": 50,
+  "update": "2026-11-02T09:30:10.365Z"
+}

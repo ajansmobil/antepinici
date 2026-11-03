@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Çiğ Köfte (10 adet)"
+  },
+  "id": 15,
+  "index": 9,
+  "path": "cigkofta",
+  "category": "kofte",
+  "status": "play",
+  "icon": "restaurant",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Anteb usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
+  },
+  "img": "https://antebinici.com.tr/img/ant-cigkofte.webp",
+  "price": 250,
+  "update": "2026-11-02T09:29:34.483Z"
+}

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Küşleme (200gr)"
+  },
+  "id": 6,
+  "index": 2,
+  "path": "kusleme",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
+  },
+  "img": "img/ant-kusleme.webp",
+  "price": 950,
+  "update": "2026-11-02T09:29:34.449Z"
+}

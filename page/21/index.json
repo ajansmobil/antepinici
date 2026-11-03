@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Katmer"
+  },
+  "id": 21,
+  "index": 10,
+  "path": "katmer",
+  "category": "tatli",
+  "status": "play",
+  "icon": "cake",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Anteb'in meşhur katmeri; simit katmer 650₺."
+  },
+  "img": "https://antebinici.com.tr/img/ant-katmer.webp",
+  "price": 650,
+  "update": "2026-11-02T09:29:34.487Z"
+}

@@ -33,6 +33,20 @@
         "welcomeTitle": {
           "tr": "Hoş geldiniz!",
           "en": "Welcome!"
+        },
+        "girisUrl": "login",
+        "hesabimUrl": "hesabim",
+        "hesabimText": {
+          "tr": "Hesabım",
+          "en": "My Account"
+        },
+        "cikisText": {
+          "tr": "Çıkış yap",
+          "en": "Log out"
+        },
+        "sepetSayiAria": {
+          "tr": "Sepetteki ürün adedi",
+          "en": "Items in cart"
         }
       },
       "version": "1.0",
@@ -96,7 +110,8 @@
           "tr": "Menü",
           "en": "Menu"
         },
-        "btn2_url": "/tr/menu/"
+        "btn2_url": "/tr/menu/",
+        "stil": ""
       },
       "version": "1.0",
       "icon": "",
@@ -139,6 +154,64 @@
         "saleText": {
           "tr": "İndirim",
           "en": "Sale"
+        },
+        "currency": "₺",
+        "showFilter": true,
+        "descLength": 120,
+        "allText": {
+          "tr": "Tümü",
+          "en": "All"
+        },
+        "resultCount": {
+          "tr": "ürün",
+          "en": "products"
+        },
+        "search": false,
+        "sort": false,
+        "searchLabel": {
+          "tr": "Urun ara",
+          "en": "Search products",
+          "ar": "ابحث عن منتج"
+        },
+        "searchPlaceholder": {
+          "tr": "Urun adi veya kategori…",
+          "en": "Product name or category…",
+          "ar": "اسم المنتج أو الفئة…"
+        },
+        "sortLabel": {
+          "tr": "Sirala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDefault": {
+          "tr": "Onerilen siralama",
+          "en": "Recommended",
+          "ar": "الترتيب الموصى به"
+        },
+        "sortPriceAsc": {
+          "tr": "Fiyat: dusukten yuksege",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yuksekten dusuge",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortNew": {
+          "tr": "En yeniler",
+          "en": "Newest first",
+          "ar": "الأحدث أولًا"
+        },
+        "noResult": {
+          "tr": "Aramaniza uygun urun bulunamadi.",
+          "en": "No products match your search.",
+          "ar": "لم يتم العثور على منتجات مطابقة لبحثك."
+        },
+        "clearSearch": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
         }
       },
       "version": "1.0",
@@ -192,6 +265,45 @@
         "resultCount": {
           "tr": "ürün",
           "en": "products"
+        },
+        "layout": "yan",
+        "search": false,
+        "sort": false,
+        "urlState": false,
+        "searchLabel": {
+          "tr": "Urun ara",
+          "en": "Search products",
+          "ar": "ابحث عن منتج"
+        },
+        "searchPlaceholder": {
+          "tr": "Urun adi veya kategori…",
+          "en": "Product name or category…",
+          "ar": "اسم المنتج أو الفئة…"
+        },
+        "sortLabel": {
+          "tr": "Siralama",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDefault": {
+          "tr": "Onerilen siralama",
+          "en": "Recommended",
+          "ar": "الترتيب الموصى به"
+        },
+        "sortPriceAsc": {
+          "tr": "Fiyat: dusukten yuksege",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yuksekten dusuge",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortNew": {
+          "tr": "En yeniler",
+          "en": "Newest first",
+          "ar": "الأحدث أولًا"
         }
       },
       "version": "1.0",
@@ -229,7 +341,8 @@
         "linkText": {
           "tr": "İncele",
           "en": "View"
-        }
+        },
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -391,7 +504,8 @@
         "clearedText": {
           "tr": "Sepet temizlendi",
           "en": "Cart cleared"
-        }
+        },
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -532,7 +646,8 @@
         "phoneMsg": {
           "tr": "Geçerli bir telefon numarası girin",
           "en": "Enter a valid phone number"
-        }
+        },
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -578,7 +693,32 @@
         "reorderedText": {
           "tr": "Ürünler sepete eklendi",
           "en": "Items added to cart"
-        }
+        },
+        "durumBeklemede": {
+          "tr": "Beklemede",
+          "en": "Pending"
+        },
+        "durumOnaylandi": {
+          "tr": "Onaylandı",
+          "en": "Confirmed"
+        },
+        "durumHazirlaniyor": {
+          "tr": "Hazırlanıyor",
+          "en": "Preparing"
+        },
+        "durumKargoda": {
+          "tr": "Kargoda",
+          "en": "Shipped"
+        },
+        "durumTeslim": {
+          "tr": "Teslim edildi",
+          "en": "Delivered"
+        },
+        "durumIptal": {
+          "tr": "İptal",
+          "en": "Cancelled"
+        },
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -831,6 +971,27 @@
         "alreadyLoggedIn": {
           "tr": "Zaten giriş yapmışsınız!",
           "en": "You are already logged in!"
+        },
+        "kvkkUrl": "gizlilik-politikasi",
+        "kvkkText": {
+          "tr": "Kişisel verilerimin işlenmesine ilişkin aydınlatma metnini okudum, onaylıyorum.",
+          "en": "I have read and accept the privacy notice on processing my personal data."
+        },
+        "kvkkLinkText": {
+          "tr": "Aydınlatma metni",
+          "en": "Privacy notice"
+        },
+        "kvkkRequired": {
+          "tr": "Devam etmek için aydınlatma metnini onaylayın.",
+          "en": "Please accept the privacy notice to continue."
+        },
+        "uyeKullanilamiyor": {
+          "tr": "Üyelik bu sitede şu an kullanılamıyor. Siparişinizi üye olmadan verebilirsiniz.",
+          "en": "Membership is currently unavailable on this site. You can still order as a guest."
+        },
+        "sessionExpired": {
+          "tr": "Oturumunuzun süresi doldu, lütfen tekrar giriş yapın.",
+          "en": "Your session has expired, please log in again."
         }
       },
       "version": "1.0",
@@ -844,12 +1005,14 @@
       "local": "body",
       "id": "pxCon01",
       "desing": {
-        "color": "#3f5c48",
+        "color": "var(--mx-site-primary)",
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us"
         },
-        "margin": "40px 0px"
+        "margin": "40px 0px",
+        "stil": "",
+        "linkcolor": "var(--mx-site-text)"
       },
       "version": "1.0",
       "icon": "",
@@ -874,7 +1037,26 @@
         "backgroundcolor": "#ffffff",
         "color": "#f4ede1",
         "img": "",
-        "externalUrl": ""
+        "externalUrl": "",
+        "stil": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
       },
       "version": "1.0",
       "icon": "",
@@ -955,10 +1137,10 @@
           "en": "privacy policy"
         },
         "newsletter_consent_suffix": {
-          "tr": "kabul etmiş oluyorum.",
+          "tr": " kabul etmiş oluyorum.",
           "en": "."
         },
-        "newsletter_consent_url": "/tr/gizlilik-politikasi/",
+        "newsletter_consent_url": "/gizlilik-politikasi/",
         "newsletter_consent_error": {
           "tr": "Lütfen gizlilik politikasını kabul edin.",
           "en": "Please accept the privacy policy."
@@ -1004,31 +1186,31 @@
                 "name": {
                   "tr": "Menü"
                 },
-                "url": "/tr/menu/"
+                "url": "/menu/"
               },
               {
                 "name": {
                   "tr": "Ürünler"
                 },
-                "url": "/tr/urunler/"
+                "url": "/urunler/"
               },
               {
                 "name": {
                   "tr": "Sepet"
                 },
-                "url": "/tr/sepetim/"
+                "url": "/sepetim/"
               },
               {
                 "name": {
                   "tr": "Siparişlerim"
                 },
-                "url": "/tr/siparislerim/"
+                "url": "/siparislerim/"
               },
               {
                 "name": {
                   "tr": "İletişim"
                 },
-                "url": "/tr/iletisim/"
+                "url": "/iletisim/"
               }
             ]
           },
@@ -1042,25 +1224,67 @@
                 "name": {
                   "tr": "Hakkımızda"
                 },
-                "url": "/tr/hakkimizda/"
+                "url": "/hakkimizda/"
+              },
+              {
+                "name": {
+                  "tr": "Misyon"
+                },
+                "url": "/misyon/"
+              },
+              {
+                "name": {
+                  "tr": "Vizyon"
+                },
+                "url": "/vizyon/"
+              },
+              {
+                "name": {
+                  "tr": "Kalite Politikamız"
+                },
+                "url": "/kalitepolitikamiz/"
               },
               {
                 "name": {
                   "tr": "Gizlilik Politikası"
                 },
-                "url": "/tr/gizlilik-politikasi/"
+                "url": "/gizlilik-politikasi/"
               },
               {
                 "name": {
                   "tr": "Kişisel Veriler"
                 },
-                "url": "/tr/kisiselveriler/"
+                "url": "/kisiselveriler/"
+              },
+              {
+                "name": {
+                  "tr": "Kullanıcı Hakları"
+                },
+                "url": "/kullanicahaklari/"
               },
               {
                 "name": {
                   "tr": "Yasal Uyarı"
                 },
-                "url": "/tr/yasaluyari/"
+                "url": "/yasaluyari/"
+              },
+              {
+                "name": {
+                  "tr": "Çerez Politikası"
+                },
+                "url": "/cerez-politikasi/"
+              },
+              {
+                "name": {
+                  "tr": "İade ve Teslimat"
+                },
+                "url": "/iade-ve-teslimat/"
+              },
+              {
+                "name": {
+                  "tr": "Mesafeli Satış Sözleşmesi"
+                },
+                "url": "/mesafeli-satis-sozlesmesi/"
               }
             ]
           }
@@ -1080,12 +1304,12 @@
         "backgroundcolor": "#14100c",
         "menu-active": "#3f5c48",
         "textcolor": "#f4ede1",
-        "bgcolor": "#fbf7ef",
+        "bgcolor": "var(--mx-site-surface)",
         "border_radius": "16px",
         "card_shadow": "0 10px 28px rgba(0,0,0,.38)",
-        "color": "#f4ede1",
-        "colortitle": "#9a6b2f",
-        "coloractive": "#9a6b2f",
+        "color": "var(--mx-site-text)",
+        "colortitle": "var(--mx-site-primary)",
+        "coloractive": "var(--mx-site-primary)",
         "ui": {
           "tr": {
             "home": "Anasayfa",
@@ -1127,7 +1351,9 @@
           "tr": "Ürün navigasyonu",
           "en": "Product navigation",
           "ar": "تنقل المنتج"
-        }
+        },
+        "stil": "",
+        "activetext": "#fff"
       },
       "version": "1.3.1",
       "icon": "article",
@@ -1154,6 +1380,56 @@
         "moreText": {
           "tr": "Kişisel Veriler",
           "en": "Personal Data"
+        },
+        "buttonText": "#ffffff",
+        "rizaSurumu": "1",
+        "title": {
+          "tr": "Çerez tercihleri",
+          "en": "Cookie preferences"
+        },
+        "rejectText": {
+          "tr": "Reddet",
+          "en": "Reject"
+        },
+        "prefsText": {
+          "tr": "Tercihler",
+          "en": "Preferences"
+        },
+        "saveText": {
+          "tr": "Seçimleri kaydet",
+          "en": "Save choices"
+        },
+        "zorunluText": {
+          "tr": "Zorunlu",
+          "en": "Strictly necessary"
+        },
+        "zorunluDesc": {
+          "tr": "Sepet, oturum ve güvenlik için gerekir; kapatılamaz.",
+          "en": "Needed for cart, session and security; cannot be turned off."
+        },
+        "islevselText": {
+          "tr": "İşlevsel",
+          "en": "Functional"
+        },
+        "islevselDesc": {
+          "tr": "Dil ve görünüm gibi tercihlerinizi hatırlar.",
+          "en": "Remembers preferences such as language and display."
+        },
+        "analitikText": {
+          "tr": "Analitik",
+          "en": "Analytics"
+        },
+        "analitikDesc": {
+          "tr": "Sitenin nasıl kullanıldığını ölçer (ör. Google Analytics, Clarity).",
+          "en": "Measures how the site is used (e.g. Google Analytics, Clarity)."
+        },
+        "pazarlamaText": {
+          "tr": "Pazarlama",
+          "en": "Marketing"
+        },
+        "pazarlamaDesc": {
+          "tr": "İlgi alanınıza göre reklam gösterir (ör. Meta Pixel).",
+          "en": "Shows ads based on your interests (e.g. Meta Pixel)."
         }
       },
       "category": "e-commerce",
@@ -1455,6 +1731,59 @@
         "keyframesSlideinFromTransform": {
           "tr": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      ",
           "en": "\r\n        @keyframes slideIn {\r\n          from { transform: translateX(100%); opacity: 0; }\r\n          to { transform: translateX(0); opacity: 1; }\r\n        }\r\n      "
+        },
+        "girisUrl": "login",
+        "lblBaslik": {
+          "tr": "Adres başlığı",
+          "en": "Address title"
+        },
+        "lblAdSoyad": {
+          "tr": "Ad soyad",
+          "en": "Full name"
+        },
+        "lblTelefon": {
+          "tr": "Telefon",
+          "en": "Phone"
+        },
+        "lblIl": {
+          "tr": "İl",
+          "en": "City"
+        },
+        "lblIlce": {
+          "tr": "İlçe",
+          "en": "District"
+        },
+        "lblPostaKodu": {
+          "tr": "Posta kodu",
+          "en": "Postal code"
+        },
+        "lblAdres": {
+          "tr": "Açık adres",
+          "en": "Street address"
+        },
+        "lblVarsayilan": {
+          "tr": "Varsayılan teslimat adresi yap",
+          "en": "Set as default delivery address"
+        },
+        "saveButton": {
+          "tr": "Kaydet",
+          "en": "Save"
+        },
+        "cancelButton": {
+          "tr": "Vazgeç",
+          "en": "Cancel"
+        },
+        "adresZorunlu": {
+          "tr": "Açık adres zorunludur.",
+          "en": "Street address is required."
+        },
+        "adresKaydedildi": {
+          "tr": "Adres kaydedildi.",
+          "en": "Address saved."
+        },
+        "uyeKullanilamiyor": {
+          "tr": "Üyelik bu sitede şu an kullanılamıyor.",
+          "en": "Membership is currently unavailable on this site."
         }
       },
       "id": "jbkomv",
@@ -1762,6 +2091,23 @@
         "lastLoginLabel": {
           "tr": "Son Giriş:",
           "en": "Last login:"
+        },
+        "girisUrl": "login",
+        "uyeKullanilamiyor": {
+          "tr": "Üyelik bu sitede şu an kullanılamıyor.",
+          "en": "Membership is currently unavailable on this site."
+        },
+        "dogumTarihiKaydedilmez": {
+          "tr": "Doğum tarihi şimdilik yalnızca gösterilir, kaydedilmez.",
+          "en": "Birth date is shown only and is not saved for now."
+        },
+        "tercihCihazda": {
+          "tr": "Tercihleriniz bu cihazda saklandı.",
+          "en": "Your preferences were saved on this device."
+        },
+        "hesapSilmeIletisim": {
+          "tr": "Hesap silme talebiniz için lütfen bizimle iletişime geçin.",
+          "en": "Please contact us to request account deletion."
         }
       },
       "id": "tk7p09",
@@ -1787,7 +2133,7 @@
         {
           "id": "cart",
           "icon": "shopping_cart",
-          "href": "/tr/sepetim/",
+          "href": "/sepetim/",
           "label": {
             "tr": "Sepetim",
             "en": "My cart"
@@ -1796,7 +2142,7 @@
         {
           "id": "orders",
           "icon": "receipt_long",
-          "href": "/tr/siparislerim/",
+          "href": "/siparislerim/",
           "label": {
             "tr": "Siparişlerim",
             "en": "My orders"
@@ -1805,7 +2151,7 @@
         {
           "id": "account",
           "icon": "person",
-          "href": "/tr/hesabim/",
+          "href": "/hesabim/",
           "label": {
             "tr": "Hesabım",
             "en": "Account"
@@ -1814,7 +2160,7 @@
         {
           "id": "contact",
           "icon": "support_agent",
-          "href": "/tr/iletisim/",
+          "href": "/iletisim/",
           "label": {
             "tr": "Destek",
             "en": "Support"
@@ -1945,7 +2291,8 @@
         "size": 5,
         "category": "kahvalti",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -1979,7 +2326,8 @@
         "size": 5,
         "category": "corba",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2013,7 +2361,8 @@
         "size": 5,
         "category": "kofte",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2047,7 +2396,8 @@
         "size": 5,
         "category": "kebab",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2081,7 +2431,8 @@
         "size": 5,
         "category": "mevsim",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2115,7 +2466,8 @@
         "size": 5,
         "category": "firin",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2149,7 +2501,8 @@
         "size": 5,
         "category": "pide",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2183,7 +2536,8 @@
         "size": 5,
         "category": "tatli",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2217,7 +2571,8 @@
         "size": 5,
         "category": "icecek",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
@@ -2251,11 +2606,79 @@
         "size": 5,
         "category": "menu",
         "aspect-ratio": "4 / 3",
-        "linkText": ""
+        "linkText": "",
+        "accentText": "#ffffff"
       },
       "version": "1.0",
       "icon": "",
       "category": "modul"
+    },
+    {
+      "name": "Page Desing 2",
+      "desing": {
+        "height": "100",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "textcolor": "#fff",
+        "category": "page"
+      },
+      "category": "page",
+      "description": "Page Desing 2 modülü. 2 farklı web projesinde kullanılmaktadır. İçerik sunumu ve görsel düzenleme için tasarlanmıştır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "7pt1ae",
+      "path": "page-text",
+      "local": "body",
+      "data": [],
+      "index": 32
+    },
+    {
+      "name": "Sayfa Listesi Kare",
+      "desing": {
+        "eyebrow": {
+          "tr": "Kurumsal"
+        },
+        "sectionTitle": {
+          "tr": "Kurumsal"
+        },
+        "sectionSubtitle": {
+          "tr": "Firmamız ve yasal bilgilendirme sayfaları"
+        },
+        "ctaLabel": {
+          "tr": "İncele"
+        },
+        "page": "kurumsal",
+        "size": 12,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "var(--mx-site-surface)",
+        "titlecolor": "var(--mx-site-text)",
+        "textcolor": "var(--mx-site-text)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text) 20%, transparent)",
+        "radius": "14px",
+        "accent": "var(--mx-site-primary)"
+      },
+      "category": "page-list",
+      "description": "Modern katalog grid liste modülü. Görsel üstte, altında başlık; soft border + hover lift + görsel zoom, opsiyonel eyebrow/başlık/alt başlık ve CTA satırı. Sayfa içeriklerini responsive grid düzeninde (masaüstü desing.size, ≤1024 3, ≤768 2 kolon) gösterir. 8 farklı projede kullanılır: üretim, lojistik, kurumsal, ambalaj, profesyonel hizmet ve inşaat sektörlerinde.",
+      "version": "1.2.0",
+      "icon": "grid_view",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "pqqkdn",
+      "path": "page-list",
+      "local": "body",
+      "data": [],
+      "index": 33
     }
   ]
 }

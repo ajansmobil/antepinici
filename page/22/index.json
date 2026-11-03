@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Fıstıklı Şekerli Börek"
+  },
+  "id": 22,
+  "index": 19,
+  "path": "fistikli-sekerli-borek",
+  "category": "tatli",
+  "status": "play",
+  "icon": "cake",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Antep fıstıklı şekerli börek."
+  },
+  "img": "https://antebinici.com.tr/img/ant-cigborek.webp",
+  "price": 500,
+  "update": "2026-11-02T09:29:34.527Z"
+}

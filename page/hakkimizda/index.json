@@ -7,7 +7,7 @@
   "path": "hakkimizda",
   "category": "",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2>\n    <p style=\" font-size: 16px;\">\n        Biz, müşteri memnuniyetini her zaman ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefleyen bir firmayız. Yenilikçi ve yaratıcı yaklaşımlarımızla, her projede maksimum verim ve etkinliği sağlamak için çalışıyoruz. Ekibimiz, alanında uzman profesyonellerden oluşmakta ve sürekli olarak gelişim ve eğitim fırsatları ile desteklenmektedir. Bu sayede, hem müşteri taleplerini en iyi şekilde karşılıyor hem de sektördeki en son gelişmeleri takip ederek, müşterilerimize katma değer sağlayacak çözümler sunuyoruz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Vizyonumuz, sektörümüzdeki en güvenilir ve tercih edilen firma olmaktır. Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor. Bizimle çalışan her müşteri, kalite ve güven arayışında olduğu için, onlara her zaman en iyi deneyimi sunmayı amaçlıyoruz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.\n    </p>"
+    "tr": "<article class=\"wm-metin\">\n<h2>Hakkımızda</h2>\n<p class=\"lead\">Firmamız, müşterilerinin ihtiyaçlarını doğru anlamayı ve bu ihtiyaçlara sade, güvenilir ve sürdürülebilir çözümler üretmeyi temel çalışma biçimi olarak benimser. Her iş birliğine, uzun soluklu bir ilişkinin ilk adımı gözüyle bakarız.</p>\n<h3>Kimiz?</h3>\n<p>Ekibimiz, farklı uzmanlık alanlarından gelen ve ortak bir hedef etrafında buluşan çalışanlardan oluşur: işi ilk seferde doğru yapmak. Bilgiyi paylaşmayı, birbirimizden öğrenmeyi ve her projeden edindiğimiz deneyimi bir sonrakine aktarmayı önemseriz. Kararlarımızı alırken müşterimizin bakış açısını merkeze koyar, sonuçlarını açıkça konuşuruz.</p>\n<h3>Nasıl çalışırız?</h3>\n<p>Her talebi önce dinler, ardından kapsamı ve beklentileri birlikte netleştiririz. Süreç boyunca düzenli bilgilendirme yapar, değişiklikleri zamanında paylaşırız. Çalışma ilkelerimiz şunlardır:</p>\n<ul>\n<li>İhtiyacın doğru tanımlanması ve gerçekçi bir planın birlikte oluşturulması</li>\n<li>Süreç boyunca açık, anlaşılır ve düzenli iletişim</li>\n<li>Kalite kontrol adımlarının işin her aşamasına yerleştirilmesi</li>\n<li>Teslim sonrasında da ulaşılabilir olmak ve geri bildirimleri dikkate almak</li>\n</ul>\n<h3>Neye değer veririz?</h3>\n<p>Dürüstlük, sorumluluk ve özen, gündelik işimizin parçasıdır. Verdiğimiz sözleri yerine getirmeye, bilmediğimiz konularda bunu açıkça söylemeye ve hatalarımızdan ders çıkarmaya önem veririz. Çalışanlarımızın gelişimini destekler, iş ortaklarımızla karşılıklı güvene dayalı ilişkiler kurarız.</p>\n<aside class=\"vurgu-kutusu\"><strong>Birlikte çalışalım:</strong> Sorularınızı, önerilerinizi ve projelerinizi dinlemekten memnuniyet duyarız. İletişim sayfamız üzerinden bize her zaman ulaşabilirsiniz.</aside>\n</article>"
   },
   "desing": {
     "header": [],
@@ -22,8 +22,13 @@
   "title": {
     "tr": "Hakkımızda"
   },
-  "description": {},
-  "keyword": {},
-  "update": "2026-05-19",
-  "date": "2026-05-19"
+  "description": {
+    "tr": "Firmamız, müşterilerinin ihtiyaçlarını doğru anlamayı ve bu ihtiyaçlara sade, güvenilir ve sürdürülebilir çözümler üretmeyi temel çalışma biçimi olarak…"
+  },
+  "keyword": {
+    "tr": "Hakkımızda, Antebinici"
+  },
+  "update": "2026-11-02T09:24:37.797Z",
+  "date": "2026-05-19",
+  "sablonIzi": "1cf1517f58e46c83"
 }

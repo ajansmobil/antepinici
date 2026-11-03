@@ -6,19 +6,21 @@ Web: https://www.antebinici.com.tr/tr/
 
 ## Sayfalar
 - [Antebinici](https://www.antebinici.com.tr/tr/): Gaziantep usulü kebap, lahmacun, künefe — Antebinici'den evlere.
+- [Kurumsal](https://www.antebinici.com.tr/tr/kurumsal/): Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları
 - [Ürünler](https://www.antebinici.com.tr/tr/urunler/): Antebinici — Ürünler
 - [Menü](https://www.antebinici.com.tr/tr/menu/)
 - [İade ve Değişim](https://www.antebinici.com.tr/tr/iade-ve-teslimat/): Antebinici — İade ve değişim koşulları
-- [Hakkımızda](https://www.antebinici.com.tr/tr/hakkimizda/)
-- [Misyon](https://www.antebinici.com.tr/tr/misyon/)
-- [Vizyon](https://www.antebinici.com.tr/tr/vizyon/)
-- [Kalite Politikamız](https://www.antebinici.com.tr/tr/kalitepolitikamiz/)
-- [Gizlilik Politikası](https://www.antebinici.com.tr/tr/gizlilik-politikasi/)
-- [Kişisel Veriler](https://www.antebinici.com.tr/tr/kisiselveriler/)
-- [Kullanıcı Hakları](https://www.antebinici.com.tr/tr/kullanicahaklari/)
-- [Yasal Uyarı](https://www.antebinici.com.tr/tr/yasaluyari/)
+- [Hakkımızda](https://www.antebinici.com.tr/tr/hakkimizda/): Firmamız, müşterilerinin ihtiyaçlarını doğru anlamayı ve bu ihtiyaçlara sade, güvenilir ve sürdürülebilir çözümler üretmeyi temel çalışma biçimi olarak…
+- [Misyon](https://www.antebinici.com.tr/tr/misyon/): Misyonumuz; müşterilerimize ihtiyaçlarına gerçekten karşılık veren, anlaşılır ve güvenilir ürün ve hizmetler sunmak, bunu yaparken çalışanlarımıza, iş…
+- [Vizyon](https://www.antebinici.com.tr/tr/vizyon/): Vizyonumuz; kalitesi, güvenilirliği ve müşteri odaklı yaklaşımıyla tercih edilen, değişime hızla uyum sağlayan ve çevresine değer katan bir kuruluş olmaktır.
+- [Kalite Politikamız](https://www.antebinici.com.tr/tr/kalitepolitikamiz/): Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir.
+- [Gizlilik Politikası](https://www.antebinici.com.tr/tr/gizlilik-politikasi/): Bu Gizlilik Politikası, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda…
+- [Kişisel Veriler](https://www.antebinici.com.tr/tr/kisiselveriler/): Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10.
+- [Kullanıcı Hakları](https://www.antebinici.com.tr/tr/kullanicahaklari/): https://antebinici.com.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir.
+- [Yasal Uyarı](https://www.antebinici.com.tr/tr/yasaluyari/): https://antebinici.com.tr internet sitesi Antebinici tarafından işletilmektedir.
 - [Mesafeli Satış Sözleşmesi](https://www.antebinici.com.tr/tr/mesafeli-satis-sozlesmesi/)
 - [İletişim](https://www.antebinici.com.tr/tr/iletisim/): Antebinici — İletişim
+- [Çerez Politikası](https://www.antebinici.com.tr/tr/cerez-politikasi/): Bu politika, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
 
 ## Urunler
 - [Antebin Kebabı (220gr)](https://www.antebinici.com.tr/tr/antebinkebab/): SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır.

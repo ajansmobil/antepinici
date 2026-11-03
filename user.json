@@ -15,7 +15,7 @@
     {
       "id": "usr_siparis",
       "name": {
-        "tr": "Siparislerim"
+        "tr": "Siparişlerim"
       },
       "description": {
         "tr": ""
@@ -79,7 +79,7 @@
     {
       "id": "usr_bilgi",
       "name": {
-        "tr": "Hesabim"
+        "tr": "Hesabım"
       },
       "description": {
         "tr": ""

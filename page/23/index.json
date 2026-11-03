@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Cevizli Kadayıf"
+  },
+  "id": 23,
+  "index": 20,
+  "path": "cevizli-kadayif",
+  "category": "tatli",
+  "status": "play",
+  "icon": "cake",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Tel kadayıf, ceviz, şerbet."
+  },
+  "img": "https://antebinici.com.tr/img/ant-kunefe.webp",
+  "price": 200,
+  "update": "2026-11-02T09:29:34.531Z"
+}

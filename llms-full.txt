@@ -114,6 +114,38 @@ Yayık ayranı, şalgam ve Türk kahvesi.
 
 ---
 
+## Kurumsal
+https://www.antebinici.com.tr/tr/kurumsal/
+
+Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları
+
+İade ve Değişim
+İncele
+Hakkımızda
+İncele
+Misyon
+İncele
+Vizyon
+İncele
+Kalite Politikamız
+İncele
+Gizlilik Politikası
+İncele
+Kişisel Veriler
+İncele
+Kullanıcı Hakları
+İncele
+Yasal Uyarı
+İncele
+Mesafeli Satış Sözleşmesi
+İncele
+İletişim
+İncele
+Çerez Politikası
+İncele
+
+---
+
 ## Ürünler
 https://www.antebinici.com.tr/tr/urunler/
 
@@ -739,7 +771,7 @@ https://www.antebinici.com.tr/tr/kebab/
 Kuşbaşılı, Antebin Kebabı, Küşleme, Kısabel ve Anteb'in kebabları.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -827,7 +859,7 @@ https://www.antebinici.com.tr/tr/kofte/
 Çiğ köfte, içli köfte, yuvalama ve yöresel közlemeler.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -915,7 +947,7 @@ https://www.antebinici.com.tr/tr/corba/
 Ezogelin, yayla, et paça ve yöresel çorbalar.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -1003,7 +1035,7 @@ https://www.antebinici.com.tr/tr/firin/
 El açması Anteb lahmacun ve çıra tavaları.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -1091,7 +1123,7 @@ https://www.antebinici.com.tr/tr/kahvalti/
 Yöresel serpme Anteb kahvaltısı ve serpme seçmeli menü.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -1179,7 +1211,7 @@ https://www.antebinici.com.tr/tr/tatli/
 Katmer, kadayıf, zerda ve Anteb tatlıları.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -1267,7 +1299,7 @@ https://www.antebinici.com.tr/tr/icecek/
 Yayık ayranı, şalgam ve Türk kahvesi.
 
 Kategoriler
-Tümü Kebab (11) Firin (1) Kofte (3) Tatli (3) Kahvalti (1) Corba (2) Icecek (3)
+Tümü Kebaplar (11) Fırın (1) Köfte & Yöresel (3) Tatlilar (3) Kahvaltı (1) Çorbalar (2) İçecekler (3)
 Fiyat Aralığı
 Tümü
 Stok
@@ -1366,82 +1398,194 @@ Sipariş sırasında bir hata yaptığınızı fark ederseniz (adres, ürün ade
 ## Hakkımızda
 https://www.antebinici.com.tr/tr/hakkimizda/
 
+Firmamız, müşterilerinin ihtiyaçlarını doğru anlamayı ve bu ihtiyaçlara sade, güvenilir ve sürdürülebilir çözümler üretmeyi temel çalışma biçimi olarak…
+
 Hakkımızda
 Hakkımızda
-Biz, müşteri memnuniyetini her zaman ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefleyen bir firmayız. Yenilikçi ve yaratıcı yaklaşımlarımızla, her projede maksimum verim ve etkinliği sağlamak için çalışıyoruz. Ekibimiz, alanında uzman profesyonellerden oluşmakta ve sürekli olarak gelişim ve eğitim fırsatları ile desteklenmektedir. Bu sayede, hem müşteri taleplerini en iyi şekilde karşılıyor hem de sektördeki en son gelişmeleri takip ederek, müşterilerimize katma değer sağlayacak çözümler sunuyoruz.
-Vizyonumuz, sektörümüzdeki en güvenilir ve tercih edilen firma olmaktır. Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor. Bizimle çalışan her müşteri, kalite ve güven arayışında olduğu için, onlara her zaman en iyi deneyimi sunmayı amaçlıyoruz.
-Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.
+Firmamız, müşterilerinin ihtiyaçlarını doğru anlamayı ve bu ihtiyaçlara sade, güvenilir ve sürdürülebilir çözümler üretmeyi temel çalışma biçimi olarak benimser. Her iş birliğine, uzun soluklu bir ilişkinin ilk adımı gözüyle bakarız.
+Kimiz?
+Ekibimiz, farklı uzmanlık alanlarından gelen ve ortak bir hedef etrafında buluşan çalışanlardan oluşur: işi ilk seferde doğru yapmak. Bilgiyi paylaşmayı, birbirimizden öğrenmeyi ve her projeden edindiğimiz deneyimi bir sonrakine aktarmayı önemseriz. Kararlarımızı alırken müşterimizin bakış açısını merkeze koyar, sonuçlarını açıkça konuşuruz.
+Nasıl çalışırız?
+Her talebi önce dinler, ardından kapsamı ve beklentileri birlikte netleştiririz. Süreç boyunca düzenli bilgilendirme yapar, değişiklikleri zamanında paylaşırız. Çalışma ilkelerimiz şunlardır:
+İhtiyacın doğru tanımlanması ve gerçekçi bir planın birlikte oluşturulması
+Süreç boyunca açık, anlaşılır ve düzenli iletişim
+Kalite kontrol adımlarının işin her aşamasına yerleştirilmesi
+Teslim sonrasında da ulaşılabilir olmak ve geri bildirimleri dikkate almak
+Neye değer veririz?
+Dürüstlük, sorumluluk ve özen, gündelik işimizin parçasıdır. Verdiğimiz sözleri yerine getirmeye, bilmediğimiz konularda bunu açıkça söylemeye ve hatalarımızdan ders çıkarmaya önem veririz. Çalışanlarımızın gelişimini destekler, iş ortaklarımızla karşılıklı güvene dayalı ilişkiler kurarız.
+Birlikte çalışalım: Sorularınızı, önerilerinizi ve projelerinizi dinlemekten memnuniyet duyarız. İletişim sayfamız üzerinden bize her zaman ulaşabilirsiniz.
 
 ---
 
 ## Misyon
 https://www.antebinici.com.tr/tr/misyon/
 
+Misyonumuz; müşterilerimize ihtiyaçlarına gerçekten karşılık veren, anlaşılır ve güvenilir ürün ve hizmetler sunmak, bunu yaparken çalışanlarımıza, iş…
+
 Misyon
 Misyonumuz
-Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.
+Misyonumuz; müşterilerimize ihtiyaçlarına gerçekten karşılık veren, anlaşılır ve güvenilir ürün ve hizmetler sunmak, bunu yaparken çalışanlarımıza, iş ortaklarımıza ve içinde bulunduğumuz topluma karşı sorumluluklarımızı gözetmektir.
+Müşterilerimiz için
+Her müşterimizin beklentisini dikkatle dinler, ona uygun çözümü birlikte belirleriz. Söz verdiğimiz kalitede ve zamanda teslim etmeyi, sonrasında da destek olmayı işimizin doğal bir parçası sayarız.
+Ekibimiz ve iş ortaklarımız için
+Güvenli, saygılı ve öğrenmeye açık bir çalışma ortamı oluşturmak misyonumuzun ayrılmaz bir parçasıdır. Bu doğrultuda şu ilkeleri benimseriz:
+Çalışanlarımızın mesleki gelişimini desteklemek
+İş ortaklarımızla açık, adil ve sürdürülebilir ilişkiler kurmak
+Sorumlulukları netleştirmek ve başarıyı birlikte paylaşmak
+Geri bildirimi bir gelişim aracı olarak görmek
+Topluma ve çevreye karşı
+Faaliyetlerimizi yürürlükteki mevzuata uygun biçimde sürdürmeyi, kaynakları verimli kullanmayı ve çevresel etkilerimizi azaltacak uygulamaları benimsemeyi taahhüt ederiz. Toplumsal sorumluluğu, gündelik kararlarımıza yansıyan bir tutum olarak görürüz.
+Kısaca: Yaptığımız her işte güvenilir olmak, anlaşılır olmak ve sözümüzü tutmak misyonumuzun özüdür.
 
 ---
 
 ## Vizyon
 https://www.antebinici.com.tr/tr/vizyon/
 
+Vizyonumuz; kalitesi, güvenilirliği ve müşteri odaklı yaklaşımıyla tercih edilen, değişime hızla uyum sağlayan ve çevresine değer katan bir kuruluş olmaktır.
+
 Vizyon
 Vizyonumuz
-Vizyonumuz, sektörümüzdeki en güvenilir ve tercih edilen firma olmaktır. Bunun için, iş süreçlerimizi sürekli gözden geçiriyor, iyileştiriyor ve geliştirmeye odaklanıyoruz. Müşterilerimizin geri bildirimlerini dikkate alarak, ihtiyaçlarına en uygun çözümleri sunmak için çaba gösteriyoruz. Müşteri odaklı bir yaklaşım benimsememiz, işimizi daha da büyütmemize yardımcı oluyor ve sektördeki konumumuzu güçlendiriyor. Bizimle çalışan her müşteri, kalite ve güven arayışında olduğu için, onlara her zaman en iyi deneyimi sunmayı amaçlıyoruz.
+Vizyonumuz; kalitesi, güvenilirliği ve müşteri odaklı yaklaşımıyla tercih edilen, değişime hızla uyum sağlayan ve çevresine değer katan bir kuruluş olmaktır.
+Geleceğe bakışımız
+Sektörümüzdeki gelişmeleri yakından izliyor, yeni yöntem ve teknolojileri müşterilerimize gerçek fayda sağlayacak biçimde işimize katmayı hedefliyoruz. Büyümeyi yalnızca ölçek olarak değil, sunduğumuz hizmetin derinliği ve kalitesi olarak tanımlıyoruz. Değişimi bir risk olarak değil, daha iyisini yapabilmek için bir fırsat olarak görüyoruz.
+Hedeflerimiz
+Vizyonumuza ulaşmak için odaklandığımız başlıca alanlar şunlardır:
+Müşteri deneyimini her temas noktasında iyileştirmek
+Süreçlerimizi ölçülebilir ve sürekli gelişen bir yapıya kavuşturmak
+Ekibimizin yetkinliklerini yeni ihtiyaçlara göre geliştirmek
+Çevreye ve topluma duyarlı iş yapış biçimlerini yaygınlaştırmak
+Kalıcı değer
+Kısa vadeli kazanımlar yerine uzun soluklu güven ilişkileri kurmayı önemsiyoruz. Müşterilerimizin, çalışanlarımızın ve iş ortaklarımızın bizimle çalışmaktan memnun olduğu, birlikte büyüdüğümüz bir gelecek tasarlıyoruz.
+Yolumuzu belirleyen: Değişime açık olmak, ama değerlerimizden ödün vermemek.
 
 ---
 
 ## Kalite Politikamız
 https://www.antebinici.com.tr/tr/kalitepolitikamiz/
 
+Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir.
+
 Kalite Politikamız
 Kalite Politikamız
-Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.
+Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir. Müşteri memnuniyetini, yasal gerekliliklere uyumu ve sürekli iyileştirmeyi kalite anlayışımızın temeli olarak kabul ederiz.
+Temel ilkelerimiz
+Kalite politikamız aşağıdaki ilkeler üzerine kuruludur:
+Müşteri beklentilerini doğru anlamak ve bunları karşılayan ürün ve hizmetler sunmak
+Faaliyetlerimizi ilgili mevzuata ve üstlendiğimiz yükümlülüklere uygun yürütmek
+Süreçlerimizi tanımlı, izlenebilir ve ölçülebilir hâle getirmek
+Hataları kaynağında önlemeye yönelik kontroller uygulamak
+Çalışanlarımızın eğitimini ve katılımını desteklemek
+Sürekli iyileştirme
+Müşteri geri bildirimlerini, iç değerlendirmelerimizi ve süreç verilerimizi düzenli olarak gözden geçirir, iyileştirme fırsatlarını belirleriz. Belirlenen iyileştirmeleri planlı biçimde uygular ve sonuçlarını takip ederiz.
+Sorumluluk ve paylaşım
+Kalite, firmamızdaki her çalışanın ortak sorumluluğudur. Tedarikçilerimiz ve iş ortaklarımızla da aynı anlayışı paylaşmayı, beklentilerimizi açıkça ifade etmeyi ve birlikte gelişmeyi hedefleriz.
+Geri bildiriminiz değerlidir: Ürün ve hizmetlerimizle ilgili her türlü görüş ve öneriniz, kalite çalışmalarımızın önemli bir girdisidir.
 
 ---
 
 ## Gizlilik Politikası
 https://www.antebinici.com.tr/tr/gizlilik-politikasi/
 
+Bu Gizlilik Politikası, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda…
+
 Gizlilik Politikası
-Gizlilik Politikamız
-Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır. Çerezler, kullanıcı tercihlerinizi hatırlamak, sitemizin işleyişini optimize etmek ve size daha iyi bir deneyim sunmak için kullanılmaktadır.
-Toplanan bilgiler, üçüncü taraflarla paylaşılmamakta olup, yalnızca sitemizin performansını artırmak ve hizmetlerimizi geliştirmek amacıyla kullanılmaktadır. Kullanıcılar, tarayıcı ayarlarını değiştirerek çerezlerin kullanımını engelleyebilirler. Ancak, bu durumda sitemizin bazı bölümlerinin düzgün çalışmayabileceğini unutmamanız gerekir.
-Gizliliğiniz bizim için son derece önemlidir. Kişisel bilgilerinizin güvenliğini sağlamak için gerekli teknik ve idari önlemleri alıyoruz. Gizlilik Politikamız ile ilgili sorularınız ya da endişeleriniz varsa, bizimle iletişime geçebilirsiniz.
+Gizlilik Politikası
+Bu Gizlilik Politikası, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda bilgilerinizin nasıl ele alındığını açıklar. Kişisel verileriniz 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ilgili mevzuata uygun olarak işlenir.
+Toplanan bilgiler
+Sitemizi kullanımınıza bağlı olarak aşağıdaki bilgi türleri işlenebilir:
+İletişim formları aracılığıyla ilettiğiniz ad, e-posta, telefon ve mesaj içeriği
+Site güvenliği ve ilgili mevzuattan doğan yükümlülükler için gerekli IP adresi, tarayıcı ve erişim kayıtları
+Tercihlerinize bağlı olarak çerezler aracılığıyla elde edilen kullanım bilgileri
+Sipariş veya hizmet talebi oluşturmanız hâlinde işlemin gerektirdiği bilgiler
+Bilgilerin kullanımı ve paylaşımı
+Bilgileriniz; taleplerinizi yanıtlamak, hizmetlerimizi sunmak, siteyi güvenli ve çalışır durumda tutmak ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılır. Bilgileriniz satılmaz; yalnızca hizmetin sağlanması için gerekli olan hizmet sağlayıcılarla veya yasal olarak yetkili kurum ve kuruluşlarla, mevzuatın izin verdiği ölçüde paylaşılır.
+Güvenlik ve saklama
+Bilgilerinizi yetkisiz erişime, kayba ve kötüye kullanıma karşı korumak için makul teknik ve idari tedbirleri alırız. Bilgiler, işlenme amacının gerektirdiği veya mevzuatın öngördüğü süre boyunca saklanır; bu süre sonunda silinir, yok edilir ya da anonim hâle getirilir.
+Haklarınız ve iletişim
+Kişisel verilerinize ilişkin haklarınızı 6698 sayılı Kanun çerçevesinde kullanabilirsiniz. Ayrıntılı bilgi için Kişisel Verilerin Korunması ve Aydınlatma Metni sayfamızı inceleyebilir, sorularınızı 0531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz.
+Değişiklikler: Bu politika gerektiğinde güncellenebilir; güncel sürüm her zaman bu sayfada yayımlanır. Son güncelleme: 2026-11-02.
 
 ---
 
 ## Kişisel Veriler
 https://www.antebinici.com.tr/tr/kisiselveriler/
 
+Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10.
+
 Kişisel Veriler
-Kişisel Veriler
-Kişisel verileriniz, yalnızca yasal gereklilikleri karşılamak, taleplerinizi yerine getirmek ve size daha iyi hizmet sunmak amacıyla toplanmaktadır. Kişisel verilerinizin güvenliği bizim için önceliklidir ve bu verilerin korunması için 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere, ilgili tüm mevzuat çerçevesinde gerekli teknik ve idari tedbirleri almaktayız.
-Toplanan kişisel veriler, yalnızca yetkili kişiler tarafından erişilebilir olup, izniniz dışında üçüncü taraflarla paylaşılmamaktadır. Kişisel verilerinizin hangi amaçlarla işlendiğini, nasıl saklandığını, kimlerle paylaşıldığını öğrenme hakkına sahipsiniz. Ayrıca, verilerinize erişim talep edebilir, düzeltilmesini, silinmesini veya anonim hale getirilmesini isteyebilirsiniz.
-Kişisel verilerinizle ilgili herhangi bir sorunuz veya talebiniz olduğunda, Gizlilik Politikamızda belirtilen iletişim kanallarımız üzerinden bizimle iletişime geçebilirsiniz. Verilerinizin güvenliği ve mahremiyeti bizim için büyük önem taşımaktadır.
+KVKK Kişisel Verilerin Korunması ve Aydınlatma Metni
+Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca, veri sorumlusu sıfatıyla Antebinici tarafından hazırlanmıştır.
+İşleme amaçları
+Kişisel verileriniz, aşağıdaki amaçlarla ve bu amaçlarla bağlantılı, sınırlı ve ölçülü biçimde işlenir:
+Talep ve şikâyetlerinizin alınması ve yanıtlanması
+Ürün ve hizmetlerin sunulması, sözleşme süreçlerinin yürütülmesi
+Mevzuattan doğan yükümlülüklerin yerine getirilmesi ve yetkili kurumlara bilgi verilmesi
+Bilgi güvenliğinin ve site işleyişinin sağlanması
+Açık rızanız bulunması hâlinde tanıtım ve bilgilendirme iletişiminin yapılması
+Hukuki sebepler ve toplama yöntemi
+Verileriniz; site formları, e-posta, telefon, fiziki başvurular ve çerezler aracılığıyla otomatik veya kısmen otomatik yollarla toplanır ve Kanun’un 5. maddesindeki sözleşmenin kurulması veya ifası, hukuki yükümlülük, bir hakkın tesisi, kullanılması veya korunması ve meşru menfaat sebeplerine; bunların bulunmadığı hâllerde açık rızanıza dayanılarak işlenir. Özel nitelikli kişisel veriler yalnızca Kanun’un 6. maddesindeki şartlar sağlandığında işlenir.
+Aktarım
+Verileriniz, amaçlarla sınırlı olarak yetkili kamu kurumlarına ve barındırma, yazılım, kargo, muhasebe gibi tedarikçilerimize Kanun’un 8. ve 9. maddelerine uygun olarak aktarılabilir.
+Kanun’un 11. maddesi kapsamındaki haklarınız
+Veri sorumlusuna başvurarak:
+Verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme
+İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme
+Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme
+Eksik veya yanlış işlenmişse düzeltilmesini, Kanun’un 7. maddesi çerçevesinde silinmesini veya yok edilmesini ve bu işlemlerin aktarıldığı üçüncü kişilere bildirilmesini isteme
+Münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonucun ortaya çıkmasına itiraz etme
+Kanuna aykırı işlenme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme
+haklarına sahipsiniz.
+Başvuru yöntemi
+Başvurularınızı, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e uygun olarak 0531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Başvurular, Kanun’un 13. maddesi uyarınca en geç otuz gün içinde ücretsiz sonuçlandırılır; işlem ayrıca maliyet gerektirirse Kurul tarifesindeki ücret alınabilir.
+Son güncelleme: 2026-11-02.
 
 ---
 
 ## Kullanıcı Hakları
 https://www.antebinici.com.tr/tr/kullanicahaklari/
 
+https://antebinici.com.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir.
+
 Kullanıcı Hakları
 Kullanıcı Hakları
-Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.
-Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz. Haklarınızı kullanmak için bizimle her zaman iletişime geçebilirsiniz.
-Kişisel verilerinizin korunması ve haklarınızla ilgili detaylı bilgi almak için sitemizde yer alan Gizlilik Politikası’nı inceleyebilirsiniz. Kullanıcı olarak, verilerinizin güvenliği bizim önceliğimizdir ve gerekli teknik ve idari önlemleri almış bulunmaktayız.
+https://antebinici.com.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir. Bu sayfa, Antebinici ile ilişkinizde başlıca haklarınızı ve bunları nasıl kullanabileceğinizi özetler.
+Kişisel verilere ilişkin haklar
+6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 11. maddesi kapsamında kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme veya yok edilmesini isteme, itiraz etme ve zararın giderilmesini talep etme haklarına sahipsiniz. Bu hakları kullanma yöntemi Aydınlatma Metnimizde açıklanmıştır.
+Tüketici olarak haklarınız
+Sitemiz üzerinden mal veya hizmet satın almanız hâlinde 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamındaki haklarınız saklıdır. Bunlar arasında şunlar yer alır:
+Sözleşme kurulmadan önce açık ve anlaşılır biçimde bilgilendirilme
+Yönetmelikte belirtilen istisnalar dışında on dört gün içinde cayma hakkı
+Ayıplı mal veya hizmet durumunda Kanun’da sayılan seçimlik haklar
+Uyuşmazlıklarda Tüketici Hakem Heyeti veya Tüketici Mahkemesine başvurma
+Ticari elektronik iletiler
+6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun uyarınca, onayınız olmadan size ticari elektronik ileti gönderilmez. Onay verdiyseniz, herhangi bir gerekçe göstermeksizin dilediğiniz zaman ret hakkınızı kullanarak ileti almayı durdurabilirsiniz.
+Başvuru ve iletişim
+Haklarınızla ilgili taleplerinizi 0531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Başvurularınız mevzuatta öngörülen süreler içinde değerlendirilir.
+Önemli: Bu sayfa bilgilendirme amaçlıdır; haklarınızın kapsamını ilgili mevzuat belirler.
 
 ---
 
 ## Yasal Uyarı
 https://www.antebinici.com.tr/tr/yasaluyari/
 
+https://antebinici.com.tr internet sitesi Antebinici tarafından işletilmektedir.
+
 Yasal Uyarı
 Yasal Uyarı
-Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun'un hükümleri uyarınca korunmaktadır. Sitemizde yer alan hiçbir içeriğin kopyalanması, çoğaltılması, yayılması, satılması, dağıtılması, sergilenmesi, yayımlanması, herhangi bir şekilde ticari amaçla kullanılması veya başka platformlarda izinsiz olarak paylaşılması yasaktır. Bu kurallara aykırı hareket edenler, ilgili kanunlar kapsamında hukuki ve cezai yaptırımlarla karşılaşabilirler.
-Sitemizde yer alan içeriğin hukuka aykırı bir şekilde kullanılması veya dağıtılması durumunda, sitemiz yetkili mercilere başvurma ve yasal haklarını koruma hakkını saklı tutar. İnternet ortamında yer alan içeriklerin izinsiz paylaşımı, hukuki olarak ağır yaptırımlar doğurabileceği gibi, eser sahiplerinin haklarını ihlal eder. Eser sahibi olarak haklarınızı korumanız gerektiği durumda, hukuki süreç başlatma hakkınız mevcuttur.
-Sitemizde yer alan içeriklerin izinsiz kullanımını veya paylaşımını fark ederseniz, lütfen bizimle iletişime geçin. Sitemizi kullanmaya devam ederek, bu yasal uyarıyı kabul etmiş sayılırsınız.
+https://antebinici.com.tr internet sitesi Antebinici tarafından işletilmektedir. Siteyi ziyaret eden veya kullanan herkes, aşağıdaki koşulları okumuş ve kabul etmiş sayılır. Koşulları kabul etmiyorsanız lütfen siteyi kullanmayınız.
+Fikri ve sınai haklar
+Sitede yer alan metin, görsel, logo, tasarım, yazılım ve diğer tüm içerikler, aksi belirtilmedikçe Antebinici adına korunmaktadır ve 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile ilgili mevzuat kapsamındadır. Bu içerikler önceden yazılı izin alınmaksızın kopyalanamaz, çoğaltılamaz, dağıtılamaz veya ticari amaçla kullanılamaz.
+Bilgilerin doğruluğu
+Sitedeki bilgiler genel bilgilendirme amacı taşır ve özenle hazırlanır; ancak bilgilerin her zaman eksiksiz ve güncel olacağı garanti edilmez. Firmamız, önceden bildirimde bulunmaksızın içerikte değişiklik yapma hakkını saklı tutar. Özellikle şu hususlara dikkat edilmesini rica ederiz:
+Ürün, hizmet ve fiyat bilgileri değişiklik gösterebilir; bağlayıcı bilgiler sözleşme aşamasında sunulur
+Sitedeki içerikler profesyonel danışmanlık yerine geçmez
+Siteye erişimde yaşanabilecek teknik kesintilerden doğan zararlardan, mevzuatın izin verdiği ölçüde sorumluluk kabul edilmez
+Üçüncü taraf içerikler
+Sitede başka internet sitelerine yönlendirme bulunması hâlinde, bu sitelerin içerik ve gizlilik uygulamalarından ilgili site işletenleri sorumludur. 5651 sayılı Kanun kapsamında, bağlantı verilen içeriklerin benimsendiği açıkça anlaşılmadıkça bu içeriklerden sorumluluk doğmaz.
+Uygulanacak hukuk
+Bu koşulların yorumlanmasında ve uygulanmasında Türkiye Cumhuriyeti hukuku uygulanır. Tüketici işlemlerinden doğan uyuşmazlıklarda tüketicinin kanuni hakları saklıdır.
+İletişim: Sorularınız için 0531 679 10 14 numaralı telefon hattımız üzerinden bize ulaşabilirsiniz. Son güncelleme: 2026-11-02.
 
 ---
 
@@ -1462,3 +1606,32 @@ https://www.antebinici.com.tr/tr/iletisim/
 Antebinici — İletişim
 
 İletişim
+Bize Ulaşın
+0531 679 10 14
+Bize Ulaşın
+0531 679 10 14
+
+---
+
+## Çerez Politikası
+https://www.antebinici.com.tr/tr/cerez-politikasi/
+
+Bu politika, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+
+Çerez Politikası
+Çerez Politikası
+Bu politika, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve tercihlerinizi nasıl yönetebileceğinizi açıklar. Çerezler aracılığıyla elde edilen kişisel veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu’na uygun olarak işlenir.
+Çerez nedir?
+Çerezler, bir internet sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyalarıdır. Oturumunuzun sürdürülmesi, tercihlerinizin hatırlanması ve sitenin nasıl kullanıldığının anlaşılması gibi amaçlara hizmet eder. Çerezler, tarayıcı kapatıldığında silinen oturum çerezleri veya belirli bir süre cihazda kalan kalıcı çerezler olabilir.
+Kullandığımız çerez türleri
+Sitemizde aşağıdaki kategorilerde çerezler kullanılabilir:
+Zorunlu çerezler: Sitenin temel işlevlerinin, güvenliğin ve oturumun sağlanması için gereklidir; devre dışı bırakılmaları sitenin çalışmasını engelleyebilir.
+İşlevsel çerezler: Dil, bölge veya görünüm gibi tercihlerinizi hatırlayarak daha kişisel bir deneyim sunar.
+Analitik çerezler: Ziyaretçilerin siteyi nasıl kullandığını toplu olarak ölçerek sitenin iyileştirilmesine yardımcı olur.
+Pazarlama çerezleri: İlgi alanlarınıza uygun içerik ve reklamların gösterilmesi amacıyla kullanılır.
+Onay ve tercihlerin yönetimi
+Zorunlu çerezler dışındaki çerezler yalnızca açık rızanız alınarak kullanılır. Sitemizi ilk ziyaretinizde gösterilen çerez bildirimi üzerinden tercihlerinizi belirleyebilir, verdiğiniz onayı dilediğiniz zaman geri alabilirsiniz.
+Ayrıca tarayıcınızın ayarlar bölümündeki gizlilik veya site verileri seçenekleri aracılığıyla çerezleri görüntüleyebilir, silebilir ya da engelleyebilirsiniz. Çerezleri tamamen engellemeniz hâlinde sitenin bazı bölümleri beklendiği gibi çalışmayabilir.
+Haklarınız
+Çerezler aracılığıyla işlenen kişisel verilerinize ilişkin olarak Kanun’un 11. maddesindeki haklarınızı kullanmak için 0531 679 10 14 numaralı telefon hattımız üzerinden başvurabilirsiniz.
+Son güncelleme: 2026-11-02. Kullandığımız çerezlerde değişiklik olduğunda bu politika güncellenir.

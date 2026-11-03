@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Türk Kahvesi"
+  },
+  "id": 26,
+  "index": 23,
+  "path": "turk-kahvesi",
+  "category": "icecek",
+  "status": "play",
+  "icon": "sports_bar",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Türk usulü kahve."
+  },
+  "img": "https://antebinici.com.tr/img/ant-turkkahvesi.webp",
+  "price": 140,
+  "update": "2026-11-02T09:29:34.548Z"
+}

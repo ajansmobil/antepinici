@@ -1,0 +1,31 @@
+{
+  "id": "w3kize6kp3",
+  "name": {
+    "tr": "Kurumsal"
+  },
+  "description": {
+    "tr": "Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları"
+  },
+  "keyword": {
+    "tr": "kurumsal, hakkımızda, yasal bilgiler"
+  },
+  "path": "kurumsal",
+  "icon": "business",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pqqkdn"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kurumsal | Antebinici"
+  },
+  "date": "2026-11-02T09:24:37.806Z",
+  "update": "2026-11-02T09:24:37.809Z"
+}

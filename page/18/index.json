@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Yuvalama"
+  },
+  "id": 18,
+  "index": 17,
+  "path": "yuvalama",
+  "category": "corba",
+  "status": "play",
+  "icon": "soup_kitchen",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
+  },
+  "img": "https://antebinici.com.tr/img/ant-yuvalama.webp",
+  "price": 300,
+  "update": "2026-11-02T09:29:34.518Z"
+}

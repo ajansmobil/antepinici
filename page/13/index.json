@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Sade Kıyma (220gr)"
+  },
+  "id": 13,
+  "index": 14,
+  "path": "sadekiyma",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
+  },
+  "img": "img/ant-sadekiyma.webp",
+  "price": 625,
+  "update": "2026-11-02T09:29:34.506Z"
+}

@@ -32,18 +32,20 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-
-  <link rel="stylesheet" href="/src/rubik.css?v=le5vn" />
-  <link rel="stylesheet" href="/src/css.css?v=le5vn" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=le5vn" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/rubik.css?v=bnw16" />
+  <link rel="stylesheet" href="/src/css.css?v=bnw16" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=bnw16" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=le5vn" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=bnw16" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=le5vn" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=bnw16" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=le5vn" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=le5vn" />
-  <link rel="shortcut icon" href="/img/icon.png?v=le5vn" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=bnw16" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=bnw16" />
+  <link rel="shortcut icon" href="/img/icon.png?v=bnw16" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +117,7 @@
 }
 </script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap"><meta name="theme-color" content="#14100c">
-<link rel="stylesheet" href="style.css?v=le5vn">
+<link rel="stylesheet" href="style.css?v=bnw16">
 </head>
 
 <body>
@@ -153,7 +155,7 @@
   <div class="h0000-body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=p9err"
+        src="/img/logo.png?v=il37f"
         alt="Antebinici Logo"
         class="h0000-body-logo"
         loading="lazy"
@@ -190,7 +192,7 @@
       <div class="h0000-menu-list-body">
         <div class="h0000-menu-list">
           <ul>
-            <a class="h0000-menulistactive" href="/tr/">Anasayfa </a><a href="/tr/urunler/">Ürünler</a>
+            <a class="h0000-menulistactive" href="/tr/">Anasayfa </a><a href="/tr/kurumsal/">Kurumsal</a><a href="/tr/urunler/">Ürünler</a>
           </ul>
         </div>
       </div>
@@ -240,13 +242,16 @@
     <div class="b0000ResultCount" id="resultCount"></div>
 
     
+    
+
+    
     <div class="b0000FilterSection">
       <div class="b0000FilterHead" onclick="toggleSection(this)">
         <span>Kategoriler</span>
         <span class="material-symbols-outlined">expand_more</span>
       </div>
       <div class="b0000FilterBody">
-        <label class="b0000FilterItem"><input type="checkbox" name="category" value="all" onchange="applyFilters()" checked /><span>Tümü</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="kebab" onchange="applyFilters()" /><span>Kebab (11)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="firin" onchange="applyFilters()" /><span>Firin (1)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="kofte" onchange="applyFilters()" /><span>Kofte (3)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="tatli" onchange="applyFilters()" /><span>Tatli (3)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="kahvalti" onchange="applyFilters()" /><span>Kahvalti (1)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="corba" onchange="applyFilters()" /><span>Corba (2)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="icecek" onchange="applyFilters()" /><span>Icecek (3)</span></label>
+        <label class="b0000FilterItem"><input type="checkbox" name="category" value="all" onchange="applyFilters()" checked /><span>Tümü</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="kebab" onchange="applyFilters()" /><span>Kebaplar (11)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="firin" onchange="applyFilters()" /><span>Fırın (1)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="kofte" onchange="applyFilters()" /><span>Köfte & Yöresel (3)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="tatli" onchange="applyFilters()" /><span>Tatlilar (3)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="kahvalti" onchange="applyFilters()" /><span>Kahvaltı (1)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="corba" onchange="applyFilters()" /><span>Çorbalar (2)</span></label><label class="b0000FilterItem"><input type="checkbox" name="category" value="icecek" onchange="applyFilters()" /><span>İçecekler (3)</span></label>
       </div>
     </div>
 
@@ -369,7 +374,108 @@ function clearAllFilters() {
   }
   applyFilters();
 }
+
+
+(function () {
+  var kok = document.getElementById("b0000-kf-pxKat01");
+  if (!kok || kok.getAttribute("data-kf-enh") !== "1") { return; }
+  function hazir(fn) {
+    if (window.mxLoad) { fn(); }
+    else if (document.readyState === "complete") { setTimeout(fn, 50); }
+    else { window.addEventListener("load", fn); }
+  }
+  function dizi(nl) { var o = []; var n; for (n = 0; n < nl.length; n++) { o.push(nl[n]); } return o; }
+  function basla() {
+    var MxF = window.MxFiltre;
+    if (!MxF) { return; }
+    
+    var kartlar = dizi(document.querySelectorAll("[data-mx-id][data-category]"));
+    if (!kartlar.length) { return; }
+    var items = [];
+    var i;
+    for (i = 0; i < kartlar.length; i++) {
+      var k = kartlar[i];
+      var tarih = parseFloat(k.getAttribute("data-date"));
+      items.push({
+        id: i,
+        name: k.getAttribute("data-mx-name") || "",
+        cat: k.getAttribute("data-category") || "",
+        stock: k.getAttribute("data-stock") || "",
+        price: parseFloat(k.getAttribute("data-price")) || 0,
+        rank: (k.getAttribute("data-new") === "1" ? 1e14 : 0) + (isFinite(tarih) ? tarih : 0)
+      });
+    }
+    var f = MxF.olustur({
+      items: items,
+      arama: { alanlar: ["name", "cat"] },
+      facets: { cat: { tip: "coklu" }, price: { tip: "aralik" }, stock: { tip: "coklu" } },
+      siralama: { priceAsc: { alan: "price", yon: 1 }, priceDesc: { alan: "price", yon: -1 }, "new": { alan: "rank", yon: -1 } },
+      url: true,
+      dil: document.documentElement.getAttribute("lang") || "tr"
+    });
+    var araEl = kok.querySelector("[data-kf-q]");
+    var sirEl = kok.querySelector("[data-kf-sort]");
+    var sayEl = kok.querySelector(".b0000ResultCount");
+    var rcMetin = kok.getAttribute("data-kf-rc") || "";
+    var catIn = dizi(kok.querySelectorAll('input[name="category"]'));
+    var stockIn = dizi(kok.querySelectorAll('input[name="stock"]'));
+    var priceIn = dizi(kok.querySelectorAll('input[name="price"]'));
+
+    function sec(girdiler) {
+      var r = [];
+      var n;
+      for (n = 0; n < girdiler.length; n++) { if (girdiler[n].checked && girdiler[n].value !== "all") { r.push(girdiler[n].value); } }
+      return r;
+    }
+    kok.addEventListener("change", function (e) {
+      var t = e.target;
+      if (t.name === "category") { f.ayarla({ cat: t.value === "all" ? [] : sec(catIn) }); }
+      else if (t.name === "stock") { f.ayarla({ stock: sec(stockIn) }); }
+      else if (t.name === "price") {
+        if (t.value === "all") { f.ayarla({ price: "" }); }
+        else {
+          var p = t.value.split("-");
+          f.ayarla({ price: [parseFloat(p[0]), p[1] === "null" ? null : parseFloat(p[1])] });
+        }
+      } else if (t === sirEl) { f.sirala(sirEl.value); }
+    });
+    var sifirla = kok.querySelector("[data-kf-reset]");
+    if (sifirla) { sifirla.addEventListener("click", function () { f.sifirla(); if (araEl) { araEl.value = ""; } }); }
+    if (araEl) { MxF.aramaBagla(araEl, f, 150); }
+
+    function guncelle(s) {
+      var d = s.durum;
+      var goster = {};
+      var j;
+      for (j = 0; j < s.tumu.length; j++) { goster[s.tumu[j].id] = true; }
+      
+      for (j = 0; j < s.tumu.length; j++) { var kt = kartlar[s.tumu[j].id]; kt.parentNode.appendChild(kt); }
+      for (j = 0; j < kartlar.length; j++) { kartlar[j].style.display = goster[j] ? "" : "none"; }
+      if (sayEl) { sayEl.textContent = s.toplam + " " + rcMetin; }
+      
+      var cs = d.facet.cat || [];
+      for (j = 0; j < catIn.length; j++) { catIn[j].checked = catIn[j].value === "all" ? cs.length === 0 : cs.indexOf(catIn[j].value) > -1; }
+      var ss = d.facet.stock || [];
+      for (j = 0; j < stockIn.length; j++) { stockIn[j].checked = ss.indexOf(stockIn[j].value) > -1; }
+      var pr = d.facet.price;
+      for (j = 0; j < priceIn.length; j++) {
+        var v = priceIn[j].value;
+        var pv = v.split("-");
+        priceIn[j].checked = v === "all" ? !pr : !!pr && parseFloat(pv[0]) === pr[0] && (pv[1] === "null" ? pr[1] === null : parseFloat(pv[1]) === pr[1]);
+      }
+      if (araEl && document.activeElement !== araEl) { araEl.value = d.q || ""; }
+      if (sirEl) { sirEl.value = d.sirala || ""; }
+    }
+    f.abone(guncelle);
+    guncelle(f.sonuc());
+  }
+  hazir(function () {
+    if (window.MxFiltre) { basla(); }
+    else if (window.mxLoad) { window.mxLoad("mxfiltre").then(basla, function () {}); }
+  });
+})();
 </script>
+
 
 <div class="b0001">
   <div class="b0001Head">
@@ -379,10 +485,12 @@ function clearAllFilters() {
     </div>
     <div class="b0001Count"><b class="b0001CountNum">24</b> ürün</div>
   </div>
+  
   <div class="b0001Chips" role="group" aria-label="Tümü"><button type="button" class="b0001Chip b0001ChipActive" data-cat="all" aria-pressed="true" onclick="b0001Filter(this)">Tümü<span class="b0001ChipCount">24</span></button><button type="button" class="b0001Chip" data-cat="kebab" aria-pressed="false" onclick="b0001Filter(this)">Kebaplar<span class="b0001ChipCount">11</span></button><button type="button" class="b0001Chip" data-cat="firin" aria-pressed="false" onclick="b0001Filter(this)">Fırın<span class="b0001ChipCount">1</span></button><button type="button" class="b0001Chip" data-cat="kofte" aria-pressed="false" onclick="b0001Filter(this)">Köfte &amp; Yöresel<span class="b0001ChipCount">3</span></button><button type="button" class="b0001Chip" data-cat="tatli" aria-pressed="false" onclick="b0001Filter(this)">Tatlilar<span class="b0001ChipCount">3</span></button><button type="button" class="b0001Chip" data-cat="kahvalti" aria-pressed="false" onclick="b0001Filter(this)">Kahvaltı<span class="b0001ChipCount">1</span></button><button type="button" class="b0001Chip" data-cat="corba" aria-pressed="false" onclick="b0001Filter(this)">Çorbalar<span class="b0001ChipCount">2</span></button><button type="button" class="b0001Chip" data-cat="icecek" aria-pressed="false" onclick="b0001Filter(this)">İçecekler<span class="b0001ChipCount">3</span></button></div>
   <div class="b0001Grid">
     <div class="b0001Card" data-category="kebab" data-stock="" data-price="960" data-mx-id="4" data-mx-name="Antebin Kebabı (220gr)" data-mx-price="960" data-mx-img="/img/ant-antebinkebab.webp" data-mx-url="/tr/antebinkebab/"><div class="b0001CardImage"><img src="/img/ant-antebinkebab.webp" alt="Antebin Kebabı (220gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/antebinkebab/" class="b0001CardName">Antebin Kebabı (220gr)</a><p class="b0001CardDesc">SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında…</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">960 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="4" data-mx-name="Antebin Kebabı (220gr)" data-mx-price="960" data-mx-img="/img/ant-antebinkebab.webp" data-mx-url="/tr/antebinkebab/" aria-label="Sepete Ekle: Antebin Kebabı (220gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="970" data-mx-id="5" data-mx-name="Karışık Kebap – Et (360gr)" data-mx-price="970" data-mx-img="/img/ant-kariskebap.webp" data-mx-url="/tr/kariskebap-et/"><div class="b0001CardImage"><img src="/img/ant-kariskebap.webp" alt="Karışık Kebap – Et (360gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kariskebap-et/" class="b0001CardName">Karışık Kebap – Et (360gr)</a><p class="b0001CardDesc">Sade kıyma, kuşbaşı, pirzola.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">970 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="5" data-mx-name="Karışık Kebap – Et (360gr)" data-mx-price="970" data-mx-img="/img/ant-kariskebap.webp" data-mx-url="/tr/kariskebap-et/" aria-label="Sepete Ekle: Karışık Kebap – Et (360gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="950" data-mx-id="6" data-mx-name="Küşleme (200gr)" data-mx-price="950" data-mx-img="/img/ant-kusleme.webp" data-mx-url="/tr/kusleme/"><div class="b0001CardImage"><img src="/img/ant-kusleme.webp" alt="Küşleme (200gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kusleme/" class="b0001CardName">Küşleme (200gr)</a><p class="b0001CardDesc">Kuzu eti kendi yağıyla (küşleme), ızgarada.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">950 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="6" data-mx-name="Küşleme (200gr)" data-mx-price="950" data-mx-img="/img/ant-kusleme.webp" data-mx-url="/tr/kusleme/" aria-label="Sepete Ekle: Küşleme (200gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="850" data-mx-id="7" data-mx-name="Kısabel (220gr)" data-mx-price="850" data-mx-img="/img/ant-kisabel.webp" data-mx-url="/tr/kisabel/"><div class="b0001CardImage"><img src="/img/ant-kisabel.webp" alt="Kısabel (220gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kisabel/" class="b0001CardName">Kısabel (220gr)</a><p class="b0001CardDesc">Domates-pul biber sosunda kıyma kebabı.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">850 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="7" data-mx-name="Kısabel (220gr)" data-mx-price="850" data-mx-img="/img/ant-kisabel.webp" data-mx-url="/tr/kisabel/" aria-label="Sepete Ekle: Kısabel (220gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="890" data-mx-id="8" data-mx-name="Kuzu Madalyon (240gr)" data-mx-price="890" data-mx-img="https://antebinici.com.tr/img/ant-kulbasti.webp" data-mx-url="/tr/kuzumadalyon/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-kulbasti.webp" alt="Kuzu Madalyon (240gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kuzumadalyon/" class="b0001CardName">Kuzu Madalyon (240gr)</a><p class="b0001CardDesc">Kuzu omuzundan ince dilim, ızgara.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">890 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="8" data-mx-name="Kuzu Madalyon (240gr)" data-mx-price="890" data-mx-img="https://antebinici.com.tr/img/ant-kulbasti.webp" data-mx-url="/tr/kuzumadalyon/" aria-label="Sepete Ekle: Kuzu Madalyon (240gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="990" data-mx-id="12" data-mx-name="Kilis Tavası (2 kişilik)" data-mx-price="990" data-mx-img="/img/ant-kilis.webp" data-mx-url="/tr/kilistavasi/"><div class="b0001CardImage"><img src="/img/ant-kilis.webp" alt="Kilis Tavası (2 kişilik)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kilistavasi/" class="b0001CardName">Kilis Tavası (2 kişilik)</a><p class="b0001CardDesc">2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">990 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="12" data-mx-name="Kilis Tavası (2 kişilik)" data-mx-price="990" data-mx-img="/img/ant-kilis.webp" data-mx-url="/tr/kilistavasi/" aria-label="Sepete Ekle: Kilis Tavası (2 kişilik)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="790" data-mx-id="3" data-mx-name="Kuşbaşılı (220gr)" data-mx-price="790" data-mx-img="https://antebinici.com.tr/img/ant-kuzusis.webp" data-mx-url="/tr/kusbasili/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-kuzusis.webp" alt="Kuşbaşılı (220gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kusbasili/" class="b0001CardName">Kuşbaşılı (220gr)</a><p class="b0001CardDesc">Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">790 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="3" data-mx-name="Kuşbaşılı (220gr)" data-mx-price="790" data-mx-img="https://antebinici.com.tr/img/ant-kuzusis.webp" data-mx-url="/tr/kusbasili/" aria-label="Sepete Ekle: Kuşbaşılı (220gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="670" data-mx-id="11" data-mx-name="Kilis Kebabı" data-mx-price="670" data-mx-img="/img/ant-kilis.webp" data-mx-url="/tr/kiliskebab/"><div class="b0001CardImage"><img src="/img/ant-kilis.webp" alt="Kilis Kebabı" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/kiliskebab/" class="b0001CardName">Kilis Kebabı</a><p class="b0001CardDesc">Yöresel kıyma kebabı, domates-yoğurt sosu.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">670 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="11" data-mx-name="Kilis Kebabı" data-mx-price="670" data-mx-img="/img/ant-kilis.webp" data-mx-url="/tr/kiliskebab/" aria-label="Sepete Ekle: Kilis Kebabı"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="firin" data-stock="" data-price="160" data-mx-id="14" data-mx-name="Anteb Lahmacun" data-mx-price="160" data-mx-img="https://antebinici.com.tr/img/ant-lahmacun.webp" data-mx-url="/tr/antep-lahmacun/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-lahmacun.webp" alt="Anteb Lahmacun" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Fırın</span><a href="/tr/antep-lahmacun/" class="b0001CardName">Anteb Lahmacun</a><p class="b0001CardDesc">İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">160 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="14" data-mx-name="Anteb Lahmacun" data-mx-price="160" data-mx-img="https://antebinici.com.tr/img/ant-lahmacun.webp" data-mx-url="/tr/antep-lahmacun/" aria-label="Sepete Ekle: Anteb Lahmacun"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kofte" data-stock="" data-price="250" data-mx-id="15" data-mx-name="Çiğ Köfte (10 adet)" data-mx-price="250" data-mx-img="https://antebinici.com.tr/img/ant-cigkofte.webp" data-mx-url="/tr/cigkofta/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-cigkofte.webp" alt="Çiğ Köfte (10 adet)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Köfte &amp; Yöresel</span><a href="/tr/cigkofta/" class="b0001CardName">Çiğ Köfte (10 adet)</a><p class="b0001CardDesc">Anteb usulü acı-yumuşak çiğ köfte, sumak ve maydanoz.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">250 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="15" data-mx-name="Çiğ Köfte (10 adet)" data-mx-price="250" data-mx-img="https://antebinici.com.tr/img/ant-cigkofte.webp" data-mx-url="/tr/cigkofta/" aria-label="Sepete Ekle: Çiğ Köfte (10 adet)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="tatli" data-stock="" data-price="650" data-mx-id="21" data-mx-name="Katmer" data-mx-price="650" data-mx-img="https://antebinici.com.tr/img/ant-katmer.webp" data-mx-url="/tr/katmer/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-katmer.webp" alt="Katmer" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Tatlilar</span><a href="/tr/katmer/" class="b0001CardName">Katmer</a><p class="b0001CardDesc">Anteb'in meşhur katmeri; simit katmer 650₺.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">650 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="21" data-mx-name="Katmer" data-mx-price="650" data-mx-img="https://antebinici.com.tr/img/ant-katmer.webp" data-mx-url="/tr/katmer/" aria-label="Sepete Ekle: Katmer"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kahvalti" data-stock="" data-price="680" data-mx-id="20" data-mx-name="Yöresel Serpme Anteb Kahvaltısı" data-mx-price="680" data-mx-img="https://antebinici.com.tr/img/ant-meze.webp" data-mx-url="/tr/serpme-kahvalti/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-meze.webp" alt="Yöresel Serpme Anteb Kahvaltısı" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kahvaltı</span><a href="/tr/serpme-kahvalti/" class="b0001CardName">Yöresel Serpme Anteb Kahvaltısı</a><p class="b0001CardDesc">Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak,…</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">680 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="20" data-mx-name="Yöresel Serpme Anteb Kahvaltısı" data-mx-price="680" data-mx-img="https://antebinici.com.tr/img/ant-meze.webp" data-mx-url="/tr/serpme-kahvalti/" aria-label="Sepete Ekle: Yöresel Serpme Anteb Kahvaltısı"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="720" data-mx-id="9" data-mx-name="Alı Nazik (220gr)" data-mx-price="720" data-mx-img="/img/ant-alinazik.webp" data-mx-url="/tr/alinazik/"><div class="b0001CardImage"><img src="/img/ant-alinazik.webp" alt="Alı Nazik (220gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/alinazik/" class="b0001CardName">Alı Nazik (220gr)</a><p class="b0001CardDesc">Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">720 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="9" data-mx-name="Alı Nazik (220gr)" data-mx-price="720" data-mx-img="/img/ant-alinazik.webp" data-mx-url="/tr/alinazik/" aria-label="Sepete Ekle: Alı Nazik (220gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="720" data-mx-id="10" data-mx-name="Patlıcan Kebabı (240gr)" data-mx-price="720" data-mx-img="/img/kahvalti-patlican-kizartmasi.webp" data-mx-url="/tr/patlicankebab/"><div class="b0001CardImage"><img src="/img/kahvalti-patlican-kizartmasi.webp" alt="Patlıcan Kebabı (240gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/patlicankebab/" class="b0001CardName">Patlıcan Kebabı (240gr)</a><p class="b0001CardDesc">Kızarmış patlıcanlar üzerinde kıyma kebabı.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">720 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="10" data-mx-name="Patlıcan Kebabı (240gr)" data-mx-price="720" data-mx-img="/img/kahvalti-patlican-kizartmasi.webp" data-mx-url="/tr/patlicankebab/" aria-label="Sepete Ekle: Patlıcan Kebabı (240gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kebab" data-stock="" data-price="625" data-mx-id="13" data-mx-name="Sade Kıyma (220gr)" data-mx-price="625" data-mx-img="/img/ant-sadekiyma.webp" data-mx-url="/tr/sadekiyma/"><div class="b0001CardImage"><img src="/img/ant-sadekiyma.webp" alt="Sade Kıyma (220gr)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Kebaplar</span><a href="/tr/sadekiyma/" class="b0001CardName">Sade Kıyma (220gr)</a><p class="b0001CardDesc">İnce kıyma kebabı, pilav ve mevsim sebzeleriyle.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">625 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="13" data-mx-name="Sade Kıyma (220gr)" data-mx-price="625" data-mx-img="/img/ant-sadekiyma.webp" data-mx-url="/tr/sadekiyma/" aria-label="Sepete Ekle: Sade Kıyma (220gr)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kofte" data-stock="" data-price="110" data-mx-id="16" data-mx-name="İçli Köfte (kızarma)" data-mx-price="110" data-mx-img="https://antebinici.com.tr/img/ant-iclikofte.webp" data-mx-url="/tr/iclikofte/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-iclikofte.webp" alt="İçli Köfte (kızarma)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Köfte &amp; Yöresel</span><a href="/tr/iclikofte/" class="b0001CardName">İçli Köfte (kızarma)</a><p class="b0001CardDesc">Bulgur hamuru içinde et içi, kızartılmış, sosuyla.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">110 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="16" data-mx-name="İçli Köfte (kızarma)" data-mx-price="110" data-mx-img="https://antebinici.com.tr/img/ant-iclikofte.webp" data-mx-url="/tr/iclikofte/" aria-label="Sepete Ekle: İçli Köfte (kızarma)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="kofte" data-stock="" data-price="220" data-mx-id="17" data-mx-name="Mercimekli Köfte" data-mx-price="220" data-mx-img="https://antebinici.com.tr/img/ant-merzimekkofte.webp" data-mx-url="/tr/mercimekkofte/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-merzimekkofte.webp" alt="Mercimekli Köfte" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Köfte &amp; Yöresel</span><a href="/tr/mercimekkofte/" class="b0001CardName">Mercimekli Köfte</a><p class="b0001CardDesc">Kırmızı mercimek ve bulgur, taze maydanoz.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">220 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="17" data-mx-name="Mercimekli Köfte" data-mx-price="220" data-mx-img="https://antebinici.com.tr/img/ant-merzimekkofte.webp" data-mx-url="/tr/mercimekkofte/" aria-label="Sepete Ekle: Mercimekli Köfte"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="corba" data-stock="" data-price="300" data-mx-id="18" data-mx-name="Yuvalama" data-mx-price="300" data-mx-img="https://antebinici.com.tr/img/ant-yuvalama.webp" data-mx-url="/tr/yuvalama/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-yuvalama.webp" alt="Yuvalama" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Çorbalar</span><a href="/tr/yuvalama/" class="b0001CardName">Yuvalama</a><p class="b0001CardDesc">Nohut-ıspanak yuvası, sarımsaklı yoğurt.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">300 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="18" data-mx-name="Yuvalama" data-mx-price="300" data-mx-img="https://antebinici.com.tr/img/ant-yuvalama.webp" data-mx-url="/tr/yuvalama/" aria-label="Sepete Ekle: Yuvalama"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="corba" data-stock="" data-price="150" data-mx-id="19" data-mx-name="Ezogelin Çorbası" data-mx-price="150" data-mx-img="/img/ant-ezogelin.webp" data-mx-url="/tr/ezogelin/"><div class="b0001CardImage"><img src="/img/ant-ezogelin.webp" alt="Ezogelin Çorbası" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Çorbalar</span><a href="/tr/ezogelin/" class="b0001CardName">Ezogelin Çorbası</a><p class="b0001CardDesc">Mercimekli yöresel çorba, tereyağlı-kuru soğan ile.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">150 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="19" data-mx-name="Ezogelin Çorbası" data-mx-price="150" data-mx-img="/img/ant-ezogelin.webp" data-mx-url="/tr/ezogelin/" aria-label="Sepete Ekle: Ezogelin Çorbası"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="tatli" data-stock="" data-price="500" data-mx-id="22" data-mx-name="Fıstıklı Şekerli Börek" data-mx-price="500" data-mx-img="https://antebinici.com.tr/img/ant-cigborek.webp" data-mx-url="/tr/fistikli-sekerli-borek/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-cigborek.webp" alt="Fıstıklı Şekerli Börek" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Tatlilar</span><a href="/tr/fistikli-sekerli-borek/" class="b0001CardName">Fıstıklı Şekerli Börek</a><p class="b0001CardDesc">Antep fıstıklı şekerli börek.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">500 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="22" data-mx-name="Fıstıklı Şekerli Börek" data-mx-price="500" data-mx-img="https://antebinici.com.tr/img/ant-cigborek.webp" data-mx-url="/tr/fistikli-sekerli-borek/" aria-label="Sepete Ekle: Fıstıklı Şekerli Börek"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="tatli" data-stock="" data-price="200" data-mx-id="23" data-mx-name="Cevizli Kadayıf" data-mx-price="200" data-mx-img="https://antebinici.com.tr/img/ant-kunefe.webp" data-mx-url="/tr/cevizli-kadayif/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-kunefe.webp" alt="Cevizli Kadayıf" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">Tatlilar</span><a href="/tr/cevizli-kadayif/" class="b0001CardName">Cevizli Kadayıf</a><p class="b0001CardDesc">Tel kadayıf, ceviz, şerbet.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">200 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="23" data-mx-name="Cevizli Kadayıf" data-mx-price="200" data-mx-img="https://antebinici.com.tr/img/ant-kunefe.webp" data-mx-url="/tr/cevizli-kadayif/" aria-label="Sepete Ekle: Cevizli Kadayıf"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="icecek" data-stock="" data-price="50" data-mx-id="24" data-mx-name="Ayran" data-mx-price="50" data-mx-img="https://antebinici.com.tr/img/ant-yayik-ayran.webp" data-mx-url="/tr/ayran/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-yayik-ayran.webp" alt="Ayran" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">İçecekler</span><a href="/tr/ayran/" class="b0001CardName">Ayran</a><p class="b0001CardDesc">Yayık ayranı.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">50 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="24" data-mx-name="Ayran" data-mx-price="50" data-mx-img="https://antebinici.com.tr/img/ant-yayik-ayran.webp" data-mx-url="/tr/ayran/" aria-label="Sepete Ekle: Ayran"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="icecek" data-stock="" data-price="60" data-mx-id="25" data-mx-name="Şalgam (Gazlı)" data-mx-price="60" data-mx-img="/img/ant-salgam.webp" data-mx-url="/tr/salgam/"><div class="b0001CardImage"><img src="/img/ant-salgam.webp" alt="Şalgam (Gazlı)" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">İçecekler</span><a href="/tr/salgam/" class="b0001CardName">Şalgam (Gazlı)</a><p class="b0001CardDesc">Acılı-sade şalgam suyu.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">60 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="25" data-mx-name="Şalgam (Gazlı)" data-mx-price="60" data-mx-img="/img/ant-salgam.webp" data-mx-url="/tr/salgam/" aria-label="Sepete Ekle: Şalgam (Gazlı)"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div><div class="b0001Card" data-category="icecek" data-stock="" data-price="140" data-mx-id="26" data-mx-name="Türk Kahvesi" data-mx-price="140" data-mx-img="https://antebinici.com.tr/img/ant-turkkahvesi.webp" data-mx-url="/tr/turk-kahvesi/"><div class="b0001CardImage"><img src="https://antebinici.com.tr/img/ant-turkkahvesi.webp" alt="Türk Kahvesi" loading="lazy" /><div class="b0001Badges"></div></div><div class="b0001CardInfo"><span class="b0001CardCat">İçecekler</span><a href="/tr/turk-kahvesi/" class="b0001CardName">Türk Kahvesi</a><p class="b0001CardDesc">Türk usulü kahve.</p><div class="b0001CardBottom"><div class="b0001CardPrice"><span class="b0001Price">140 ₺</span></div><button type="button" class="b0001AddCart" onclick="b0001AddCart(this, event)" data-mx-id="26" data-mx-name="Türk Kahvesi" data-mx-price="140" data-mx-img="https://antebinici.com.tr/img/ant-turkkahvesi.webp" data-mx-url="/tr/turk-kahvesi/" aria-label="Sepete Ekle: Türk Kahvesi"><span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span><span>Sepete Ekle</span></button></div></div></div>
   </div>
+  
 </div>
 
 <script>
@@ -425,6 +533,99 @@ function b0001AddCart(btn, ev) {
     window.addToCart(card.getAttribute("data-mx-id"));
   }
 }
+
+
+(function () {
+  var kok = document.getElementById("b0001-vt-pxVit001");
+  if (!kok || kok.getAttribute("data-vt-enh") !== "1") { return; }
+  function hazir(fn) {
+    if (window.mxLoad) { fn(); }
+    else if (document.readyState === "complete") { setTimeout(fn, 50); }
+    else { window.addEventListener("load", fn); }
+  }
+  function basla() {
+    var MxF = window.MxFiltre;
+    if (!MxF) { return; }
+    var kartlar = kok.querySelectorAll("[data-mx-id][data-category]");
+    if (!kartlar.length) { return; }
+    var grid = kartlar[0].parentNode;
+    var items = [];
+    var i;
+    for (i = 0; i < kartlar.length; i++) {
+      var k = kartlar[i];
+      var tarih = parseFloat(k.getAttribute("data-date"));
+      items.push({
+        id: i,
+        name: k.getAttribute("data-mx-name") || "",
+        cat: k.getAttribute("data-category") || "",
+        price: parseFloat(k.getAttribute("data-price")) || 0,
+        
+        rank: (k.getAttribute("data-new") === "1" ? 1e14 : 0) + (isFinite(tarih) ? tarih : 0)
+      });
+    }
+    var f = MxF.olustur({
+      items: items,
+      arama: { alanlar: ["name", "cat"] },
+      facets: { cat: { tip: "tek" } },
+      siralama: { priceAsc: { alan: "price", yon: 1 }, priceDesc: { alan: "price", yon: -1 }, "new": { alan: "rank", yon: -1 } },
+      url: true,
+      dil: document.documentElement.getAttribute("lang") || "tr"
+    });
+    var araEl = kok.querySelector("[data-vt-q]");
+    var sirEl = kok.querySelector("[data-vt-sort]");
+    var bosEl = kok.querySelector("[data-vt-empty]");
+    var sayEl = kok.querySelector(".b0001CountNum");
+    var cipler = kok.querySelectorAll(".b0001Chip[data-cat]");
+    var cipSay = {};
+    for (i = 0; i < cipler.length; i++) {
+      var sp = cipler[i].querySelector(".b0001ChipCount");
+      cipSay[cipler[i].getAttribute("data-cat")] = sp;
+      cipler[i].addEventListener("click", function () {
+        var c = this.getAttribute("data-cat");
+        f.ayarla({ cat: c === "all" ? "" : c });
+      });
+    }
+    if (araEl) { MxF.aramaBagla(araEl, f, 150); }
+    if (sirEl) { sirEl.addEventListener("change", function () { f.sirala(sirEl.value); }); }
+    var sifirla = kok.querySelector("[data-vt-reset]");
+    if (sifirla) { sifirla.addEventListener("click", function () { f.sifirla(); if (araEl) { araEl.value = ""; } }); }
+
+    function guncelle(s) {
+      var d = s.durum;
+      var goster = {};
+      var j;
+      for (j = 0; j < s.tumu.length; j++) { goster[s.tumu[j].id] = j; }
+      
+      for (j = 0; j < s.tumu.length; j++) { grid.appendChild(kartlar[s.tumu[j].id]); }
+      for (j = 0; j < kartlar.length; j++) {
+        var acik = goster[j] !== undefined;
+        kartlar[j].classList.toggle("b0001CardHidden", !acik);
+        if (!acik) { grid.appendChild(kartlar[j]); }
+      }
+      if (sayEl) { sayEl.textContent = String(s.toplam); }
+      if (bosEl) { bosEl.hidden = s.toplam !== 0; }
+      if (araEl && document.activeElement !== araEl) { araEl.value = d.q || ""; }
+      if (sirEl) { sirEl.value = d.sirala || ""; }
+      var secili = d.facet.cat || "all";
+      var sayim = f.sayim("cat");
+      var toplam = 0;
+      for (var key in sayim) { if (Object.prototype.hasOwnProperty.call(sayim, key)) { toplam += sayim[key]; } }
+      for (j = 0; j < cipler.length; j++) {
+        var cv = cipler[j].getAttribute("data-cat");
+        var on = cv === secili;
+        cipler[j].classList.toggle("b0001ChipActive", on);
+        cipler[j].setAttribute("aria-pressed", on ? "true" : "false");
+        if (cipSay[cv]) { cipSay[cv].textContent = String(cv === "all" ? toplam : (sayim[cv] || 0)); }
+      }
+    }
+    f.abone(guncelle);
+    guncelle(f.sonuc());
+  }
+  hazir(function () {
+    if (window.MxFiltre) { basla(); }
+    else if (window.mxLoad) { window.mxLoad("mxfiltre").then(basla, function () {}); }
+  });
+})();
 </script>
 </div>
   <div id="footer"><link
@@ -446,7 +647,7 @@ function b0001AddCart(btn, ev) {
   
   <div class="f0000-efoot-main">
     <div class="f0000-efoot-grid">
-      <div class="f0000-efoot-mobile-cols"><details class="f0000-efoot-accordion"><summary>Sipariş <span class="material-icons">expand_more</span></summary><div class="f0000-efoot-accordion-body"><ul class="f0000-efoot-links"><li><a href="/tr/menu/">Menü</a></li><li><a href="/tr/urunler/">Ürünler</a></li><li><a href="/tr/sepetim/">Sepet</a></li><li><a href="/tr/siparislerim/">Siparişlerim</a></li><li><a href="/tr/iletisim/">İletişim</a></li></ul></div></details><details class="f0000-efoot-accordion"><summary>Kurumsal <span class="material-icons">expand_more</span></summary><div class="f0000-efoot-accordion-body"><ul class="f0000-efoot-links"><li><a href="/tr/hakkimizda/">Hakkımızda</a></li><li><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a></li><li><a href="/tr/kisiselveriler/">Kişisel Veriler</a></li><li><a href="/tr/yasaluyari/">Yasal Uyarı</a></li></ul></div></details></div><div class="f0000-efoot-col"><h3 class="f0000-efoot-col-title">Sipariş</h3><ul class="f0000-efoot-links"><li><a href="/tr/menu/">Menü</a></li><li><a href="/tr/urunler/">Ürünler</a></li><li><a href="/tr/sepetim/">Sepet</a></li><li><a href="/tr/siparislerim/">Siparişlerim</a></li><li><a href="/tr/iletisim/">İletişim</a></li></ul></div><div class="f0000-efoot-col"><h3 class="f0000-efoot-col-title">Kurumsal</h3><ul class="f0000-efoot-links"><li><a href="/tr/hakkimizda/">Hakkımızda</a></li><li><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a></li><li><a href="/tr/kisiselveriler/">Kişisel Veriler</a></li><li><a href="/tr/yasaluyari/">Yasal Uyarı</a></li></ul></div>
+      <div class="f0000-efoot-mobile-cols"><details class="f0000-efoot-accordion"><summary>Sipariş <span class="material-icons">expand_more</span></summary><div class="f0000-efoot-accordion-body"><ul class="f0000-efoot-links"><li><a href="/tr/menu/">Menü</a></li><li><a href="/tr/urunler/">Ürünler</a></li><li><a href="/tr/sepetim/">Sepet</a></li><li><a href="/tr/siparislerim/">Siparişlerim</a></li><li><a href="/tr/iletisim/">İletişim</a></li></ul></div></details><details class="f0000-efoot-accordion"><summary>Kurumsal <span class="material-icons">expand_more</span></summary><div class="f0000-efoot-accordion-body"><ul class="f0000-efoot-links"><li><a href="/tr/hakkimizda/">Hakkımızda</a></li><li><a href="/tr/misyon/">Misyon</a></li><li><a href="/tr/vizyon/">Vizyon</a></li><li><a href="/tr/kalitepolitikamiz/">Kalite Politikamız</a></li><li><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a></li><li><a href="/tr/kisiselveriler/">Kişisel Veriler</a></li><li><a href="/tr/kullanicahaklari/">Kullanıcı Hakları</a></li><li><a href="/tr/yasaluyari/">Yasal Uyarı</a></li><li><a href="/tr/cerez-politikasi/">Çerez Politikası</a></li><li><a href="/tr/iade-ve-teslimat/">İade ve Teslimat</a></li><li><a href="/tr/mesafeli-satis-sozlesmesi/">Mesafeli Satış Sözleşmesi</a></li></ul></div></details></div><div class="f0000-efoot-col"><h3 class="f0000-efoot-col-title">Sipariş</h3><ul class="f0000-efoot-links"><li><a href="/tr/menu/">Menü</a></li><li><a href="/tr/urunler/">Ürünler</a></li><li><a href="/tr/sepetim/">Sepet</a></li><li><a href="/tr/siparislerim/">Siparişlerim</a></li><li><a href="/tr/iletisim/">İletişim</a></li></ul></div><div class="f0000-efoot-col"><h3 class="f0000-efoot-col-title">Kurumsal</h3><ul class="f0000-efoot-links"><li><a href="/tr/hakkimizda/">Hakkımızda</a></li><li><a href="/tr/misyon/">Misyon</a></li><li><a href="/tr/vizyon/">Vizyon</a></li><li><a href="/tr/kalitepolitikamiz/">Kalite Politikamız</a></li><li><a href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a></li><li><a href="/tr/kisiselveriler/">Kişisel Veriler</a></li><li><a href="/tr/kullanicahaklari/">Kullanıcı Hakları</a></li><li><a href="/tr/yasaluyari/">Yasal Uyarı</a></li><li><a href="/tr/cerez-politikasi/">Çerez Politikası</a></li><li><a href="/tr/iade-ve-teslimat/">İade ve Teslimat</a></li><li><a href="/tr/mesafeli-satis-sozlesmesi/">Mesafeli Satış Sözleşmesi</a></li></ul></div>
       <div class="f0000-efoot-col f0000-efoot-newsletter">
         <h3 class="f0000-efoot-col-title">Bülten Aboneliği</h3>
         <p class="f0000-efoot-newsletter-desc">Yeni menü ve kampanyalardan ilk siz haberdar olun.</p>
@@ -464,7 +665,7 @@ function b0001AddCart(btn, ev) {
           </div>
           <label class="f0000-efoot-newsletter-consent">
             <input type="checkbox" name="consent" value="1" required />
-            <span>Aboneliğe kayıt olmakla <a href="/tr/gizlilik-politikasi/">gizlilik politikasını</a>kabul etmiş oluyorum.</span>
+            <span>Aboneliğe kayıt olmakla <a href="/tr/gizlilik-politikasi/">gizlilik politikasını</a> kabul etmiş oluyorum.</span>
           </label>
         </form>
         <div class="f0000-efoot-social"><a href="https://instagram.com/antebin_ici" target="_blank" rel="noopener noreferrer" title="antebin_ici"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a><a href="https://instagram.com/antepinici_miks" target="_blank" rel="noopener noreferrer" title="antepinici_miks"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a></div>
@@ -561,6 +762,9 @@ function f0000EfootNewsletterSubmit(form) {
 
 
 <script>
+  function f0002Esc(v) {
+    return String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
   
   (function () {
     var MX_CART_KEY = "mxCartV1";
@@ -790,7 +994,7 @@ function f0000EfootNewsletterSubmit(form) {
         var safeName = String(it.name || "").replace(/</g, "&lt;");
         out += '<div class="f0002-cartw-item">';
         if (it.img) {
-          out += '<img class="f0002-cartw-item-img" src="' + it.img + '" alt="' + safeName + '" loading="lazy" />';
+          out += '<img class="f0002-cartw-item-img" src="' + f0002Esc(it.img) + '" alt="' + safeName + '" loading="lazy" />';
         } else {
           out += '<div class="f0002-cartw-item-noimg"><span class="material-symbols-outlined" aria-hidden="true">image</span></div>';
         }
@@ -1007,7 +1211,7 @@ function f0000EfootNewsletterSubmit(form) {
       }
       if (imgWrap) {
         if (item.img) {
-          imgWrap.innerHTML = '<img src="' + item.img + '" alt="' + String(item.name || "").replace(/"/g, "&quot;") + '" loading="lazy" />';
+          imgWrap.innerHTML = '<img src="' + f0002Esc(item.img) + '" alt="' + f0002Esc(item.name || "") + '" loading="lazy" />';
         } else {
           imgWrap.innerHTML = '<span class="material-symbols-outlined" aria-hidden="true" style="font-size:48px;opacity:0.4">image</span>';
         }
@@ -1095,27 +1299,14 @@ function f0000EfootNewsletterSubmit(form) {
 </script>
 </div>
 
-  
+  <script>document.addEventListener("DOMContentLoaded",function(){var c=document.getElementById("content");if(!c||document.querySelector("h1"))return;var t=c.querySelector(".b0000Title")||c.querySelector('h2[class*="-title"]');var h=document.createElement("h1");if(t){h.className=t.className;h.style.cssText=t.style.cssText;while(t.firstChild)h.appendChild(t.firstChild);t.replaceWith(h)}else{h.textContent=document.title.split(" | ")[0].split(" — ")[0];h.style.cssText="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap";c.insertBefore(h,c.firstChild)}})</script>
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=le5vn"></script>
-  <script defer src="/src/mx-store.js?v=le5vn"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=le5vn"></script>
-  <script defer src="/src/cookie.js?v=le5vn"></script>
+  <script defer src="/src/mx-ui.js?v=bnw16"></script>
+  <script defer src="/src/mx-store.js?v=bnw16"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=bnw16"></script>
+  <script defer src="/src/cookie.js?v=bnw16"></script>
 
-  <script>
-    setTimeout(function() {
-      var currentPath = window.location.pathname;
-      var rtlLanguages = ['ar', 'he', 'fa'];
-      var langMatch = currentPath.match(/^\/([a-z]{2})\//);
-      var currentLang = langMatch ? langMatch[1] : '';
-      if (rtlLanguages.indexOf(currentLang) !== -1) {
-        document.documentElement.setAttribute('dir', 'rtl');
-      } else {
-        document.documentElement.setAttribute('dir', 'ltr');
-      }
-    }, 100);
-  </script>
 </body>
 
 </html>

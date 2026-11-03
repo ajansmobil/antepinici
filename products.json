@@ -1,517 +1,539 @@
 {
- "name": {
-  "tr": "Antebinici Katalogu"
- },
- "data": [
-  {
-   "name": {
-    "tr": "Antebin Kebabı (220gr)"
-   },
-   "id": 4,
-   "index": 0,
-   "path": "antebinkebab",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
-   },
-   "img": "img/ant-antebinkebab.webp",
-   "price": 960
+  "name": {
+    "tr": "Antebinici Katalogu"
   },
-  {
-   "name": {
-    "tr": "Karışık Kebap – Et (360gr)"
-   },
-   "id": 5,
-   "index": 1,
-   "path": "kariskebap-et",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Sade kıyma, kuşbaşı, pirzola."
-   },
-   "img": "img/ant-kariskebap.webp",
-   "price": 970
-  },
-  {
-   "name": {
-    "tr": "Küşleme (200gr)"
-   },
-   "id": 6,
-   "index": 2,
-   "path": "kusleme",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
-   },
-   "img": "img/ant-kusleme.webp",
-   "price": 950
-  },
-  {
-   "name": {
-    "tr": "Kısabel (220gr)"
-   },
-   "id": 7,
-   "index": 3,
-   "path": "kisabel",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Domates-pul biber sosunda kıyma kebabı."
-   },
-   "img": "img/ant-kisabel.webp",
-   "price": 850
-  },
-  {
-   "name": {
-    "tr": "Kuzu Madalyon (240gr)"
-   },
-   "id": 8,
-   "index": 4,
-   "path": "kuzumadalyon",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Kuzu omuzundan ince dilim, ızgara."
-   },
-   "img": "https://antebinici.com.tr/img/ant-kulbasti.webp",
-   "price": 890
-  },
-  {
-   "name": {
-    "tr": "Kilis Tavası (2 kişilik)"
-   },
-   "id": 12,
-   "index": 5,
-   "path": "kilistavasi",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
-   },
-   "img": "img/ant-kilis.webp",
-   "price": 990
-  },
-  {
-   "name": {
-    "tr": "Kuşbaşılı (220gr)"
-   },
-   "id": 3,
-   "index": 6,
-   "path": "kusbasili",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
-   },
-   "img": "https://antebinici.com.tr/img/ant-kuzusis.webp",
-   "price": 790
-  },
-  {
-   "name": {
-    "tr": "Kilis Kebabı"
-   },
-   "id": 11,
-   "index": 7,
-   "path": "kiliskebab",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
-   },
-   "img": "img/ant-kilis.webp",
-   "price": 670
-  },
-  {
-   "name": {
-    "tr": "Anteb Lahmacun"
-   },
-   "id": 14,
-   "index": 8,
-   "path": "antep-lahmacun",
-   "category": "firin",
-   "status": "play",
-   "icon": "local_pizza",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
-   },
-   "img": "https://antebinici.com.tr/img/ant-lahmacun.webp",
-   "price": 160
-  },
-  {
-   "name": {
-    "tr": "Çiğ Köfte (10 adet)"
-   },
-   "id": 15,
-   "index": 9,
-   "path": "cigkofta",
-   "category": "kofte",
-   "status": "play",
-   "icon": "restaurant",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Anteb usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
-   },
-   "img": "https://antebinici.com.tr/img/ant-cigkofte.webp",
-   "price": 250
-  },
-  {
-   "name": {
-    "tr": "Katmer"
-   },
-   "id": 21,
-   "index": 10,
-   "path": "katmer",
-   "category": "tatli",
-   "status": "play",
-   "icon": "cake",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Anteb'in meşhur katmeri; simit katmer 650₺."
-   },
-   "img": "https://antebinici.com.tr/img/ant-katmer.webp",
-   "price": 650
-  },
-  {
-   "name": {
-    "tr": "Yöresel Serpme Anteb Kahvaltısı"
-   },
-   "id": 20,
-   "index": 11,
-   "path": "serpme-kahvalti",
-   "category": "kahvalti",
-   "status": "play",
-   "icon": "breakfast",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği. Kişi başı; en az 2 kişilik; 220₺ servis; 2 çay dahil."
-   },
-   "img": "https://antebinici.com.tr/img/ant-meze.webp",
-   "price": 680
-  },
-  {
-   "name": {
-    "tr": "Alı Nazik (220gr)"
-   },
-   "id": 9,
-   "index": 12,
-   "path": "alinazik",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
-   },
-   "img": "img/ant-alinazik.webp",
-   "price": 720
-  },
-  {
-   "name": {
-    "tr": "Patlıcan Kebabı (240gr)"
-   },
-   "id": 10,
-   "index": 13,
-   "path": "patlicankebab",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
-   },
-   "img": "img/kahvalti-patlican-kizartmasi.webp",
-   "price": 720
-  },
-  {
-   "name": {
-    "tr": "Sade Kıyma (220gr)"
-   },
-   "id": 13,
-   "index": 14,
-   "path": "sadekiyma",
-   "category": "kebab",
-   "status": "play",
-   "icon": "local_fire_department",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
-   },
-   "img": "img/ant-sadekiyma.webp",
-   "price": 625
-  },
-  {
-   "name": {
-    "tr": "İçli Köfte (kızarma)"
-   },
-   "id": 16,
-   "index": 15,
-   "path": "iclikofte",
-   "category": "kofte",
-   "status": "play",
-   "icon": "restaurant",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
-   },
-   "img": "https://antebinici.com.tr/img/ant-iclikofte.webp",
-   "price": 110
-  },
-  {
-   "name": {
-    "tr": "Mercimekli Köfte"
-   },
-   "id": 17,
-   "index": 16,
-   "path": "mercimekkofte",
-   "category": "kofte",
-   "status": "play",
-   "icon": "restaurant",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
-   },
-   "img": "https://antebinici.com.tr/img/ant-merzimekkofte.webp",
-   "price": 220
-  },
-  {
-   "name": {
-    "tr": "Yuvalama"
-   },
-   "id": 18,
-   "index": 17,
-   "path": "yuvalama",
-   "category": "corba",
-   "status": "play",
-   "icon": "soup_kitchen",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
-   },
-   "img": "https://antebinici.com.tr/img/ant-yuvalama.webp",
-   "price": 300
-  },
-  {
-   "name": {
-    "tr": "Ezogelin Çorbası"
-   },
-   "id": 19,
-   "index": 18,
-   "path": "ezogelin",
-   "category": "corba",
-   "status": "play",
-   "icon": "soup_kitchen",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
-   },
-   "img": "img/ant-ezogelin.webp",
-   "price": 150
-  },
-  {
-   "name": {
-    "tr": "Fıstıklı Şekerli Börek"
-   },
-   "id": 22,
-   "index": 19,
-   "path": "fistikli-sekerli-borek",
-   "category": "tatli",
-   "status": "play",
-   "icon": "cake",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Antep fıstıklı şekerli börek."
-   },
-   "img": "https://antebinici.com.tr/img/ant-cigborek.webp",
-   "price": 500
-  },
-  {
-   "name": {
-    "tr": "Cevizli Kadayıf"
-   },
-   "id": 23,
-   "index": 20,
-   "path": "cevizli-kadayif",
-   "category": "tatli",
-   "status": "play",
-   "icon": "cake",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Tel kadayıf, ceviz, şerbet."
-   },
-   "img": "https://antebinici.com.tr/img/ant-kunefe.webp",
-   "price": 200
-  },
-  {
-   "name": {
-    "tr": "Ayran"
-   },
-   "id": 24,
-   "index": 21,
-   "path": "ayran",
-   "category": "icecek",
-   "status": "play",
-   "icon": "sports_bar",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Yayık ayranı."
-   },
-   "img": "https://antebinici.com.tr/img/ant-yayik-ayran.webp",
-   "price": 50
-  },
-  {
-   "name": {
-    "tr": "Şalgam (Gazlı)"
-   },
-   "id": 25,
-   "index": 22,
-   "path": "salgam",
-   "category": "icecek",
-   "status": "play",
-   "icon": "sports_bar",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Acılı-sade şalgam suyu."
-   },
-   "img": "img/ant-salgam.webp",
-   "price": 60
-  },
-  {
-   "name": {
-    "tr": "Türk Kahvesi"
-   },
-   "id": 26,
-   "index": 23,
-   "path": "turk-kahvesi",
-   "category": "icecek",
-   "status": "play",
-   "icon": "sports_bar",
-   "desing": {
-    "header": [],
-    "body": [],
-    "footer": []
-   },
-   "description": {
-    "tr": "Türk usulü kahve."
-   },
-   "img": "https://antebinici.com.tr/img/ant-turkkahvesi.webp",
-   "price": 140
+  "data": [
+    {
+      "name": {
+        "tr": "Antebin Kebabı (220gr)"
+      },
+      "id": 4,
+      "index": 0,
+      "path": "antebinkebab",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "SEZON ÜRÜNÜ — Sebzeli kıyma, kuşbaşı, kaşar, Antep fıstığı, susam; mangalda pişip susamlı lavaş ekmek içinde fırında tamamlanır."
+      },
+      "img": "img/ant-antebinkebab.webp"
+    },
+    {
+      "name": {
+        "tr": "Karışık Kebap – Et (360gr)"
+      },
+      "id": 5,
+      "index": 1,
+      "path": "kariskebap-et",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Sade kıyma, kuşbaşı, pirzola."
+      },
+      "img": "img/ant-kariskebap.webp"
+    },
+    {
+      "name": {
+        "tr": "Küşleme (200gr)"
+      },
+      "id": 6,
+      "index": 2,
+      "path": "kusleme",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kuzu eti kendi yağıyla (küşleme), ızgarada."
+      },
+      "img": "img/ant-kusleme.webp"
+    },
+    {
+      "name": {
+        "tr": "Kısabel (220gr)"
+      },
+      "id": 7,
+      "index": 3,
+      "path": "kisabel",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Domates-pul biber sosunda kıyma kebabı."
+      },
+      "img": "img/ant-kisabel.webp"
+    },
+    {
+      "name": {
+        "tr": "Kuzu Madalyon (240gr)"
+      },
+      "id": 8,
+      "index": 4,
+      "path": "kuzumadalyon",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kuzu omuzundan ince dilim, ızgara."
+      },
+      "img": "https://antebinici.com.tr/img/ant-kulbasti.webp"
+    },
+    {
+      "name": {
+        "tr": "Kilis Tavası (2 kişilik)"
+      },
+      "id": 12,
+      "index": 5,
+      "path": "kilistavasi",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
+      },
+      "img": "img/ant-kilis.webp"
+    },
+    {
+      "name": {
+        "tr": "Kuşbaşılı (220gr)"
+      },
+      "id": 3,
+      "index": 6,
+      "path": "kusbasili",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Izgara kuşbaşı kuzu kebabı, pilav ve mevsim sebzeleriyle servis."
+      },
+      "img": "https://antebinici.com.tr/img/ant-kuzusis.webp"
+    },
+    {
+      "name": {
+        "tr": "Kilis Kebabı"
+      },
+      "id": 11,
+      "index": 7,
+      "path": "kiliskebab",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
+      },
+      "img": "img/ant-kilis.webp"
+    },
+    {
+      "name": {
+        "tr": "Anteb Lahmacun"
+      },
+      "id": 14,
+      "index": 8,
+      "path": "antep-lahmacun",
+      "category": "firin",
+      "status": "play",
+      "icon": "local_pizza",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+      },
+      "img": "https://antebinici.com.tr/img/ant-lahmacun.webp"
+    },
+    {
+      "name": {
+        "tr": "Çiğ Köfte (10 adet)"
+      },
+      "id": 15,
+      "index": 9,
+      "path": "cigkofta",
+      "category": "kofte",
+      "status": "play",
+      "icon": "restaurant",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Anteb usulü acı-yumuşak çiğ köfte, sumak ve maydanoz."
+      },
+      "img": "https://antebinici.com.tr/img/ant-cigkofte.webp"
+    },
+    {
+      "name": {
+        "tr": "Katmer"
+      },
+      "id": 21,
+      "index": 10,
+      "path": "katmer",
+      "category": "tatli",
+      "status": "play",
+      "icon": "cake",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Anteb'in meşhur katmeri; simit katmer 650₺."
+      },
+      "img": "https://antebinici.com.tr/img/ant-katmer.webp"
+    },
+    {
+      "name": {
+        "tr": "Yöresel Serpme Anteb Kahvaltısı"
+      },
+      "id": 20,
+      "index": 11,
+      "path": "serpme-kahvalti",
+      "category": "kahvalti",
+      "status": "play",
+      "icon": "breakfast",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Simit aşı, peynir tabağı, zeytin çeşitleri, soğuş, menemen, nohut piyazı, muhammara, tahin-pekmez, zahter, bal-kaymak, lor-sigara böreği. Kişi başı; en az 2 kişilik; 220₺ servis; 2 çay dahil."
+      },
+      "img": "https://antebinici.com.tr/img/ant-meze.webp"
+    },
+    {
+      "name": {
+        "tr": "Alı Nazik (220gr)"
+      },
+      "id": 9,
+      "index": 12,
+      "path": "alinazik",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
+      },
+      "img": "img/ant-alinazik.webp"
+    },
+    {
+      "name": {
+        "tr": "Patlıcan Kebabı (240gr)"
+      },
+      "id": 10,
+      "index": 13,
+      "path": "patlicankebab",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kızarmış patlıcanlar üzerinde kıyma kebabı."
+      },
+      "img": "img/kahvalti-patlican-kizartmasi.webp"
+    },
+    {
+      "name": {
+        "tr": "Sade Kıyma (220gr)"
+      },
+      "id": 13,
+      "index": 14,
+      "path": "sadekiyma",
+      "category": "kebab",
+      "status": "play",
+      "icon": "local_fire_department",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "İnce kıyma kebabı, pilav ve mevsim sebzeleriyle."
+      },
+      "img": "img/ant-sadekiyma.webp"
+    },
+    {
+      "name": {
+        "tr": "İçli Köfte (kızarma)"
+      },
+      "id": 16,
+      "index": 15,
+      "path": "iclikofte",
+      "category": "kofte",
+      "status": "play",
+      "icon": "restaurant",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Bulgur hamuru içinde et içi, kızartılmış, sosuyla."
+      },
+      "img": "https://antebinici.com.tr/img/ant-iclikofte.webp"
+    },
+    {
+      "name": {
+        "tr": "Mercimekli Köfte"
+      },
+      "id": 17,
+      "index": 16,
+      "path": "mercimekkofte",
+      "category": "kofte",
+      "status": "play",
+      "icon": "restaurant",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
+      },
+      "img": "https://antebinici.com.tr/img/ant-merzimekkofte.webp"
+    },
+    {
+      "name": {
+        "tr": "Yuvalama"
+      },
+      "id": 18,
+      "index": 17,
+      "path": "yuvalama",
+      "category": "corba",
+      "status": "play",
+      "icon": "soup_kitchen",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Nohut-ıspanak yuvası, sarımsaklı yoğurt."
+      },
+      "img": "https://antebinici.com.tr/img/ant-yuvalama.webp"
+    },
+    {
+      "name": {
+        "tr": "Ezogelin Çorbası"
+      },
+      "id": 19,
+      "index": 18,
+      "path": "ezogelin",
+      "category": "corba",
+      "status": "play",
+      "icon": "soup_kitchen",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
+      },
+      "img": "img/ant-ezogelin.webp"
+    },
+    {
+      "name": {
+        "tr": "Fıstıklı Şekerli Börek"
+      },
+      "id": 22,
+      "index": 19,
+      "path": "fistikli-sekerli-borek",
+      "category": "tatli",
+      "status": "play",
+      "icon": "cake",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Antep fıstıklı şekerli börek."
+      },
+      "img": "https://antebinici.com.tr/img/ant-cigborek.webp"
+    },
+    {
+      "name": {
+        "tr": "Cevizli Kadayıf"
+      },
+      "id": 23,
+      "index": 20,
+      "path": "cevizli-kadayif",
+      "category": "tatli",
+      "status": "play",
+      "icon": "cake",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Tel kadayıf, ceviz, şerbet."
+      },
+      "img": "https://antebinici.com.tr/img/ant-kunefe.webp"
+    },
+    {
+      "name": {
+        "tr": "Ayran"
+      },
+      "id": 24,
+      "index": 21,
+      "path": "ayran",
+      "category": "icecek",
+      "status": "play",
+      "icon": "sports_bar",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "description": {
+        "tr": "Yayık ayranı."
+      },
+      "img": "https://antebinici.com.tr/img/ant-yayik-ayran.webp"
+    },
+    {
+      "name": {
+        "tr": "Şalgam (Gazlı)"
+      },
+      "id": 25,
+      "index": 22,
+      "path": "salgam",
+      "category": "icecek",
+      "status": "play",
+      "icon": "sports_bar",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Acılı-sade şalgam suyu."
+      },
+      "img": "img/ant-salgam.webp"
+    },
+    {
+      "name": {
+        "tr": "Türk Kahvesi"
+      },
+      "id": 26,
+      "index": 23,
+      "path": "turk-kahvesi",
+      "category": "icecek",
+      "status": "play",
+      "icon": "sports_bar",
+      "desing": {
+        "header": [],
+        "body": [
+          "pxDet01"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "Türk usulü kahve."
+      },
+      "img": "https://antebinici.com.tr/img/ant-turkkahvesi.webp"
+    }
+  ],
+  "modulestatus": {
+    "img": true,
+    "bgimg": false,
+    "detail": true,
+    "body": true
   }
- ],
- "modulestatus": {
-  "img": true,
-  "bgimg": false,
-  "detail": true,
-  "body": true
- }
 }

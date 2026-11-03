@@ -7,7 +7,7 @@
   "path": "kullanicahaklari",
   "category": "",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Kullanıcı Hakları</h2>\n    <p style=\"font-size: 16px;\">\n        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz. Haklarınızı kullanmak için bizimle her zaman iletişime geçebilirsiniz.</p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizin korunması ve haklarınızla ilgili detaylı bilgi almak için sitemizde yer alan Gizlilik Politikası’nı inceleyebilirsiniz. Kullanıcı olarak, verilerinizin güvenliği bizim önceliğimizdir ve gerekli teknik ve idari önlemleri almış bulunmaktayız.</p>"
+    "tr": "<article class=\"wm-metin\">\n<h2>Kullanıcı Hakları</h2>\n<p class=\"lead\">https://antebinici.com.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir. Bu sayfa, Antebinici ile ilişkinizde başlıca haklarınızı ve bunları nasıl kullanabileceğinizi özetler.</p>\n<h3>Kişisel verilere ilişkin haklar</h3>\n<p>6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 11. maddesi kapsamında kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme veya yok edilmesini isteme, itiraz etme ve zararın giderilmesini talep etme haklarına sahipsiniz. Bu hakları kullanma yöntemi Aydınlatma Metnimizde açıklanmıştır.</p>\n<h3>Tüketici olarak haklarınız</h3>\n<p>Sitemiz üzerinden mal veya hizmet satın almanız hâlinde 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamındaki haklarınız saklıdır. Bunlar arasında şunlar yer alır:</p>\n<ul>\n<li>Sözleşme kurulmadan önce açık ve anlaşılır biçimde bilgilendirilme</li>\n<li>Yönetmelikte belirtilen istisnalar dışında on dört gün içinde cayma hakkı</li>\n<li>Ayıplı mal veya hizmet durumunda Kanun’da sayılan seçimlik haklar</li>\n<li>Uyuşmazlıklarda Tüketici Hakem Heyeti veya Tüketici Mahkemesine başvurma</li>\n</ul>\n<h3>Ticari elektronik iletiler</h3>\n<p>6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun uyarınca, onayınız olmadan size ticari elektronik ileti gönderilmez. Onay verdiyseniz, herhangi bir gerekçe göstermeksizin dilediğiniz zaman ret hakkınızı kullanarak ileti almayı durdurabilirsiniz.</p>\n<h3>Başvuru ve iletişim</h3>\n<p>Haklarınızla ilgili taleplerinizi 0531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Başvurularınız mevzuatta öngörülen süreler içinde değerlendirilir.</p>\n<aside class=\"vurgu-kutusu\"><strong>Önemli:</strong> Bu sayfa bilgilendirme amaçlıdır; haklarınızın kapsamını ilgili mevzuat belirler.</aside>\n</article>"
   },
   "desing": {
     "header": [],
@@ -22,8 +22,13 @@
   "title": {
     "tr": "Kullanıcı Hakları"
   },
-  "description": {},
-  "keyword": {},
-  "update": "2026-05-19",
-  "date": "2026-05-19"
+  "description": {
+    "tr": "https://antebinici.com.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir. Bu sayfa, Antebinici ile ilişkinizde başlıca…"
+  },
+  "keyword": {
+    "tr": "Kullanıcı Hakları, Antebinici"
+  },
+  "update": "2026-11-02T09:24:37.797Z",
+  "date": "2026-05-19",
+  "sablonIzi": "4dedf0f6c1982fd0"
 }

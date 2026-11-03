@@ -7,7 +7,7 @@
   "path": "gizlilik-politikasi",
   "category": "",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Gizlilik Politikamız</h2>\n    <p style=\"font-size: 16px;\">\n        Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır. Çerezler, kullanıcı tercihlerinizi hatırlamak, sitemizin işleyişini optimize etmek ve size daha iyi bir deneyim sunmak için kullanılmaktadır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan bilgiler, üçüncü taraflarla paylaşılmamakta olup, yalnızca sitemizin performansını artırmak ve hizmetlerimizi geliştirmek amacıyla kullanılmaktadır. Kullanıcılar, tarayıcı ayarlarını değiştirerek çerezlerin kullanımını engelleyebilirler. Ancak, bu durumda sitemizin bazı bölümlerinin düzgün çalışmayabileceğini unutmamanız gerekir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Gizliliğiniz bizim için son derece önemlidir. Kişisel bilgilerinizin güvenliğini sağlamak için gerekli teknik ve idari önlemleri alıyoruz. Gizlilik Politikamız ile ilgili sorularınız ya da endişeleriniz varsa, bizimle iletişime geçebilirsiniz.\n    </p>"
+    "tr": "<article class=\"wm-metin\">\n<h2>Gizlilik Politikası</h2>\n<p class=\"lead\">Bu Gizlilik Politikası, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda bilgilerinizin nasıl ele alındığını açıklar. Kişisel verileriniz 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ilgili mevzuata uygun olarak işlenir.</p>\n<h3>Toplanan bilgiler</h3>\n<p>Sitemizi kullanımınıza bağlı olarak aşağıdaki bilgi türleri işlenebilir:</p>\n<ul>\n<li>İletişim formları aracılığıyla ilettiğiniz ad, e-posta, telefon ve mesaj içeriği</li>\n<li>Site güvenliği ve ilgili mevzuattan doğan yükümlülükler için gerekli IP adresi, tarayıcı ve erişim kayıtları</li>\n<li>Tercihlerinize bağlı olarak çerezler aracılığıyla elde edilen kullanım bilgileri</li>\n<li>Sipariş veya hizmet talebi oluşturmanız hâlinde işlemin gerektirdiği bilgiler</li>\n</ul>\n<h3>Bilgilerin kullanımı ve paylaşımı</h3>\n<p>Bilgileriniz; taleplerinizi yanıtlamak, hizmetlerimizi sunmak, siteyi güvenli ve çalışır durumda tutmak ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılır. Bilgileriniz satılmaz; yalnızca hizmetin sağlanması için gerekli olan hizmet sağlayıcılarla veya yasal olarak yetkili kurum ve kuruluşlarla, mevzuatın izin verdiği ölçüde paylaşılır.</p>\n<h3>Güvenlik ve saklama</h3>\n<p>Bilgilerinizi yetkisiz erişime, kayba ve kötüye kullanıma karşı korumak için makul teknik ve idari tedbirleri alırız. Bilgiler, işlenme amacının gerektirdiği veya mevzuatın öngördüğü süre boyunca saklanır; bu süre sonunda silinir, yok edilir ya da anonim hâle getirilir.</p>\n<h3>Haklarınız ve iletişim</h3>\n<p>Kişisel verilerinize ilişkin haklarınızı 6698 sayılı Kanun çerçevesinde kullanabilirsiniz. Ayrıntılı bilgi için Kişisel Verilerin Korunması ve Aydınlatma Metni sayfamızı inceleyebilir, sorularınızı 0531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz.</p>\n<aside class=\"vurgu-kutusu\"><strong>Değişiklikler:</strong> Bu politika gerektiğinde güncellenebilir; güncel sürüm her zaman bu sayfada yayımlanır. Son güncelleme: 2026-11-02.</aside>\n</article>"
   },
   "desing": {
     "header": [],
@@ -22,8 +22,13 @@
   "title": {
     "tr": "Gizlilik Politikası"
   },
-  "description": {},
-  "keyword": {},
-  "update": "2026-10-23T14:45:11.381Z",
-  "date": "2026-05-19"
+  "description": {
+    "tr": "Bu Gizlilik Politikası, Antebinici tarafından işletilen https://antebinici.com.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda…"
+  },
+  "keyword": {
+    "tr": "Gizlilik Politikası, Antebinici"
+  },
+  "update": "2026-11-02T09:24:37.797Z",
+  "date": "2026-05-19",
+  "sablonIzi": "e62772c9b6f6bdfb"
 }

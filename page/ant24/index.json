@@ -4,7 +4,7 @@
     "tr": "Ayran"
   },
   "description": {
-    "tr": "Yayık ayranı."
+    "tr": "50₺ (KDV dahil)"
   },
   "keyword": {
     "tr": "Ayran, İçecekler, Antebinici"
@@ -38,6 +38,6 @@
     "Fiyat": "50₺ (KDV dahil)"
   },
   "date": "2026-01-01",
-  "update": "2026-10-25",
+  "update": "2026-11-02T09:29:51.591Z",
   "img": "ant-yayik-ayran.webp"
 }

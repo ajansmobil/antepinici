@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Ezogelin Çorbası"
+  },
+  "id": 19,
+  "index": 18,
+  "path": "ezogelin",
+  "category": "corba",
+  "status": "play",
+  "icon": "soup_kitchen",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Mercimekli yöresel çorba, tereyağlı-kuru soğan ile."
+  },
+  "img": "img/ant-ezogelin.webp",
+  "price": 150,
+  "update": "2026-11-02T09:29:34.523Z"
+}

@@ -7,7 +7,7 @@
   "path": "kisiselveriler",
   "category": "",
   "text": {
-    "tr": "<h2 style=\"font-size: 24px;\">Kişisel Veriler</h2>\n    <p style=\"font-size: 16px;\">\n        Kişisel verileriniz, yalnızca yasal gereklilikleri karşılamak, taleplerinizi yerine getirmek ve size daha iyi hizmet sunmak amacıyla toplanmaktadır. Kişisel verilerinizin güvenliği bizim için önceliklidir ve bu verilerin korunması için 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere, ilgili tüm mevzuat çerçevesinde gerekli teknik ve idari tedbirleri almaktayız.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan kişisel veriler, yalnızca yetkili kişiler tarafından erişilebilir olup, izniniz dışında üçüncü taraflarla paylaşılmamaktadır. Kişisel verilerinizin hangi amaçlarla işlendiğini, nasıl saklandığını, kimlerle paylaşıldığını öğrenme hakkına sahipsiniz. Ayrıca, verilerinize erişim talep edebilir, düzeltilmesini, silinmesini veya anonim hale getirilmesini isteyebilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizle ilgili herhangi bir sorunuz veya talebiniz olduğunda, Gizlilik Politikamızda belirtilen iletişim kanallarımız üzerinden bizimle iletişime geçebilirsiniz. Verilerinizin güvenliği ve mahremiyeti bizim için büyük önem taşımaktadır.\n    </p>"
+    "tr": "<article class=\"wm-metin\">\n<h2>KVKK Kişisel Verilerin Korunması ve Aydınlatma Metni</h2>\n<p class=\"lead\">Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca, veri sorumlusu sıfatıyla Antebinici tarafından hazırlanmıştır.</p>\n<h3>İşleme amaçları</h3>\n<p>Kişisel verileriniz, aşağıdaki amaçlarla ve bu amaçlarla bağlantılı, sınırlı ve ölçülü biçimde işlenir:</p>\n<ul>\n<li>Talep ve şikâyetlerinizin alınması ve yanıtlanması</li>\n<li>Ürün ve hizmetlerin sunulması, sözleşme süreçlerinin yürütülmesi</li>\n<li>Mevzuattan doğan yükümlülüklerin yerine getirilmesi ve yetkili kurumlara bilgi verilmesi</li>\n<li>Bilgi güvenliğinin ve site işleyişinin sağlanması</li>\n<li>Açık rızanız bulunması hâlinde tanıtım ve bilgilendirme iletişiminin yapılması</li>\n</ul>\n<h3>Hukuki sebepler ve toplama yöntemi</h3>\n<p>Verileriniz; site formları, e-posta, telefon, fiziki başvurular ve çerezler aracılığıyla otomatik veya kısmen otomatik yollarla toplanır ve Kanun’un 5. maddesindeki sözleşmenin kurulması veya ifası, hukuki yükümlülük, bir hakkın tesisi, kullanılması veya korunması ve meşru menfaat sebeplerine; bunların bulunmadığı hâllerde açık rızanıza dayanılarak işlenir. Özel nitelikli kişisel veriler yalnızca Kanun’un 6. maddesindeki şartlar sağlandığında işlenir.</p>\n<h3>Aktarım</h3>\n<p>Verileriniz, amaçlarla sınırlı olarak yetkili kamu kurumlarına ve barındırma, yazılım, kargo, muhasebe gibi tedarikçilerimize Kanun’un 8. ve 9. maddelerine uygun olarak aktarılabilir.</p>\n<h3>Kanun’un 11. maddesi kapsamındaki haklarınız</h3>\n<p>Veri sorumlusuna başvurarak:</p>\n<ul>\n<li>Verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme</li>\n<li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme</li>\n<li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme</li>\n<li>Eksik veya yanlış işlenmişse düzeltilmesini, Kanun’un 7. maddesi çerçevesinde silinmesini veya yok edilmesini ve bu işlemlerin aktarıldığı üçüncü kişilere bildirilmesini isteme</li>\n<li>Münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonucun ortaya çıkmasına itiraz etme</li>\n<li>Kanuna aykırı işlenme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme</li>\n</ul>\n<p>haklarına sahipsiniz.</p>\n<h3>Başvuru yöntemi</h3>\n<p>Başvurularınızı, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e uygun olarak 0531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Başvurular, Kanun’un 13. maddesi uyarınca en geç otuz gün içinde ücretsiz sonuçlandırılır; işlem ayrıca maliyet gerektirirse Kurul tarifesindeki ücret alınabilir.</p>\n<aside class=\"vurgu-kutusu\"><strong>Son güncelleme:</strong> 2026-11-02.</aside>\n</article>"
   },
   "desing": {
     "header": [],
@@ -22,8 +22,13 @@
   "title": {
     "tr": "Kişisel Veriler"
   },
-  "description": {},
-  "keyword": {},
-  "update": "2026-05-19",
-  "date": "2026-05-19"
+  "description": {
+    "tr": "Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar…"
+  },
+  "keyword": {
+    "tr": "Kişisel Veriler, Antebinici"
+  },
+  "update": "2026-11-02T09:24:37.797Z",
+  "date": "2026-05-19",
+  "sablonIzi": "c869c83d290a2122"
 }

@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Kilis Kebabı"
+  },
+  "id": 11,
+  "index": 7,
+  "path": "kiliskebab",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Yöresel kıyma kebabı, domates-yoğurt sosu."
+  },
+  "img": "img/ant-kilis.webp",
+  "price": 670,
+  "update": "2026-11-02T09:29:34.474Z"
+}

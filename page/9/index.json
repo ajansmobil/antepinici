@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Alı Nazik (220gr)"
+  },
+  "id": 9,
+  "index": 12,
+  "path": "alinazik",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Kıyma kebabı domates sosunda, yoğurt ve pilav eşliğinde."
+  },
+  "img": "img/ant-alinazik.webp",
+  "price": 720,
+  "update": "2026-11-02T09:29:34.497Z"
+}

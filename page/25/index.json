@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Şalgam (Gazlı)"
+  },
+  "id": 25,
+  "index": 22,
+  "path": "salgam",
+  "category": "icecek",
+  "status": "play",
+  "icon": "sports_bar",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Acılı-sade şalgam suyu."
+  },
+  "img": "img/ant-salgam.webp",
+  "price": 60,
+  "update": "2026-11-02T09:29:34.543Z"
+}

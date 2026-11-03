@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Kilis Tavası (2 kişilik)"
+  },
+  "id": 12,
+  "index": 5,
+  "path": "kilistavasi",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "2 kişilik karışık kebab tava: kıyma, kuşbaşı, patlıcan, lahmacun, mevsim sebzeleri."
+  },
+  "img": "img/ant-kilis.webp",
+  "price": 990,
+  "update": "2026-11-02T09:29:34.465Z"
+}

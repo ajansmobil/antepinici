@@ -1147,7 +1147,12 @@
       "category": "icecek",
       "path": "ayran",
       "id": "ant24",
-      "img": "ant-yayik-ayran.webp"
+      "img": "ant-yayik-ayran.webp",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
     },
     {
       "name": {

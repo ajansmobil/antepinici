@@ -33,5 +33,11 @@
   "modKargo": true,
   "modUyeler": true,
   "modUyeAdres": true,
-  "apiBase": "https://antebinici.com.tr"
+  "apiBase": "https://antebinici.com.tr",
+  "firma": {
+    "telefon": "0531 679 10 14",
+    "site": "https://antebinici.com.tr"
+  },
+  "city": "",
+  "country": ""
 }

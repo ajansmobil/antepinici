@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Kısabel (220gr)"
+  },
+  "id": 7,
+  "index": 3,
+  "path": "kisabel",
+  "category": "kebab",
+  "status": "play",
+  "icon": "local_fire_department",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Domates-pul biber sosunda kıyma kebabı."
+  },
+  "img": "img/ant-kisabel.webp",
+  "price": 850,
+  "update": "2026-11-02T09:29:34.454Z"
+}

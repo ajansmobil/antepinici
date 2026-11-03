@@ -104,7 +104,7 @@
 
   .h0000-title {
     width: 100%;
-    background-color: #333;
+    background-color: var(--mxe-333, #333);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,13 +189,13 @@
   }
 
   .h0000-menu-list ul a:hover {
-    background-color: #228b22;
+    background-color: var(--mxe-228b22, #228b22);
     color: #dcb944 !important;
     cursor: pointer;
   }
 
   .h0000-menu-list-active {
-    background-color: #228b22;
+    background-color: var(--mxe-228b22, #228b22);
     color: #dcb944 !important;
     cursor: pointer;
   }
@@ -285,7 +285,7 @@
     margin-left: 2px;
     border-radius: 999px;
     background: #e11d48;
-    color: #ffffff !important;
+    color: var(--mxe-on, #ffffff) !important;
     font-size: 11px;
     font-weight: 700;
     line-height: 1;
@@ -1350,3 +1350,33 @@
   }
 
 html,body{background:#14100c;color:#f4ede1;font-family:Inter,'Segoe UI',system-ui,sans-serif}h1,h2,h3{font-family:'Playfair Display',Georgia,serif;letter-spacing:-.01em}a,button,input,select,textarea{font-family:inherit}button,[role=button],input[type=submit]{min-height:44px}a[class*="CardName"]:link,a[class*="CardName"]:visited,a[class*="CardName"]:hover,a[class*="CardName"]:active{color:#f4ede1}
+[class*="-hizgrid-card"]:not([class*="-hizgrid-card-"]){background:var(--mx-site-surface);border:1px solid color-mix(in srgb,var(--mx-site-text) 20%,transparent);box-shadow:0 8px 24px rgba(0,0,0,.38)}
+[class*="-hizgrid-card-title"]{color:var(--mx-site-text)}
+[class*="-hizgrid-card-desc"]{color:color-mix(in srgb,var(--mx-site-text) 80%,var(--mx-site-surface))}
+[class*="-hizgrid-more"]{color:var(--mx-site-primary)}
+[class*="-hizgrid-img"]{background:var(--mx-site-bg)}
+[class*="-efoot-col-title"],[class*="-efoot-newsletter-consent"] a,[class*="-efoot-accordion"] summary,[class*="-efoot-trust-title"],[class*="-efoot-feature"]{color:var(--mx-site-text)}
+button.mx-et-cookie-btn,[class*="cookie"] button[class*="accept"],[class*="cookie"] button[class*="reject"],[class*="cookie"] button[class*="prefs"]{color:var(--mx-site-primary-contrast)}
+.mx-et-cookie-more{color:var(--mx-site-text)}
+[class*="-hero-btn-secondary"]{color:var(--mx-site-text)}
+.h0000-menu-list ul a.h0000-menulistactive,.h0000-menu-list ul a:hover{background:var(--mx-site-primary);color:var(--mx-site-primary-contrast)!important}
+.h0000-menu-list ul a{width:auto;flex:0 0 auto}
+.h0000-menu-list ul{justify-content:flex-start}
+[class*="-cartw-badge"]{background:var(--mx-site-primary);color:var(--mx-site-primary-contrast)}
+[class*="-qvmodal-add"]{background:var(--mx-site-primary);color:var(--mx-site-primary-contrast)}
+.h0000-body{box-sizing:border-box;flex-wrap:nowrap;max-width:100%;padding:0 12px}
+.h0000-body>a{flex:0 1 auto;min-width:0}
+.h0000-body-search{flex:1 1 0;min-width:0;width:auto}
+.h0000-body-menu{flex:0 0 auto;flex-wrap:nowrap}
+.h0000-login{flex:0 0 auto;padding:10px 12px}
+@media(max-width:900px){.h0000-login{padding:10px 8px}.h0000-login>div:not(.h0000-mxbadge){font-size:13px}}
+@media(max-width:640px){.h0000-login>div:not(.h0000-mxbadge){position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.h0000-login{min-width:44px;min-height:44px}.h0000-body{gap:6px}}
+[class*="-whatsapp"]{background-color:var(--mx-site-primary)}
+[class*="-whatsapp"]:hover{background-color:color-mix(in srgb,var(--mx-site-primary) 85%,var(--mx-site-text))}
+[class*="-whatsapp"] [class*="-name"],[class*="-whatsapp"] [class*="-number"]{color:var(--mx-site-primary-contrast)}
+[class*="-whatsapp"] svg path{fill:var(--mx-site-primary-contrast)}
+.h0000-menu-list ul a.h0000-menu-list-active{background:var(--mx-site-primary);color:var(--mx-site-primary-contrast)!important}
+.mx-alert{background:var(--mx-site-surface);color:var(--mx-site-text);border:1px solid color-mix(in srgb,var(--mx-site-text) 25%,transparent)}
+.mx-alert a{color:var(--mx-site-primary)}
+[class*="-card-media"]{display:none}[class$="-body"]:has(>a[class$="-card"]){grid-template-columns:repeat(auto-fill,minmax(190px,1fr))!important}
+[class$="-body"]>a[class$="-card"] [class*="-card-title"]{white-space:normal;overflow:visible;text-overflow:clip;-webkit-line-clamp:unset}

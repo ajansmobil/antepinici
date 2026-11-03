@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Anteb Lahmacun"
+  },
+  "id": 14,
+  "index": 8,
+  "path": "antep-lahmacun",
+  "category": "firin",
+  "status": "play",
+  "icon": "local_pizza",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "İnce hamur, Anteb kıyması; tabakaltı 130₺, ayvalı cevizli soğanlı 240₺."
+  },
+  "img": "https://antebinici.com.tr/img/ant-lahmacun.webp",
+  "price": 160,
+  "update": "2026-11-02T09:29:34.478Z"
+}

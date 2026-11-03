@@ -1,0 +1,22 @@
+{
+  "name": {
+    "tr": "Mercimekli Köfte"
+  },
+  "id": 17,
+  "index": 16,
+  "path": "mercimekkofte",
+  "category": "kofte",
+  "status": "play",
+  "icon": "restaurant",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "description": {
+    "tr": "Kırmızı mercimek ve bulgur, taze maydanoz."
+  },
+  "img": "https://antebinici.com.tr/img/ant-merzimekkofte.webp",
+  "price": 220,
+  "update": "2026-11-02T09:29:34.514Z"
+}
